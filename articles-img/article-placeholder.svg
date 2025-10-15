@@ -1,0 +1,13 @@
+<svg width="1321" height="781" viewBox="0 0 1321 781" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="1321" height="781" fill="#818192" fill-opacity="0.15"/>
+<rect width="1321" height="781" fill="url(#pattern0_2493_4064)" fill-opacity="0.1"/>
+<defs>
+<pattern id="pattern0_2493_4064" patternUnits="userSpaceOnUse" patternTransform="matrix(148.114 0 0 133.088 33.0596 0)" preserveAspectRatio="none" viewBox="16.5298 0 74.0571 66.544" width="1" height="1">
+<use xlink:href="#pattern0_2493_4064_inner" transform="translate(-74.0571 -66.544)"/>
+<use xlink:href="#pattern0_2493_4064_inner" transform="translate(0 -66.544)"/>
+<use xlink:href="#pattern0_2493_4064_inner" transform="translate(-74.0571 0)"/>
+<g id="pattern0_2493_4064_inner">
+<path d="M90.7984 37.1367L90.7984 70.1953L53.6645 33.0614L16.5307 70.1953L16.5307 37.1367L53.6645 0L90.7984 37.1367Z" fill="#818192"/>
+</g>
+</pattern></defs>
+</svg>
