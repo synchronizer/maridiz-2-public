@@ -607,8 +607,6 @@ async function initMap(node) {
 
 
 
-    map.addChild(new YMapDefaultSchemeLayer());
-    map.addChild(new YMapDefaultFeaturesLayer());
     map.addChild(new YMapDefaultSchemeLayer({
         theme: "dark",
         customization: [
@@ -617,7 +615,7 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#509f79"
+                "color": "#0b0d0e"
             },
             {
                 "opacity": 0.8,
@@ -714,7 +712,7 @@ async function initMap(node) {
         "elements": "geometry.outline",
         "stylers": [
             {
-                "color": "#3b5e4d"
+                "color": "#2e3338"
             },
             {
                 "opacity": 0.15,
@@ -811,112 +809,112 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#3f7d5f",
+                "color": "#000000",
                 "opacity": 0.5,
                 "zoom": 0
             },
             {
-                "color": "#3f7d5f",
+                "color": "#000000",
                 "opacity": 0.5,
                 "zoom": 1
             },
             {
-                "color": "#3f7d5f",
+                "color": "#000000",
                 "opacity": 0.5,
                 "zoom": 2
             },
             {
-                "color": "#3f7d5f",
+                "color": "#000000",
                 "opacity": 0.5,
                 "zoom": 3
             },
             {
-                "color": "#3f7d5f",
+                "color": "#000000",
                 "opacity": 0.5,
                 "zoom": 4
             },
             {
-                "color": "#3f7d5f",
+                "color": "#000000",
                 "opacity": 0.5,
                 "zoom": 5
             },
             {
-                "color": "#3f7d5f",
+                "color": "#000000",
                 "opacity": 1,
                 "zoom": 6
             },
             {
-                "color": "#3f7d5f",
+                "color": "#000000",
                 "opacity": 1,
                 "zoom": 7
             },
             {
-                "color": "#509f79",
+                "color": "#0b0d0e",
                 "opacity": 1,
                 "zoom": 8
             },
             {
-                "color": "#509f79",
+                "color": "#0b0d0e",
                 "opacity": 1,
                 "zoom": 9
             },
             {
-                "color": "#509f79",
+                "color": "#0b0d0e",
                 "opacity": 1,
                 "zoom": 10
             },
             {
-                "color": "#509f79",
+                "color": "#0b0d0e",
                 "opacity": 1,
                 "zoom": 11
             },
             {
-                "color": "#509f79",
+                "color": "#0b0d0e",
                 "opacity": 1,
                 "zoom": 12
             },
             {
-                "color": "#509f79",
+                "color": "#0b0d0e",
                 "opacity": 1,
                 "zoom": 13
             },
             {
-                "color": "#509f79",
+                "color": "#0b0d0e",
                 "opacity": 1,
                 "zoom": 14
             },
             {
-                "color": "#509f79",
+                "color": "#0b0d0e",
                 "opacity": 1,
                 "zoom": 15
             },
             {
-                "color": "#509f79",
+                "color": "#0b0d0e",
                 "opacity": 1,
                 "zoom": 16
             },
             {
-                "color": "#509f79",
+                "color": "#0b0d0e",
                 "opacity": 1,
                 "zoom": 17
             },
             {
-                "color": "#509f79",
+                "color": "#0b0d0e",
                 "opacity": 1,
                 "zoom": 18
             },
             {
-                "color": "#509f79",
+                "color": "#0b0d0e",
                 "opacity": 1,
                 "zoom": 19
             },
             {
-                "color": "#509f79",
+                "color": "#0b0d0e",
                 "opacity": 1,
                 "zoom": 20
             },
             {
-                "color": "#509f79",
+                "color": "#0b0d0e",
                 "opacity": 1,
                 "zoom": 21
             }
@@ -927,7 +925,7 @@ async function initMap(node) {
         "elements": "geometry.outline",
         "stylers": [
             {
-                "color": "#3b5e4d"
+                "color": "#2e3338"
             },
             {
                 "opacity": 0.15,
@@ -1033,7 +1031,7 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#509f79"
+                "color": "#0b0d0e"
             },
             {
                 "opacity": 0.5,
@@ -1139,7 +1137,7 @@ async function initMap(node) {
         "elements": "geometry.outline",
         "stylers": [
             {
-                "color": "#3b5e4d"
+                "color": "#2e3338"
             },
             {
                 "opacity": 0.15,
@@ -1238,7 +1236,7 @@ async function initMap(node) {
         },
         "stylers": [
             {
-                "hue": "#2f4138"
+                "hue": "#32383e"
             }
         ]
     },
@@ -1247,112 +1245,112 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#455f52",
+                "color": "#49525a",
                 "opacity": 0.1,
                 "zoom": 0
             },
             {
-                "color": "#455f52",
+                "color": "#49525a",
                 "opacity": 0.1,
                 "zoom": 1
             },
             {
-                "color": "#455f52",
+                "color": "#49525a",
                 "opacity": 0.1,
                 "zoom": 2
             },
             {
-                "color": "#455f52",
+                "color": "#49525a",
                 "opacity": 0.1,
                 "zoom": 3
             },
             {
-                "color": "#455f52",
+                "color": "#49525a",
                 "opacity": 0.1,
                 "zoom": 4
             },
             {
-                "color": "#455f52",
+                "color": "#49525a",
                 "opacity": 0.1,
                 "zoom": 5
             },
             {
-                "color": "#455f52",
+                "color": "#49525a",
                 "opacity": 0.2,
                 "zoom": 6
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.3,
                 "zoom": 7
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.4,
                 "zoom": 8
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.6,
                 "zoom": 9
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.8,
                 "zoom": 10
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 1,
                 "zoom": 11
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 1,
                 "zoom": 12
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 1,
                 "zoom": 13
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3339",
                 "opacity": 1,
                 "zoom": 14
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 1,
                 "zoom": 15
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 1,
                 "zoom": 16
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 1,
                 "zoom": 17
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 1,
                 "zoom": 18
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 1,
                 "zoom": 19
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 1,
                 "zoom": 20
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 1,
                 "zoom": 21
             }
@@ -1363,112 +1361,112 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.1,
                 "zoom": 0
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.1,
                 "zoom": 1
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.1,
                 "zoom": 2
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.1,
                 "zoom": 3
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.1,
                 "zoom": 4
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.1,
                 "zoom": 5
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.2,
                 "zoom": 6
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.3,
                 "zoom": 7
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.4,
                 "zoom": 8
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.6,
                 "zoom": 9
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.8,
                 "zoom": 10
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 1,
                 "zoom": 11
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 1,
                 "zoom": 12
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 1,
                 "zoom": 13
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3339",
                 "opacity": 1,
                 "zoom": 14
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 1,
                 "zoom": 15
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 0.9,
                 "zoom": 16
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 0.8,
                 "zoom": 17
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 0.7,
                 "zoom": 18
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 0.7,
                 "zoom": 19
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 0.7,
                 "zoom": 20
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 0.7,
                 "zoom": 21
             }
@@ -1479,112 +1477,112 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.1,
                 "zoom": 0
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.1,
                 "zoom": 1
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.1,
                 "zoom": 2
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.1,
                 "zoom": 3
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.1,
                 "zoom": 4
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.1,
                 "zoom": 5
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.2,
                 "zoom": 6
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.3,
                 "zoom": 7
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.4,
                 "zoom": 8
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.6,
                 "zoom": 9
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 0.8,
                 "zoom": 10
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 1,
                 "zoom": 11
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 1,
                 "zoom": 12
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "opacity": 1,
                 "zoom": 13
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3339",
                 "opacity": 1,
                 "zoom": 14
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 1,
                 "zoom": 15
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 0.7,
                 "zoom": 16
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 0.7,
                 "zoom": 17
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 0.7,
                 "zoom": 18
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 0.7,
                 "zoom": 19
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 0.7,
                 "zoom": 20
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "opacity": 0.7,
                 "zoom": 21
             }
@@ -1595,91 +1593,91 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "zoom": 0
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "zoom": 1
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "zoom": 2
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "zoom": 3
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "zoom": 4
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "zoom": 5
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "zoom": 6
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "zoom": 7
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "zoom": 8
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "zoom": 9
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "zoom": 10
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "zoom": 11
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "zoom": 12
             },
             {
-                "color": "#2f4138",
+                "color": "#32383e",
                 "zoom": 13
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3339",
                 "zoom": 14
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "zoom": 15
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "zoom": 16
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "zoom": 17
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "zoom": 18
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "zoom": 19
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "zoom": 20
             },
             {
-                "color": "#27352e",
+                "color": "#292e33",
                 "zoom": 21
             }
         ]
@@ -1689,112 +1687,112 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#3a5045",
+                "color": "#3d454c",
                 "opacity": 0,
                 "zoom": 0
             },
             {
-                "color": "#3a5045",
+                "color": "#3d454c",
                 "opacity": 0,
                 "zoom": 1
             },
             {
-                "color": "#3a5045",
+                "color": "#3d454c",
                 "opacity": 0,
                 "zoom": 2
             },
             {
-                "color": "#3a5045",
+                "color": "#3d454c",
                 "opacity": 0,
                 "zoom": 3
             },
             {
-                "color": "#3a5045",
+                "color": "#3d454c",
                 "opacity": 0,
                 "zoom": 4
             },
             {
-                "color": "#3a5045",
+                "color": "#3d454c",
                 "opacity": 0,
                 "zoom": 5
             },
             {
-                "color": "#3a5045",
+                "color": "#3d454c",
                 "opacity": 0,
                 "zoom": 6
             },
             {
-                "color": "#3a5045",
+                "color": "#3d454c",
                 "opacity": 0,
                 "zoom": 7
             },
             {
-                "color": "#3a5045",
+                "color": "#3d454c",
                 "opacity": 0,
                 "zoom": 8
             },
             {
-                "color": "#3a5045",
+                "color": "#3d454c",
                 "opacity": 0,
                 "zoom": 9
             },
             {
-                "color": "#3a5045",
+                "color": "#3d454c",
                 "opacity": 0,
                 "zoom": 10
             },
             {
-                "color": "#3a5045",
+                "color": "#3d454c",
                 "opacity": 0,
                 "zoom": 11
             },
             {
-                "color": "#3a5045",
+                "color": "#3d454c",
                 "opacity": 0,
                 "zoom": 12
             },
             {
-                "color": "#3a5045",
+                "color": "#3d454c",
                 "opacity": 0,
                 "zoom": 13
             },
             {
-                "color": "#364a40",
+                "color": "#394047",
                 "opacity": 0,
                 "zoom": 14
             },
             {
-                "color": "#31443b",
+                "color": "#343b41",
                 "opacity": 0.5,
                 "zoom": 15
             },
             {
-                "color": "#30433a",
+                "color": "#333a40",
                 "opacity": 1,
                 "zoom": 16
             },
             {
-                "color": "#304239",
+                "color": "#32393f",
                 "opacity": 1,
                 "zoom": 17
             },
             {
-                "color": "#2f4139",
+                "color": "#32393e",
                 "opacity": 1,
                 "zoom": 18
             },
             {
-                "color": "#2e4038",
+                "color": "#31383d",
                 "opacity": 1,
                 "zoom": 19
             },
             {
-                "color": "#2e3f37",
+                "color": "#30373c",
                 "opacity": 1,
                 "zoom": 20
             },
             {
-                "color": "#2d3e36",
+                "color": "#2f363b",
                 "opacity": 1,
                 "zoom": 21
             }
@@ -1805,7 +1803,7 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "hue": "#395145"
+                "hue": "#40474f"
             },
             {
                 "opacity": 0.3,
@@ -1902,7 +1900,7 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#9db9ab"
+                "color": "#a5adb6"
             }
         ]
     },
@@ -1911,91 +1909,91 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 0
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 1
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 2
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 3
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 4
             },
             {
-                "color": "#374e43",
+                "color": "#3e454c",
                 "zoom": 5
             },
             {
-                "color": "#354b40",
+                "color": "#3c424a",
                 "zoom": 6
             },
             {
-                "color": "#33483e",
+                "color": "#394047",
                 "zoom": 7
             },
             {
-                "color": "#31453b",
+                "color": "#373d44",
                 "zoom": 8
             },
             {
-                "color": "#31453b",
+                "color": "#373d44",
                 "zoom": 9
             },
             {
-                "color": "#31453b",
+                "color": "#373d44",
                 "zoom": 10
             },
             {
-                "color": "#31453b",
+                "color": "#373d44",
                 "zoom": 11
             },
             {
-                "color": "#31453b",
+                "color": "#373d44",
                 "zoom": 12
             },
             {
-                "color": "#31453b",
+                "color": "#373d44",
                 "zoom": 13
             },
             {
-                "color": "#2f4239",
+                "color": "#353b41",
                 "zoom": 14
             },
             {
-                "color": "#2c3f36",
+                "color": "#32383e",
                 "zoom": 15
             },
             {
-                "color": "#2c3f36",
+                "color": "#32383e",
                 "zoom": 16
             },
             {
-                "color": "#2b3e35",
+                "color": "#31373d",
                 "zoom": 17
             },
             {
-                "color": "#2b3e35",
+                "color": "#31373d",
                 "zoom": 18
             },
             {
-                "color": "#2b3d34",
+                "color": "#31363d",
                 "zoom": 19
             },
             {
-                "color": "#2a3d34",
+                "color": "#30363c",
                 "zoom": 20
             },
             {
-                "color": "#2a3c33",
+                "color": "#30353c",
                 "zoom": 21
             }
         ]
@@ -2005,112 +2003,112 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "opacity": 0.5,
                 "zoom": 0
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "opacity": 0.5,
                 "zoom": 1
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "opacity": 0.5,
                 "zoom": 2
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "opacity": 0.5,
                 "zoom": 3
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "opacity": 0.5,
                 "zoom": 4
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "opacity": 0.5,
                 "zoom": 5
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "opacity": 0.5,
                 "zoom": 6
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "opacity": 0.5,
                 "zoom": 7
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "opacity": 0.5,
                 "zoom": 8
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "opacity": 0.5,
                 "zoom": 9
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "opacity": 0.5,
                 "zoom": 10
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "opacity": 0.5,
                 "zoom": 11
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "opacity": 0.5,
                 "zoom": 12
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 13
             },
             {
-                "color": "#354b40",
+                "color": "#3c424a",
                 "opacity": 1,
                 "zoom": 14
             },
             {
-                "color": "#31453b",
+                "color": "#373d44",
                 "opacity": 1,
                 "zoom": 15
             },
             {
-                "color": "#30443a",
+                "color": "#363c43",
                 "opacity": 1,
                 "zoom": 16
             },
             {
-                "color": "#2f4339",
+                "color": "#353b42",
                 "opacity": 1,
                 "zoom": 17
             },
             {
-                "color": "#2f4239",
+                "color": "#353b41",
                 "opacity": 1,
                 "zoom": 18
             },
             {
-                "color": "#2e4138",
+                "color": "#343a40",
                 "opacity": 1,
                 "zoom": 19
             },
             {
-                "color": "#2d4037",
+                "color": "#33393f",
                 "opacity": 1,
                 "zoom": 20
             },
             {
-                "color": "#2c3f36",
+                "color": "#32383e",
                 "opacity": 1,
                 "zoom": 21
             }
@@ -2121,91 +2119,91 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 0
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 1
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 2
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 3
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 4
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 5
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 6
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 7
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 8
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 9
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 10
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 11
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 12
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 13
             },
             {
-                "color": "#354b40",
+                "color": "#3c424a",
                 "zoom": 14
             },
             {
-                "color": "#31453b",
+                "color": "#373d44",
                 "zoom": 15
             },
             {
-                "color": "#30443a",
+                "color": "#363c43",
                 "zoom": 16
             },
             {
-                "color": "#2f4339",
+                "color": "#353b42",
                 "zoom": 17
             },
             {
-                "color": "#2f4239",
+                "color": "#353b41",
                 "zoom": 18
             },
             {
-                "color": "#2e4138",
+                "color": "#343a40",
                 "zoom": 19
             },
             {
-                "color": "#2d4037",
+                "color": "#33393f",
                 "zoom": 20
             },
             {
-                "color": "#2c3f36",
+                "color": "#32383e",
                 "zoom": 21
             }
         ]
@@ -2224,91 +2222,91 @@ async function initMap(node) {
                 "opacity": 0.9
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 0
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 1
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 2
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 3
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 4
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 5
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 6
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 7
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 8
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 9
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 10
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 11
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 12
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 13
             },
             {
-                "color": "#354b40",
+                "color": "#3c424a",
                 "zoom": 14
             },
             {
-                "color": "#31453b",
+                "color": "#373d44",
                 "zoom": 15
             },
             {
-                "color": "#30443a",
+                "color": "#363c43",
                 "zoom": 16
             },
             {
-                "color": "#2f4339",
+                "color": "#353b42",
                 "zoom": 17
             },
             {
-                "color": "#2f4239",
+                "color": "#353b41",
                 "zoom": 18
             },
             {
-                "color": "#2e4138",
+                "color": "#343a40",
                 "zoom": 19
             },
             {
-                "color": "#2d4037",
+                "color": "#33393f",
                 "zoom": 20
             },
             {
-                "color": "#2c3f36",
+                "color": "#32383e",
                 "zoom": 21
             }
         ]
@@ -2318,7 +2316,7 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#395145"
+                "color": "#434a51"
             },
             {
                 "opacity": 0.7,
@@ -2415,7 +2413,7 @@ async function initMap(node) {
         "elements": "geometry.outline",
         "stylers": [
             {
-                "color": "#4b6859"
+                "color": "#555e67"
             },
             {
                 "opacity": 0.5,
@@ -2524,112 +2522,112 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#425c4f",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 0
             },
             {
-                "color": "#425c4f",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 1
             },
             {
-                "color": "#425c4f",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 2
             },
             {
-                "color": "#425c4f",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 3
             },
             {
-                "color": "#425c4f",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 4
             },
             {
-                "color": "#425c4f",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 5
             },
             {
-                "color": "#425c4f",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 6
             },
             {
-                "color": "#425c4f",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 7
             },
             {
-                "color": "#425c4f",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 8
             },
             {
-                "color": "#425c4f",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 9
             },
             {
-                "color": "#425c4f",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 10
             },
             {
-                "color": "#425c4f",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 11
             },
             {
-                "color": "#425c4f",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 12
             },
             {
-                "color": "#425c4f",
+                "color": "#40474f",
                 "opacity": 1,
                 "zoom": 13
             },
             {
-                "color": "#3d5549",
+                "color": "#3b4148",
                 "opacity": 1,
                 "zoom": 14
             },
             {
-                "color": "#384d42",
+                "color": "#353a41",
                 "opacity": 1,
                 "zoom": 15
             },
             {
-                "color": "#33463c",
+                "color": "#2f343a",
                 "opacity": 0.67,
                 "zoom": 16
             },
             {
-                "color": "#2d3e36",
+                "color": "#292e33",
                 "opacity": 0.33,
                 "zoom": 17
             },
             {
-                "color": "#2d3e36",
+                "color": "#292e33",
                 "opacity": 0,
                 "zoom": 18
             },
             {
-                "color": "#2d3e36",
+                "color": "#292e33",
                 "opacity": 0,
                 "zoom": 19
             },
             {
-                "color": "#2d3e36",
+                "color": "#292e33",
                 "opacity": 0,
                 "zoom": 20
             },
             {
-                "color": "#2d3e36",
+                "color": "#292e33",
                 "opacity": 0,
                 "zoom": 21
             }
@@ -2640,13 +2638,13 @@ async function initMap(node) {
         "elements": "label.icon",
         "stylers": [
             {
-                "color": "#1a3227"
+                "color": "#171a1c"
             },
             {
-                "secondary-color": "#aad4c0"
+                "secondary-color": "#8f99a3"
             },
             {
-                "tertiary-color": "#b4cac0"
+                "tertiary-color": "#505962"
             }
         ]
     },
@@ -2655,7 +2653,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#acc3b8"
+                "color": "#94999e"
             }
         ]
     },
@@ -2664,7 +2662,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -2676,13 +2674,13 @@ async function initMap(node) {
         "elements": "label.icon",
         "stylers": [
             {
-                "color": "#1a3227"
+                "color": "#171a1c"
             },
             {
-                "secondary-color": "#aad4c0"
+                "secondary-color": "#8f99a3"
             },
             {
-                "tertiary-color": "#b4cac0"
+                "tertiary-color": "#505962"
             }
         ]
     },
@@ -2691,7 +2689,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#acc3b8"
+                "color": "#94999e"
             }
         ]
     },
@@ -2700,7 +2698,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -2712,13 +2710,13 @@ async function initMap(node) {
         "elements": "label.icon",
         "stylers": [
             {
-                "color": "#1a3227"
+                "color": "#171a1c"
             },
             {
-                "secondary-color": "#aad4c0"
+                "secondary-color": "#8f99a3"
             },
             {
-                "tertiary-color": "#b4cac0"
+                "tertiary-color": "#505962"
             }
         ]
     },
@@ -2727,7 +2725,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#acc3b8"
+                "color": "#94999e"
             }
         ]
     },
@@ -2736,7 +2734,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -2748,13 +2746,13 @@ async function initMap(node) {
         "elements": "label.icon",
         "stylers": [
             {
-                "color": "#1a3227"
+                "color": "#171a1c"
             },
             {
-                "secondary-color": "#aad4c0"
+                "secondary-color": "#8f99a3"
             },
             {
-                "tertiary-color": "#b4cac0"
+                "tertiary-color": "#505962"
             }
         ]
     },
@@ -2763,7 +2761,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#acc3b8"
+                "color": "#94999e"
             }
         ]
     },
@@ -2772,7 +2770,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -2784,13 +2782,13 @@ async function initMap(node) {
         "elements": "label.icon",
         "stylers": [
             {
-                "color": "#1a3227"
+                "color": "#171a1c"
             },
             {
-                "secondary-color": "#aad4c0"
+                "secondary-color": "#8f99a3"
             },
             {
-                "tertiary-color": "#b4cac0"
+                "tertiary-color": "#505962"
             }
         ]
     },
@@ -2799,7 +2797,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#acc3b8"
+                "color": "#94999e"
             }
         ]
     },
@@ -2808,7 +2806,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -2820,13 +2818,13 @@ async function initMap(node) {
         "elements": "label.icon",
         "stylers": [
             {
-                "color": "#1a3227"
+                "color": "#171a1c"
             },
             {
-                "secondary-color": "#aad4c0"
+                "secondary-color": "#8f99a3"
             },
             {
-                "tertiary-color": "#b4cac0"
+                "tertiary-color": "#505962"
             }
         ]
     },
@@ -2835,7 +2833,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#acc3b8"
+                "color": "#94999e"
             }
         ]
     },
@@ -2844,7 +2842,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -2856,13 +2854,13 @@ async function initMap(node) {
         "elements": "label.icon",
         "stylers": [
             {
-                "color": "#1a3227"
+                "color": "#171a1c"
             },
             {
-                "secondary-color": "#aad4c0"
+                "secondary-color": "#8f99a3"
             },
             {
-                "tertiary-color": "#b4cac0"
+                "tertiary-color": "#505962"
             }
         ]
     },
@@ -2871,7 +2869,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#acc3b8"
+                "color": "#94999e"
             }
         ]
     },
@@ -2880,7 +2878,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -2892,13 +2890,13 @@ async function initMap(node) {
         "elements": "label.icon",
         "stylers": [
             {
-                "color": "#1a3227"
+                "color": "#171a1c"
             },
             {
-                "secondary-color": "#aad4c0"
+                "secondary-color": "#8f99a3"
             },
             {
-                "tertiary-color": "#b4cac0"
+                "tertiary-color": "#505962"
             }
         ]
     },
@@ -2907,7 +2905,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#acc3b8"
+                "color": "#94999e"
             }
         ]
     },
@@ -2916,7 +2914,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -2928,13 +2926,13 @@ async function initMap(node) {
         "elements": "label.icon",
         "stylers": [
             {
-                "color": "#1a3227"
+                "color": "#171a1c"
             },
             {
-                "secondary-color": "#aad4c0"
+                "secondary-color": "#8f99a3"
             },
             {
-                "tertiary-color": "#b4cac0"
+                "tertiary-color": "#505962"
             }
         ]
     },
@@ -2943,7 +2941,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#acc3b8"
+                "color": "#94999e"
             }
         ]
     },
@@ -2952,7 +2950,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -2965,13 +2963,13 @@ async function initMap(node) {
         "types": "point",
         "stylers": [
             {
-                "color": "#1a3227"
+                "color": "#171a1c"
             },
             {
-                "secondary-color": "#aad4c0"
+                "secondary-color": "#8f99a3"
             },
             {
-                "tertiary-color": "#b4cac0"
+                "tertiary-color": "#505962"
             }
         ]
     },
@@ -2981,7 +2979,7 @@ async function initMap(node) {
         "types": "point",
         "stylers": [
             {
-                "color": "#aad4c0"
+                "color": "#8f99a3"
             }
         ]
     },
@@ -2990,13 +2988,10 @@ async function initMap(node) {
         "elements": "label.icon",
         "stylers": [
             {
-                "color": "#1a3227"
+                "color": "#171a1c"
             },
             {
-                "secondary-color": "#aad4c0"
-            },
-            {
-                "hue": "#55aa81"
+                "secondary-color": "#8f99a3"
             }
         ]
     },
@@ -3005,10 +3000,10 @@ async function initMap(node) {
         "elements": "label.icon",
         "stylers": [
             {
-                "color": "#1a3227"
+                "color": "#171a1c"
             },
             {
-                "secondary-color": "#aad4c0"
+                "secondary-color": "#8f99a3"
             }
         ]
     },
@@ -3020,7 +3015,7 @@ async function initMap(node) {
                 "opacity": 0.8
             },
             {
-                "color": "#7fa492"
+                "color": "#73808c"
             }
         ]
     },
@@ -3029,7 +3024,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -3041,7 +3036,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#7fa492"
+                "color": "#73808c"
             },
             {
                 "opacity": 0.8
@@ -3053,7 +3048,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -3065,7 +3060,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#7fa492"
+                "color": "#73808c"
             },
             {
                 "opacity": 0.8
@@ -3077,7 +3072,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -3098,7 +3093,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#7fa492"
+                "color": "#73808c"
             }
         ]
     },
@@ -3116,7 +3111,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -3128,91 +3123,91 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#acc3b8",
+                "color": "#94999e",
                 "zoom": 0
             },
             {
-                "color": "#acc3b8",
+                "color": "#94999e",
                 "zoom": 1
             },
             {
-                "color": "#acc3b8",
+                "color": "#94999e",
                 "zoom": 2
             },
             {
-                "color": "#acc3b8",
+                "color": "#94999e",
                 "zoom": 3
             },
             {
-                "color": "#acc3b8",
+                "color": "#94999e",
                 "zoom": 4
             },
             {
-                "color": "#aec5ba",
+                "color": "#969ba0",
                 "zoom": 5
             },
             {
-                "color": "#b1c7bc",
+                "color": "#989da2",
                 "zoom": 6
             },
             {
-                "color": "#b3c8be",
+                "color": "#9a9fa4",
                 "zoom": 7
             },
             {
-                "color": "#b6cac1",
+                "color": "#9da2a6",
                 "zoom": 8
             },
             {
-                "color": "#b8ccc3",
+                "color": "#9fa4a8",
                 "zoom": 9
             },
             {
-                "color": "#bbcec5",
+                "color": "#a1a6aa",
                 "zoom": 10
             },
             {
-                "color": "#bbcec5",
+                "color": "#a1a6aa",
                 "zoom": 11
             },
             {
-                "color": "#bbcec5",
+                "color": "#a1a6aa",
                 "zoom": 12
             },
             {
-                "color": "#bbcec5",
+                "color": "#a1a6aa",
                 "zoom": 13
             },
             {
-                "color": "#bbcec5",
+                "color": "#a1a6aa",
                 "zoom": 14
             },
             {
-                "color": "#bbcec5",
+                "color": "#a1a6aa",
                 "zoom": 15
             },
             {
-                "color": "#bbcec5",
+                "color": "#a1a6aa",
                 "zoom": 16
             },
             {
-                "color": "#bbcec5",
+                "color": "#a1a6aa",
                 "zoom": 17
             },
             {
-                "color": "#bbcec5",
+                "color": "#a1a6aa",
                 "zoom": 18
             },
             {
-                "color": "#bbcec5",
+                "color": "#a1a6aa",
                 "zoom": 19
             },
             {
-                "color": "#bbcec5",
+                "color": "#a1a6aa",
                 "zoom": 20
             },
             {
-                "color": "#bbcec5",
+                "color": "#a1a6aa",
                 "zoom": 21
             }
         ]
@@ -3222,7 +3217,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -3235,7 +3230,7 @@ async function initMap(node) {
         "types": "polyline",
         "stylers": [
             {
-                "color": "#acc3b8"
+                "color": "#94999e"
             }
         ]
     },
@@ -3245,7 +3240,7 @@ async function initMap(node) {
         "types": "polyline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -3261,7 +3256,7 @@ async function initMap(node) {
                 "scale": 1
             },
             {
-                "color": "#719885"
+                "color": "#61666b"
             }
         ]
     },
@@ -3271,7 +3266,7 @@ async function initMap(node) {
         "types": "point",
         "stylers": [
             {
-                "color": "#a0cfb8"
+                "color": "#94999e"
             }
         ]
     },
@@ -3280,7 +3275,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#557767"
+                "color": "#73808c"
             },
             {
                 "opacity": 0.5
@@ -3292,7 +3287,31 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
+            },
+            {
+                "opacity": 0.5
+            }
+        ]
+    },
+    {
+        "tags": "entrance",
+        "elements": "label.text.fill",
+        "stylers": [
+            {
+                "color": "#73808c"
+            },
+            {
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "tags": "entrance",
+        "elements": "label.text.outline",
+        "stylers": [
+            {
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -3304,7 +3323,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#557767"
+                "color": "#73808c"
             },
             {
                 "opacity": 0.9,
@@ -3401,7 +3420,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5
@@ -3413,112 +3432,112 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#7fa492",
+                "color": "#73808c",
                 "opacity": 1,
                 "zoom": 0
             },
             {
-                "color": "#7fa492",
+                "color": "#73808c",
                 "opacity": 1,
                 "zoom": 1
             },
             {
-                "color": "#7fa492",
+                "color": "#73808c",
                 "opacity": 1,
                 "zoom": 2
             },
             {
-                "color": "#7fa492",
+                "color": "#73808c",
                 "opacity": 1,
                 "zoom": 3
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 4
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 5
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 6
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 7
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 8
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 9
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 10
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 11
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 12
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 13
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 14
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 15
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 16
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 17
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 18
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 19
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 20
             },
             {
-                "color": "#557767",
+                "color": "#73808c",
                 "opacity": 0.5,
                 "zoom": 21
             }
@@ -3529,7 +3548,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5,
@@ -3626,7 +3645,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#4e9773"
+                "color": "#6c7c8e"
             },
             {
                 "opacity": 0.8
@@ -3639,7 +3658,7 @@ async function initMap(node) {
         "types": "polyline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.2
@@ -3654,112 +3673,112 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 4
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 5
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 2.64,
                 "zoom": 6
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 2.84,
                 "zoom": 7
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 3.13,
                 "zoom": 8
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 3.55,
                 "zoom": 9
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 3.21,
                 "zoom": 10
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 2.72,
                 "zoom": 11
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 2.35,
                 "zoom": 12
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 2.02,
                 "zoom": 13
             },
             {
-                "color": "#537162",
+                "color": "#5f6974",
                 "scale": 1.81,
                 "zoom": 14
             },
             {
-                "color": "#517061",
+                "color": "#5d6873",
                 "scale": 1.69,
                 "zoom": 15
             },
             {
-                "color": "#506e5f",
+                "color": "#5c6671",
                 "scale": 1.66,
                 "zoom": 16
             },
             {
-                "color": "#4f6c5e",
+                "color": "#5b656f",
                 "scale": 1.31,
                 "zoom": 17
             },
             {
-                "color": "#4d6a5c",
+                "color": "#59636d",
                 "scale": 1.08,
                 "zoom": 18
             },
             {
-                "color": "#4c695a",
+                "color": "#58616c",
                 "scale": 0.93,
                 "zoom": 19
             },
             {
-                "color": "#4a6759",
+                "color": "#56606a",
                 "scale": 0.84,
                 "zoom": 20
             },
             {
-                "color": "#496557",
+                "color": "#555e68",
                 "scale": 0.8,
                 "zoom": 21
             }
@@ -3772,112 +3791,112 @@ async function initMap(node) {
         "elements": "geometry.outline",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 4
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.9,
                 "zoom": 5
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.96,
                 "zoom": 6
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.96,
                 "zoom": 7
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 2.02,
                 "zoom": 8
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 2.16,
                 "zoom": 9
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 2.16,
                 "zoom": 10
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 2.04,
                 "zoom": 11
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.93,
                 "zoom": 12
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.8,
                 "zoom": 13
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.71,
                 "zoom": 14
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.68,
                 "zoom": 15
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.7,
                 "zoom": 16
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.38,
                 "zoom": 17
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.15,
                 "zoom": 18
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1,
                 "zoom": 19
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.91,
                 "zoom": 20
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.87,
                 "zoom": 21
             }
@@ -3891,112 +3910,112 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 4
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 5
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 2.64,
                 "zoom": 6
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 2.84,
                 "zoom": 7
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 3.13,
                 "zoom": 8
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 3.55,
                 "zoom": 9
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 3.21,
                 "zoom": 10
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 2.72,
                 "zoom": 11
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 2.35,
                 "zoom": 12
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 2.02,
                 "zoom": 13
             },
             {
-                "color": "#537162",
+                "color": "#5f6974",
                 "scale": 1.81,
                 "zoom": 14
             },
             {
-                "color": "#517061",
+                "color": "#5d6873",
                 "scale": 1.69,
                 "zoom": 15
             },
             {
-                "color": "#506e5f",
+                "color": "#5c6671",
                 "scale": 1.66,
                 "zoom": 16
             },
             {
-                "color": "#4f6c5e",
+                "color": "#5b656f",
                 "scale": 1.31,
                 "zoom": 17
             },
             {
-                "color": "#4d6a5c",
+                "color": "#59636d",
                 "scale": 1.08,
                 "zoom": 18
             },
             {
-                "color": "#4c695a",
+                "color": "#58616c",
                 "scale": 0.93,
                 "zoom": 19
             },
             {
-                "color": "#4a6759",
+                "color": "#56606a",
                 "scale": 0.84,
                 "zoom": 20
             },
             {
-                "color": "#496557",
+                "color": "#555e68",
                 "scale": 0.8,
                 "zoom": 21
             }
@@ -4009,112 +4028,112 @@ async function initMap(node) {
         "elements": "geometry.outline",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 4
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.9,
                 "zoom": 5
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.96,
                 "zoom": 6
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.96,
                 "zoom": 7
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 2.02,
                 "zoom": 8
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 2.16,
                 "zoom": 9
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 2.16,
                 "zoom": 10
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 2.04,
                 "zoom": 11
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.93,
                 "zoom": 12
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.8,
                 "zoom": 13
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.71,
                 "zoom": 14
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.68,
                 "zoom": 15
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.7,
                 "zoom": 16
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.38,
                 "zoom": 17
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.15,
                 "zoom": 18
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1,
                 "zoom": 19
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.91,
                 "zoom": 20
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.87,
                 "zoom": 21
             }
@@ -4128,112 +4147,112 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 4
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 5
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 6
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 7
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 8
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 2.23,
                 "zoom": 9
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 2.33,
                 "zoom": 10
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.49,
                 "zoom": 11
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.48,
                 "zoom": 12
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.23,
                 "zoom": 13
             },
             {
-                "color": "#537162",
+                "color": "#5f6974",
                 "scale": 1.06,
                 "zoom": 14
             },
             {
-                "color": "#517061",
+                "color": "#5d6873",
                 "scale": 0.96,
                 "zoom": 15
             },
             {
-                "color": "#506e5f",
+                "color": "#5c6671",
                 "scale": 0.92,
                 "zoom": 16
             },
             {
-                "color": "#4f6c5e",
+                "color": "#5b656f",
                 "scale": 0.81,
                 "zoom": 17
             },
             {
-                "color": "#4d6a5c",
+                "color": "#59636d",
                 "scale": 0.75,
                 "zoom": 18
             },
             {
-                "color": "#4c695a",
+                "color": "#58616c",
                 "scale": 0.73,
                 "zoom": 19
             },
             {
-                "color": "#4a6759",
+                "color": "#56606a",
                 "scale": 0.75,
                 "zoom": 20
             },
             {
-                "color": "#496557",
+                "color": "#555e68",
                 "scale": 0.8,
                 "zoom": 21
             }
@@ -4246,112 +4265,112 @@ async function initMap(node) {
         "elements": "geometry.outline",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.03,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.03,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.03,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.03,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.03,
                 "zoom": 4
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.03,
                 "zoom": 5
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.03,
                 "zoom": 6
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.03,
                 "zoom": 7
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.83,
                 "zoom": 8
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 2.71,
                 "zoom": 9
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.76,
                 "zoom": 10
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.31,
                 "zoom": 11
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.37,
                 "zoom": 12
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.21,
                 "zoom": 13
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.1,
                 "zoom": 14
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.02,
                 "zoom": 15
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1,
                 "zoom": 16
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.88,
                 "zoom": 17
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.81,
                 "zoom": 18
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.79,
                 "zoom": 19
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.81,
                 "zoom": 20
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.87,
                 "zoom": 21
             }
@@ -4365,112 +4384,112 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 4
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 5
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 6
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 7
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 8
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 9
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.5,
                 "zoom": 10
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.12,
                 "zoom": 11
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.25,
                 "zoom": 12
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.05,
                 "zoom": 13
             },
             {
-                "color": "#537162",
+                "color": "#5f6974",
                 "scale": 0.93,
                 "zoom": 14
             },
             {
-                "color": "#517061",
+                "color": "#5d6873",
                 "scale": 0.86,
                 "zoom": 15
             },
             {
-                "color": "#506e5f",
+                "color": "#5c6671",
                 "scale": 1.02,
                 "zoom": 16
             },
             {
-                "color": "#4f6c5e",
+                "color": "#5b656f",
                 "scale": 0.88,
                 "zoom": 17
             },
             {
-                "color": "#4d6a5c",
+                "color": "#59636d",
                 "scale": 0.79,
                 "zoom": 18
             },
             {
-                "color": "#4c695a",
+                "color": "#58616c",
                 "scale": 0.76,
                 "zoom": 19
             },
             {
-                "color": "#4a6759",
+                "color": "#56606a",
                 "scale": 0.76,
                 "zoom": 20
             },
             {
-                "color": "#496557",
+                "color": "#555e68",
                 "scale": 0.8,
                 "zoom": 21
             }
@@ -4483,112 +4502,112 @@ async function initMap(node) {
         "elements": "geometry.outline",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 4
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 5
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 6
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 7
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 8
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.72,
                 "zoom": 9
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.22,
                 "zoom": 10
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.04,
                 "zoom": 11
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.17,
                 "zoom": 12
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.06,
                 "zoom": 13
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.97,
                 "zoom": 14
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.92,
                 "zoom": 15
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.09,
                 "zoom": 16
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.95,
                 "zoom": 17
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.86,
                 "zoom": 18
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.82,
                 "zoom": 19
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.82,
                 "zoom": 20
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.86,
                 "zoom": 21
             }
@@ -4602,112 +4621,112 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 4
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 5
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 6
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 7
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 8
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 9
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 10
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 11
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 1.11,
                 "zoom": 12
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.84,
                 "zoom": 13
             },
             {
-                "color": "#537162",
+                "color": "#5f6974",
                 "scale": 0.72,
                 "zoom": 14
             },
             {
-                "color": "#517061",
+                "color": "#5d6873",
                 "scale": 0.84,
                 "zoom": 15
             },
             {
-                "color": "#506e5f",
+                "color": "#5c6671",
                 "scale": 0.97,
                 "zoom": 16
             },
             {
-                "color": "#4f6c5e",
+                "color": "#5b656f",
                 "scale": 0.83,
                 "zoom": 17
             },
             {
-                "color": "#4d6a5c",
+                "color": "#59636d",
                 "scale": 0.75,
                 "zoom": 18
             },
             {
-                "color": "#4c695a",
+                "color": "#58616c",
                 "scale": 0.73,
                 "zoom": 19
             },
             {
-                "color": "#4a6759",
+                "color": "#56606a",
                 "scale": 0.74,
                 "zoom": 20
             },
             {
-                "color": "#496557",
+                "color": "#555e68",
                 "scale": 0.8,
                 "zoom": 21
             }
@@ -4720,112 +4739,112 @@ async function initMap(node) {
         "elements": "geometry.outline",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 4
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 5
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 6
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 7
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 8
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 9
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 10
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.4,
                 "zoom": 11
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.03,
                 "zoom": 12
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.88,
                 "zoom": 13
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.79,
                 "zoom": 14
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.91,
                 "zoom": 15
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.05,
                 "zoom": 16
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.9,
                 "zoom": 17
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.82,
                 "zoom": 18
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.79,
                 "zoom": 19
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.81,
                 "zoom": 20
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.86,
                 "zoom": 21
             }
@@ -4839,112 +4858,112 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 4
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 5
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 6
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 7
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 8
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 9
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 10
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 11
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 12
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 2,
                 "zoom": 13
             },
             {
-                "color": "#537162",
+                "color": "#5f6974",
                 "scale": 1.13,
                 "zoom": 14
             },
             {
-                "color": "#517061",
+                "color": "#5d6873",
                 "scale": 1.11,
                 "zoom": 15
             },
             {
-                "color": "#506e5f",
+                "color": "#5c6671",
                 "scale": 1.16,
                 "zoom": 16
             },
             {
-                "color": "#4f6c5e",
+                "color": "#5b656f",
                 "scale": 0.93,
                 "zoom": 17
             },
             {
-                "color": "#4d6a5c",
+                "color": "#59636d",
                 "scale": 0.8,
                 "zoom": 18
             },
             {
-                "color": "#4c695a",
+                "color": "#58616c",
                 "scale": 0.75,
                 "zoom": 19
             },
             {
-                "color": "#4a6759",
+                "color": "#56606a",
                 "scale": 0.75,
                 "zoom": 20
             },
             {
-                "color": "#496557",
+                "color": "#555e68",
                 "scale": 0.8,
                 "zoom": 21
             }
@@ -4957,112 +4976,112 @@ async function initMap(node) {
         "elements": "geometry.outline",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 4
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 5
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 6
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 7
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 8
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 9
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 10
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 11
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 12
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.49,
                 "zoom": 13
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.09,
                 "zoom": 14
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.13,
                 "zoom": 15
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 1.22,
                 "zoom": 16
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.99,
                 "zoom": 17
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.87,
                 "zoom": 18
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.82,
                 "zoom": 19
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.82,
                 "zoom": 20
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.86,
                 "zoom": 21
             }
@@ -5076,112 +5095,112 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 4
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 5
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 6
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 7
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 8
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 9
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 10
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 11
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 12
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0,
                 "zoom": 13
             },
             {
-                "color": "#537162",
+                "color": "#5f6974",
                 "scale": 0.8,
                 "zoom": 14
             },
             {
-                "color": "#517061",
+                "color": "#5d6873",
                 "scale": 0.69,
                 "zoom": 15
             },
             {
-                "color": "#506e5f",
+                "color": "#5c6671",
                 "scale": 0.78,
                 "zoom": 16
             },
             {
-                "color": "#4f6c5e",
+                "color": "#5b656f",
                 "scale": 0.71,
                 "zoom": 17
             },
             {
-                "color": "#4d6a5c",
+                "color": "#59636d",
                 "scale": 0.69,
                 "zoom": 18
             },
             {
-                "color": "#4c695a",
+                "color": "#58616c",
                 "scale": 0.7,
                 "zoom": 19
             },
             {
-                "color": "#4a6759",
+                "color": "#56606a",
                 "scale": 0.74,
                 "zoom": 20
             },
             {
-                "color": "#496557",
+                "color": "#555e68",
                 "scale": 0.8,
                 "zoom": 21
             }
@@ -5194,112 +5213,112 @@ async function initMap(node) {
         "elements": "geometry.outline",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 4
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 5
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 6
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 7
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 8
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 9
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 10
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 11
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 12
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 13
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.84,
                 "zoom": 14
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.77,
                 "zoom": 15
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.84,
                 "zoom": 16
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.78,
                 "zoom": 17
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.75,
                 "zoom": 18
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.76,
                 "zoom": 19
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.79,
                 "zoom": 20
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.86,
                 "zoom": 21
             }
@@ -5313,7 +5332,7 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#33473e"
+                "color": "#3e454c"
             },
             {
                 "scale": 0,
@@ -5424,7 +5443,7 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#33473e"
+                "color": "#3e454c"
             },
             {
                 "scale": 0,
@@ -5535,91 +5554,91 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#3d574a",
+                "color": "#454c55",
                 "zoom": 0
             },
             {
-                "color": "#3d574a",
+                "color": "#454c55",
                 "zoom": 1
             },
             {
-                "color": "#3d574a",
+                "color": "#454c55",
                 "zoom": 2
             },
             {
-                "color": "#3d574a",
+                "color": "#454c55",
                 "zoom": 3
             },
             {
-                "color": "#3d574a",
+                "color": "#454c55",
                 "zoom": 4
             },
             {
-                "color": "#3d574a",
+                "color": "#454c55",
                 "zoom": 5
             },
             {
-                "color": "#3d574a",
+                "color": "#454c55",
                 "zoom": 6
             },
             {
-                "color": "#3d574a",
+                "color": "#454c55",
                 "zoom": 7
             },
             {
-                "color": "#3d574a",
+                "color": "#454c55",
                 "zoom": 8
             },
             {
-                "color": "#3d574a",
+                "color": "#454c55",
                 "zoom": 9
             },
             {
-                "color": "#3d574a",
+                "color": "#454c55",
                 "zoom": 10
             },
             {
-                "color": "#3d574a",
+                "color": "#454c55",
                 "zoom": 11
             },
             {
-                "color": "#3d574a",
+                "color": "#454c55",
                 "zoom": 12
             },
             {
-                "color": "#3d574a",
+                "color": "#454c55",
                 "zoom": 13
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 14
             },
             {
-                "color": "#354b40",
+                "color": "#3b4249",
                 "zoom": 15
             },
             {
-                "color": "#344a3f",
+                "color": "#3a4148",
                 "zoom": 16
             },
             {
-                "color": "#34493e",
+                "color": "#3a4047",
                 "zoom": 17
             },
             {
-                "color": "#33483e",
+                "color": "#394047",
                 "zoom": 18
             },
             {
-                "color": "#32473d",
+                "color": "#383f46",
                 "zoom": 19
             },
             {
-                "color": "#32463c",
+                "color": "#383e45",
                 "zoom": 20
             },
             {
-                "color": "#31453b",
+                "color": "#373d44",
                 "zoom": 21
             }
         ]
@@ -5632,7 +5651,7 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#151e1a"
+                "color": "#171a1c"
             },
             {
                 "opacity": 0.5,
@@ -5735,91 +5754,91 @@ async function initMap(node) {
                 "opacity": 0.7
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 0
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 1
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 2
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 3
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 4
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 5
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 6
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 7
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 8
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 9
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 10
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 11
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 12
             },
             {
-                "color": "#395145",
+                "color": "#40474f",
                 "zoom": 13
             },
             {
-                "color": "#354b40",
+                "color": "#3c424a",
                 "zoom": 14
             },
             {
-                "color": "#31453b",
+                "color": "#373d44",
                 "zoom": 15
             },
             {
-                "color": "#30443a",
+                "color": "#363c43",
                 "zoom": 16
             },
             {
-                "color": "#2f4339",
+                "color": "#353b42",
                 "zoom": 17
             },
             {
-                "color": "#2f4239",
+                "color": "#353b41",
                 "zoom": 18
             },
             {
-                "color": "#2e4138",
+                "color": "#343a40",
                 "zoom": 19
             },
             {
-                "color": "#2d4037",
+                "color": "#33393f",
                 "zoom": 20
             },
             {
-                "color": "#2c3f36",
+                "color": "#32383e",
                 "zoom": 21
             }
         ]
@@ -5829,7 +5848,7 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#547364"
+                "color": "#606b76"
             }
         ]
     },
@@ -5838,87 +5857,87 @@ async function initMap(node) {
         "elements": "geometry.outline",
         "stylers": [
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 0
             },
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 1
             },
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 2
             },
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 3
             },
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 4
             },
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 5
             },
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 6
             },
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 7
             },
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 8
             },
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 9
             },
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 10
             },
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 11
             },
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 12
             },
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 13
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "zoom": 14
             },
             {
-                "color": "#151e1a",
+                "color": "#171a1c",
                 "zoom": 15
             },
             {
-                "color": "#121916",
+                "color": "#131617",
                 "zoom": 16
             },
             {
-                "color": "#0e1411",
+                "color": "#0f1113",
                 "zoom": 17
             },
             {
-                "color": "#0b0f0d",
+                "color": "#0c0d0e",
                 "zoom": 18
             },
             {
-                "color": "#070a09",
+                "color": "#080909",
                 "zoom": 19
             },
             {
-                "color": "#040504",
+                "color": "#040405",
                 "zoom": 20
             },
             {
@@ -5933,7 +5952,7 @@ async function initMap(node) {
         },
         "stylers": [
             {
-                "color": "#2b5440"
+                "color": "#404954"
             }
         ]
     },
@@ -5942,10 +5961,189 @@ async function initMap(node) {
         "elements": "label.icon",
         "stylers": [
             {
-                "hue": "#1a3227"
+                "saturation": -1
             },
             {
-                "saturation": -0.68
+                "opacity": 0,
+                "zoom": 0
+            },
+            {
+                "opacity": 0,
+                "zoom": 1
+            },
+            {
+                "opacity": 0,
+                "zoom": 2
+            },
+            {
+                "opacity": 0,
+                "zoom": 3
+            },
+            {
+                "opacity": 0,
+                "zoom": 4
+            },
+            {
+                "opacity": 0,
+                "zoom": 5
+            },
+            {
+                "opacity": 0,
+                "zoom": 6
+            },
+            {
+                "opacity": 0,
+                "zoom": 7
+            },
+            {
+                "opacity": 0,
+                "zoom": 8
+            },
+            {
+                "opacity": 0,
+                "zoom": 9
+            },
+            {
+                "opacity": 0,
+                "zoom": 10
+            },
+            {
+                "opacity": 0,
+                "zoom": 11
+            },
+            {
+                "opacity": 0,
+                "zoom": 12
+            },
+            {
+                "opacity": 1,
+                "zoom": 13
+            },
+            {
+                "opacity": 1,
+                "zoom": 14
+            },
+            {
+                "opacity": 1,
+                "zoom": 15
+            },
+            {
+                "opacity": 1,
+                "zoom": 16
+            },
+            {
+                "opacity": 1,
+                "zoom": 17
+            },
+            {
+                "opacity": 1,
+                "zoom": 18
+            },
+            {
+                "opacity": 1,
+                "zoom": 19
+            },
+            {
+                "opacity": 1,
+                "zoom": 20
+            },
+            {
+                "opacity": 1,
+                "zoom": 21
+            }
+        ]
+    },
+    {
+        "tags": "transit_location",
+        "elements": "label.text",
+        "stylers": [
+            {
+                "opacity": 0,
+                "zoom": 0
+            },
+            {
+                "opacity": 0,
+                "zoom": 1
+            },
+            {
+                "opacity": 0,
+                "zoom": 2
+            },
+            {
+                "opacity": 0,
+                "zoom": 3
+            },
+            {
+                "opacity": 0,
+                "zoom": 4
+            },
+            {
+                "opacity": 0,
+                "zoom": 5
+            },
+            {
+                "opacity": 0,
+                "zoom": 6
+            },
+            {
+                "opacity": 0,
+                "zoom": 7
+            },
+            {
+                "opacity": 0,
+                "zoom": 8
+            },
+            {
+                "opacity": 0,
+                "zoom": 9
+            },
+            {
+                "opacity": 0,
+                "zoom": 10
+            },
+            {
+                "opacity": 0,
+                "zoom": 11
+            },
+            {
+                "opacity": 0,
+                "zoom": 12
+            },
+            {
+                "opacity": 1,
+                "zoom": 13
+            },
+            {
+                "opacity": 1,
+                "zoom": 14
+            },
+            {
+                "opacity": 1,
+                "zoom": 15
+            },
+            {
+                "opacity": 1,
+                "zoom": 16
+            },
+            {
+                "opacity": 1,
+                "zoom": 17
+            },
+            {
+                "opacity": 1,
+                "zoom": 18
+            },
+            {
+                "opacity": 1,
+                "zoom": 19
+            },
+            {
+                "opacity": 1,
+                "zoom": 20
+            },
+            {
+                "opacity": 1,
+                "zoom": 21
             }
         ]
     },
@@ -5954,7 +6152,7 @@ async function initMap(node) {
         "elements": "label.text.fill",
         "stylers": [
             {
-                "color": "#b1cec0"
+                "color": "#8aa1a8"
             }
         ]
     },
@@ -5963,7 +6161,7 @@ async function initMap(node) {
         "elements": "label.text.outline",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             }
         ]
     },
@@ -5972,7 +6170,7 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#b1cec0"
+                "color": "#8aa1a8"
             },
             {
                 "scale": 0.7
@@ -6081,7 +6279,7 @@ async function initMap(node) {
         "elements": "geometry.fill.pattern",
         "stylers": [
             {
-                "color": "#9ab1a6"
+                "color": "#7a8386"
             },
             {
                 "opacity": 0,
@@ -6178,7 +6376,7 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#9ab1a6"
+                "color": "#7a8386"
             },
             {
                 "scale": 0.4
@@ -6278,91 +6476,91 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#1a3226",
+                "color": "#2a3037",
                 "zoom": 0
             },
             {
-                "color": "#1a3226",
+                "color": "#2a3037",
                 "zoom": 1
             },
             {
-                "color": "#1a3226",
+                "color": "#2a3037",
                 "zoom": 2
             },
             {
-                "color": "#1a3226",
+                "color": "#2a3037",
                 "zoom": 3
             },
             {
-                "color": "#1a3226",
+                "color": "#2a3037",
                 "zoom": 4
             },
             {
-                "color": "#1a3226",
+                "color": "#2a3037",
                 "zoom": 5
             },
             {
-                "color": "#1a3226",
+                "color": "#2a3037",
                 "zoom": 6
             },
             {
-                "color": "#1a3226",
+                "color": "#2a3037",
                 "zoom": 7
             },
             {
-                "color": "#193024",
+                "color": "#292e35",
                 "zoom": 8
             },
             {
-                "color": "#182e23",
+                "color": "#272d33",
                 "zoom": 9
             },
             {
-                "color": "#172c21",
+                "color": "#262b31",
                 "zoom": 10
             },
             {
-                "color": "#162b20",
+                "color": "#252a30",
                 "zoom": 11
             },
             {
-                "color": "#162920",
+                "color": "#24292f",
                 "zoom": 12
             },
             {
-                "color": "#15281f",
+                "color": "#23282e",
                 "zoom": 13
             },
             {
-                "color": "#14261e",
+                "color": "#22272d",
                 "zoom": 14
             },
             {
-                "color": "#13251c",
+                "color": "#21262b",
                 "zoom": 15
             },
             {
-                "color": "#12231b",
+                "color": "#20242a",
                 "zoom": 16
             },
             {
-                "color": "#12221a",
+                "color": "#1f2329",
                 "zoom": 17
             },
             {
-                "color": "#112018",
+                "color": "#1e2227",
                 "zoom": 18
             },
             {
-                "color": "#101e17",
+                "color": "#1d2126",
                 "zoom": 19
             },
             {
-                "color": "#0f1d15",
+                "color": "#1c1f24",
                 "zoom": 20
             },
             {
-                "color": "#0e1b14",
+                "color": "#1b1e23",
                 "zoom": 21
             }
         ]
@@ -6467,7 +6665,7 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "hue": "#1a3226"
+                "hue": "#2a3037"
             }
         ]
     },
@@ -6481,91 +6679,91 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 0
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 1
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 2
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 3
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 4
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 5
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 6
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 7
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 8
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 9
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 10
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 11
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 12
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 13
             },
             {
-                "color": "#31453b",
+                "color": "#383d44",
                 "zoom": 14
             },
             {
-                "color": "#2c3f36",
+                "color": "#33383e",
                 "zoom": 15
             },
             {
-                "color": "#2b3e35",
+                "color": "#32373d",
                 "zoom": 16
             },
             {
-                "color": "#2b3d34",
+                "color": "#31363c",
                 "zoom": 17
             },
             {
-                "color": "#2a3c34",
+                "color": "#31363b",
                 "zoom": 18
             },
             {
-                "color": "#293b33",
+                "color": "#30353a",
                 "zoom": 19
             },
             {
-                "color": "#293a32",
+                "color": "#2f3439",
                 "zoom": 20
             },
             {
-                "color": "#283931",
+                "color": "#2e3338",
                 "zoom": 21
             }
         ]
@@ -6583,91 +6781,91 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 0
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 1
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 2
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 3
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 4
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 5
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 6
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 7
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 8
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 9
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 10
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 11
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 12
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 13
             },
             {
-                "color": "#31453b",
+                "color": "#383d44",
                 "zoom": 14
             },
             {
-                "color": "#2c3f36",
+                "color": "#33383e",
                 "zoom": 15
             },
             {
-                "color": "#2b3e35",
+                "color": "#32373d",
                 "zoom": 16
             },
             {
-                "color": "#2b3d34",
+                "color": "#31363c",
                 "zoom": 17
             },
             {
-                "color": "#2a3c33",
+                "color": "#31363b",
                 "zoom": 18
             },
             {
-                "color": "#293b32",
+                "color": "#30353a",
                 "zoom": 19
             },
             {
-                "color": "#293a31",
+                "color": "#2f3439",
                 "zoom": 20
             },
             {
-                "color": "#283930",
+                "color": "#2e3338",
                 "zoom": 21
             }
         ]
@@ -6677,7 +6875,7 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#3d574a"
+                "color": "#454c54"
             },
             {
                 "opacity": 0.75,
@@ -6774,91 +6972,91 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 0
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 1
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 2
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 3
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 4
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 5
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 6
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 7
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 8
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 9
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 10
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 11
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 12
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "zoom": 13
             },
             {
-                "color": "#31453b",
+                "color": "#383d44",
                 "zoom": 14
             },
             {
-                "color": "#2c3f36",
+                "color": "#33383e",
                 "zoom": 15
             },
             {
-                "color": "#2b3e35",
+                "color": "#32373d",
                 "zoom": 16
             },
             {
-                "color": "#2b3d34",
+                "color": "#31363c",
                 "zoom": 17
             },
             {
-                "color": "#2a3c34",
+                "color": "#31363b",
                 "zoom": 18
             },
             {
-                "color": "#293b33",
+                "color": "#30353a",
                 "zoom": 19
             },
             {
-                "color": "#293a32",
+                "color": "#2f3439",
                 "zoom": 20
             },
             {
-                "color": "#283931",
+                "color": "#2e3338",
                 "zoom": 21
             }
         ]
@@ -6868,112 +7066,112 @@ async function initMap(node) {
         "elements": "geometry",
         "stylers": [
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "opacity": 0.3,
                 "zoom": 0
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "opacity": 0.3,
                 "zoom": 1
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "opacity": 0.3,
                 "zoom": 2
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "opacity": 0.3,
                 "zoom": 3
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "opacity": 0.3,
                 "zoom": 4
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "opacity": 0.3,
                 "zoom": 5
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "opacity": 0.3,
                 "zoom": 6
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "opacity": 0.3,
                 "zoom": 7
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "opacity": 0.3,
                 "zoom": 8
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "opacity": 0.3,
                 "zoom": 9
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "opacity": 0.3,
                 "zoom": 10
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "opacity": 0.3,
                 "zoom": 11
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "opacity": 0.3,
                 "zoom": 12
             },
             {
-                "color": "#354b40",
+                "color": "#3c4249",
                 "opacity": 0.65,
                 "zoom": 13
             },
             {
-                "color": "#31453b",
+                "color": "#383d44",
                 "opacity": 1,
                 "zoom": 14
             },
             {
-                "color": "#2c3f36",
+                "color": "#33383e",
                 "opacity": 1,
                 "zoom": 15
             },
             {
-                "color": "#2b3e35",
+                "color": "#32373d",
                 "opacity": 1,
                 "zoom": 16
             },
             {
-                "color": "#2b3d34",
+                "color": "#31363c",
                 "opacity": 1,
                 "zoom": 17
             },
             {
-                "color": "#2a3c34",
+                "color": "#31363b",
                 "opacity": 1,
                 "zoom": 18
             },
             {
-                "color": "#293b33",
+                "color": "#30353a",
                 "opacity": 1,
                 "zoom": 19
             },
             {
-                "color": "#293a32",
+                "color": "#2f3439",
                 "opacity": 1,
                 "zoom": 20
             },
             {
-                "color": "#283931",
+                "color": "#2e3338",
                 "opacity": 1,
                 "zoom": 21
             }
@@ -6989,7 +7187,7 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#24322b"
+                "color": "#272b30"
             },
             {
                 "opacity": 0.3
@@ -7015,7 +7213,7 @@ async function initMap(node) {
         "elements": "geometry.fill",
         "stylers": [
             {
-                "color": "#151e1a"
+                "color": "#171a1c"
             },
             {
                 "scale": 0,
@@ -7112,112 +7310,112 @@ async function initMap(node) {
         "elements": "geometry.outline",
         "stylers": [
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 0
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 1
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 2
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 3
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 4
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 5
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 6
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 7
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 8
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 9
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 10
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 11
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.9,
                 "zoom": 12
             },
             {
-                "color": "#547364",
+                "color": "#606b76",
                 "scale": 0.1,
                 "zoom": 13
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.2,
                 "zoom": 14
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.3,
                 "zoom": 15
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.5,
                 "zoom": 16
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.6,
                 "zoom": 17
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.75,
                 "zoom": 18
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.76,
                 "zoom": 19
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.79,
                 "zoom": 20
             },
             {
-                "color": "#2b3b33",
+                "color": "#2e3338",
                 "scale": 0.86,
                 "zoom": 21
             }
@@ -7228,39 +7426,118 @@ async function initMap(node) {
         "elements": "label.icon",
         "stylers": [
             {
-                "color": "#0a0f0d"
+                "color": "#171a1c"
             },
             {
-                "secondary-color": "#b1cec0"
+                "secondary-color": "#8aa1a8"
             },
             {
-                "tertiary-color": "#b4cac0"
+                "tertiary-color": "#505962"
             }
         ]
     },
     {
-        "tags": "entrance",
-        "elements": "label.text.fill",
-        "stylers": [
-            {
-                "color": "#acc3b8"
-            },
-            {
-                "opacity": 1
-            }
-        ]
+        "tags": {
+            "any": [
+                "transit"
+            ]
+        },
+        "elements": [
+            "label.icon",
+            "label.text"
+        ],
+        "stylers": {
+            "visibility": "off"
+        }
     },
     {
-        "tags": "entrance",
-        "elements": "label.text.outline",
-        "stylers": [
-            {
-                "color": "#0a0f0d"
-            },
-            {
-                "opacity": 0.5
-            }
-        ]
+        "tags": {
+            "any": [
+                "outdoor",
+                "park",
+                "cemetery",
+                "medical"
+            ]
+        },
+        "elements": "label",
+        "stylers": {
+            "visibility": "off"
+        }
+    },
+    {
+        "tags": {
+            "any": "poi",
+            "none": [
+                "outdoor",
+                "park",
+                "cemetery",
+                "medical"
+            ]
+        },
+        "stylers": {
+            "visibility": "off"
+        }
+    },
+    {
+        "tags": {
+            "any": "road"
+        },
+        "types": "point",
+        "stylers": {
+            "visibility": "off"
+        }
+    },
+    {
+        "tags": {
+            "any": [
+                "food_and_drink",
+                "shopping",
+                "commercial_services"
+            ]
+        },
+        "stylers": {
+            "visibility": "off"
+        }
+    },
+    {
+        "tags": {
+            "any": [
+                "traffic_light"
+            ]
+        },
+        "stylers": {
+            "visibility": "off"
+        }
+    },
+    {
+        "tags": {
+            "any": [
+                "entrance"
+            ]
+        },
+        "stylers": {
+            "visibility": "off"
+        }
+    },
+    {
+        "tags": {
+            "any": [
+                "road"
+            ],
+            "none": [
+                "road_1",
+                "road_2",
+                "road_3",
+                "road_4",
+                "road_5",
+                "road_6",
+                "road_7"
+            ]
+        },
+        "elements": "label.icon",
+        "stylers": {
+            "visibility": "off"
+        }
     },
     {
         "tags": {
@@ -7283,6 +7560,7 @@ async function initMap(node) {
     }
 ]
     }));
+    map.addChild(new YMapDefaultFeaturesLayer());
 
     points.forEach(item => {
         const markerElement = document.createElement('div');
