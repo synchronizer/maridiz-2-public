@@ -15,21 +15,21 @@
     --button-grey-background-color-hover: hsl(240 15% 58% / 28%);
     --button-grey-background-color-active: hsl(240 15% 52% / 28%);
     --button-grey-label-color: hsl(0 0% 0%);
-    --button-accent-background-color-hue: 62.73;
-    --button-accent-background-color-chroma: 16.21;
-    --button-accent-background-color-lightness: 47;
+    --button-accent-background-color-hue: 135;
+    --button-accent-background-color-chroma: 100;
+    --button-accent-background-color-lightness: 48;
     --button-accent-background-color: lch(
         var(--button-accent-background-color-lightness)
         var(--button-accent-background-color-chroma)
         var(--button-accent-background-color-hue)
     );
     --button-accent-background-color-hover: lch(
-        calc(var(--button-accent-background-color-lightness) + 3)
+        calc(var(--button-accent-background-color-lightness) + 5)
         var(--button-accent-background-color-chroma)
         var(--button-accent-background-color-hue)
     );
     --button-accent-background-color-active: lch(
-        calc(var(--button-accent-background-color-lightness) - 3)
+        calc(var(--button-accent-background-color-lightness) - 5)
         var(--button-accent-background-color-chroma)
         var(--button-accent-background-color-hue)
     );
@@ -53,7 +53,7 @@
     --font-weight-strong: 600;
     --font-weight-title: 800;
 
-    --price-label-color-hue: 135;
+    --price-label-color-hue: 50;
     --price-label-color-chroma: 100;
     --price-label-color-lightness: 35;
     --price-label-color: lch(
@@ -85,7 +85,23 @@
     --button-grey-background-color-hover: hsl(240 15% 70% / 28%);
     --button-grey-background-color-active: hsl(240 15% 75% / 28%);
     --button-grey-label-color: hsl(0 0% 100%);
-    
+    --button-accent-background-color-lightness: 80;
+    --button-accent-background-color: lch(
+        var(--button-accent-background-color-lightness)
+        var(--button-accent-background-color-chroma)
+        var(--button-accent-background-color-hue)
+    );
+    --button-accent-background-color-hover: lch(
+        calc(var(--button-accent-background-color-lightness) + 5)
+        var(--button-accent-background-color-chroma)
+        var(--button-accent-background-color-hue)
+    );
+    --button-accent-background-color-active: lch(
+        calc(var(--button-accent-background-color-lightness) - 5)
+        var(--button-accent-background-color-chroma)
+        var(--button-accent-background-color-hue)
+    );
+    --button-accent-label-color: hsl(0, 0%, 0%);
     --input-background-color: hsl(240 15% 65% / 28%);
     --input-value-color: hsl(0 0% 100%);
     --input-placeholder-color: hsla(0, 12%, 49%, 0.3);
