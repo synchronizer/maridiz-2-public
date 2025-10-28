@@ -1,0 +1,104 @@
+
+:root,
+[data-color-scheme="light"] {
+    --page-background-color: hsl(240 10% 96%);
+    --page-background-color-light: hsl(0 0% 100%);
+    --page-illustration-color-orange: hsl(20 100% 55%);
+    --page-illustration-color-grey: #888B91;
+    --footer-background-color: var(--page-background-color-light);
+    --text-light-color: hsl(0 0% 0% / 54%);
+    --text-bright-color: hsl(0 0% 0%);
+    --text-middle-color: hsl(0 0% 0% / 75%);
+    --button-disabled-opacity: 35%;
+    --button-grey-background-color: hsl(240 15% 65% / 28%);
+    --button-grey-background-color-hover: hsl(240 15% 58% / 28%);
+    --button-grey-background-color-active: hsl(240 15% 52% / 28%);
+    --button-grey-label-color: hsl(0 0% 0%);
+    --button-accent-background-color-hue: 135;
+    --button-accent-background-color-chroma: 100;
+    --button-accent-background-color-lightness: 48;
+    --button-accent-background-color: lch(var(--button-accent-background-color-lightness) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
+    --button-accent-background-color-hover: lch(calc(var(--button-accent-background-color-lightness) + 5) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
+    --button-accent-background-color-active: lch(calc(var(--button-accent-background-color-lightness) - 5) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
+    --button-accent-label-color: hsl(0, 0%, 100%);
+    --input-background-color: hsl(240 15% 65% / 28%);
+    --input-value-color: hsl(0 0% 0%);
+    --input-placeholder-color: hsl(0 0% 0% / 55%);
+    --link-color: hsl(240 100% 55%);
+    --link-visited-color: hsl(260 100% 55%);
+    --button-contrast-label-color: hsl(0 0% 100%);
+    --button-contrast-background-color: hsl(0 0% 0%);
+    --button-contrast-background-color-hover: hsl(0 0% 10%);
+    --button-contrast-background-color-active: hsl(0 0% 12%);
+    --modal-background-color: var(--page-background-color-light);
+    --modal-backdrop-color: hsl(0 0% 0% / 80%);
+    --hero-title-color: hsl(0 0% 100%);
+    --hero-text-color: hsl(0 0% 100% / 55%);
+    --hero-backgrond-gradient-from: hsl(0 0% 0%);
+    --hero-backgrond-gradient-to: hsl(0 0% 10%);
+    --font-weight-text: 400;
+    --font-weight-strong: 600;
+    --font-weight-title: 800;
+
+    --price-label-color-hue: 50;
+    --price-label-color-chroma: 100;
+    --price-label-color-lightness: 35;
+    --price-label-color: lch(var(--price-label-color-lightness) var(--price-label-color-chroma) var(--price-label-color-hue));
+
+
+
+
+    --rating-stars: hsl(38, 100%, 50%);
+    --logo-color-1: var(--button-accent-background-color);
+    --logo-color-2: var(--text-bright-color);
+}
+
+
+[data-color-scheme="dark"] {
+    --page-background-color: hsl(0 0% 5%);
+    --page-background-color-light: hsl(0 0% 9%);
+    --page-illustration-color-orange: hsl(20 100% 80%);
+    --page-illustration-color-grey: #646568;
+    --footer-background-color: var(--page-background-color-light);
+    --text-light-color: hsl(0 0% 100% / 45%);
+    --text-bright-color: hsl(0 0% 100%);
+    --text-middle-color: hsl(0 0% 100% / 60%);
+    --button-disabled-opacity: 50%;
+    --button-grey-background-color: hsl(240 15% 65% / 28%);
+    --button-grey-background-color-hover: hsl(240 15% 70% / 28%);
+    --button-grey-background-color-active: hsl(240 15% 75% / 28%);
+    --button-grey-label-color: hsl(0 0% 100%);
+    --button-accent-background-color-lightness: 80;
+    --button-accent-background-color: lch(var(--button-accent-background-color-lightness) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
+    --button-accent-background-color-hover: lch(calc(var(--button-accent-background-color-lightness) + 5) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
+    --button-accent-background-color-active: lch(calc(var(--button-accent-background-color-lightness) - 5) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
+    --button-accent-label-color: hsl(0, 0%, 0%);
+    --input-background-color: hsl(240 15% 65% / 28%);
+    --input-value-color: hsl(0 0% 100%);
+    --input-placeholder-color: hsla(0, 12%, 49%, 0.3);
+    --link-color: hsl(220 100% 70%);
+    --link-visited-color: hsl(240 100% 80%);
+    --button-contrast-label-color: hsl(0 0% 0%);
+    --button-contrast-background-color: hsl(0 0% 100%);
+    --button-contrast-background-color-hover: hsl(0 0% 90%);
+    --button-contrast-background-color-active: hsl(0 0% 80%);
+    --modal-background-color: var(--page-background-color-light);
+    --modal-backdrop-color: hsl(0 0% 0% / 90%);
+    --hero-title-color: hsl(0 0% 100%);
+    --hero-text-color: hsl(0 0% 100% / 55%);
+    --hero-backgrond-gradient-from: hsl(0 0% 0%);
+    --hero-backgrond-gradient-to: hsl(0 0% 10%);
+    --font-weight-text: 400;
+    --font-weight-strong: 600;
+    --font-weight-title: 800;
+
+
+
+    --price-label-color-lightness: 85;
+    --price-label-color: lch(var(--price-label-color-lightness) var(--price-label-color-chroma) var(--price-label-color-hue));
+
+    --logo-color-1: var(--button-accent-background-color);
+    --logo-color-2: var(--text-bright-color);
+}
+
+

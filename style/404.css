@@ -1,0 +1,23 @@
+.fzf {
+  padding-inline: max((100vw - var(--page-content-max-width-m)) / 2, var(--_padding-inline));
+  flex-grow: 1;
+  min-height: 20rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: var(--page-background-color);
+}
+.fzf__img {
+display: block;
+position: absolute;
+bottom: 0%;
+height: 90%;
+left: 45%;
+}
+
+@media (width < 45rem) {
+  .fzf__img {
+    display: none;
+  }
+  
+}

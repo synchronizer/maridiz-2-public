@@ -1,0 +1,106 @@
+.contacts {
+    display: grid;
+    gap: var(--gap-s);
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-areas:
+        "phone messangers worktime"
+        "email messangers worktime"
+        "call-request call-request worktime"
+    ;
+}
+
+@media (width < 66rem) {
+    .contacts {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "phone messangers"
+            "email messangers"
+            "worktime worktime"
+            "call-request call-request"
+        ;
+
+    }
+}
+
+@media (width < 33rem) {
+    .contacts {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "phone"
+            "email"
+            "messangers"
+            "worktime"
+            "call-request"
+        ;
+
+    }
+}
+
+.contacts__item {
+    padding: var(--gap-s);
+    background-color: var(--page-background-color-light);
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.contacts__item> :last-child {
+    margin-top: auto;
+}
+
+.contacts__title {
+    font-size: var(--typo-text-s-font-size);
+    color: var(--text-light-color);
+}
+
+.contacts__text {
+    font-size: 1.375rem;
+    line-height: 1.25;
+    color: var(--text-bright-color);
+
+}
+
+.contacts__text+.contacts__text {
+    margin-top: 0.75rem;
+}
+
+.contacts__item_phone {
+    grid-area: phone;
+}
+
+.contacts__item_email {
+    grid-area: email;
+}
+
+.contacts__item_messangers {
+    grid-area: messangers;
+}
+
+.contacts__item_worktime {
+    grid-area: worktime;
+}
+
+.contacts__item_call-request {
+    grid-area: call-request;
+}
+
+@media (width >=33rem) {
+    .contacts .call-request__form {
+        flex-direction: row;
+    }
+
+    .contacts .call-request__form .input {
+        flex-grow: 1;
+    }
+
+    .contacts .call-request__form .call-request__send {
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts .call-request__form .call-request__send>* {
+        flex-grow: 1;
+    }
+
+}

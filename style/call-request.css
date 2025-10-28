@@ -1,0 +1,27 @@
+.call-request__form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xs);
+}
+
+.call-request__form_row {
+    flex-direction: row;
+}
+
+.call-request__form_row .input {
+    flex-grow: 1;
+}
+
+.call-request__form_row .call-request__send {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+}
+
+.call-request__form_row .call-request__send > * {
+    flex-grow: 1;
+}
+
+.call-request__send {
+    align-self: start;
+}

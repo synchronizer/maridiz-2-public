@@ -1,0 +1,34 @@
+
+.image {
+  display: block;
+  object-fit: cover;
+}
+
+
+.image:not([width]):not(.image_autowidth){
+  max-width: 100%;
+}
+
+.image__caption {
+  margin-top: 0em;
+  /* color: var(--grey-S); */
+  font-size: var(--font-size-caption);
+}
+
+.image__preview {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image__wrapper {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: inherit;
+
+  /* For focus-outline */
+  margin: -4px;
+  padding: 4px;
+}

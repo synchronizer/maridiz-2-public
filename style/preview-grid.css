@@ -1,0 +1,6 @@
+.preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(20rem,1fr));
+    row-gap: var(--gap-m);
+    column-gap: var(--gap-s);
+}

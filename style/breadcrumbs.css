@@ -1,0 +1,15 @@
+.breadcrumbs {
+    display: flex;
+    gap: var(--gap-xxs);
+}
+.breadcrumbs__item {
+    white-space: nowrap;
+}
+.breadcrumbs__item:not(:last-child)::after {
+    content: '/';
+    margin-left: var(--gap-xxs);
+}
+
+.breadcrumbs__item:first-child {
+    margin-left: -.5rem;
+}

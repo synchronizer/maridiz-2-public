@@ -1,0 +1,32 @@
+
+.review-card {
+    background-color: var(--page-background-color-light);
+    padding: calc(var(--gap-m) * .75);
+    display: flex;
+    flex-direction: column;
+}
+
+.review-card__header {
+    display: grid;
+    row-gap: var(--gap-xxs);
+    grid-template-columns: 1fr min-content;
+    grid-template-areas: 
+    "review-card__author review-card__rating"
+    "review-card__stars review-card__rating"
+    ;
+    margin-bottom: var(--gap-s);
+}
+
+.review-card__author {
+    grid-area: review-card__author;
+}
+.review-card__rating {
+    grid-area: review-card__rating;
+}
+.review-card__stars {
+    grid-area: review-card__stars;
+}
+
+.review-card__details {
+    margin-top: auto;
+}

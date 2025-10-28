@@ -1,0 +1,20 @@
+.columns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--gap-s);
+}
+
+.columns_reverse {
+  flex-direction: row-reverse;
+}
+
+.columns__item > :first-child {
+  margin-top: 0;
+}
+
+.columns__item {
+  flex-basis: calc(var(--typo-text-block-max-width) / 2);
+  flex-grow: 1;
+  max-width: 100%;
+}

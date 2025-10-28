@@ -1,0 +1,4 @@
+.strong {
+    color: var(--text-bright-color);
+    font-weight: var(--font-weight-strong);
+}

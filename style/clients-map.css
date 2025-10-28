@@ -1,0 +1,135 @@
+
+.clients-map {
+    --__search-elements-blur: 1rem;
+    --__search-elements-bg: hsl(0 0 100% / .75);
+    position: relative;
+    isolation: isolate;
+}
+
+.clients-map_fullwidth {
+    margin-inline: calc((100% - 100vw) / 2);
+}
+
+.clients-map_fullwidth .clients-map__map {
+    border-radius: 0;
+}
+
+
+.clients-map_loading .clients-map__search,
+.clients-map:not(.clients-map_loading) .clients-map__loader {
+    display: none;
+}
+
+
+
+.clients-map__map {
+    aspect-ratio: 2;
+    z-index: 0;
+    background-color: #1f242e; 
+    /* border-radius: var(--bd-radius-M); */
+    overflow: hidden;
+}
+
+@media (max-aspect-ratio: 1) {
+    .clients-map__map {
+        aspect-ratio: unset;
+        height: 90vh;
+    }
+}
+
+.clients-map__search {
+    --_input-height: var(--control-input-size-m-height);
+    --_margin: var(--gap-xs);
+    position: absolute;
+    top: var(--_margin);
+    left: var(--_margin);
+    z-index: 1;
+    width: min(30rem, 100% - var(--gap-s));
+    max-height: calc(100% - var(--gap-s));
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.clients-map__search-input {
+    width: 100%;
+    height: var(--_input-height);
+    padding-inline: 0.75rem;
+    border: none;
+    box-shadow: var(--shadow);
+    font-size: var(--typo-text-m-font-size);
+    background: var(--__search-elements-bg);
+    backdrop-filter: blur(var(--__search-elements-blur));
+    flex-shrink: 0;
+}
+
+.marker {
+    background-color: hsl(240deg 5% 50%);
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px -2px #0008;
+    width: 3rem;
+    height: 3rem;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+    cursor: pointer;
+    transition: scale .25s, translate .25s;
+    background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">  <path d="M16.528 2H7.47198C6.26898 2 5.66798 2 5.18398 2.299C4.70098 2.597 4.43198 3.135 3.89398 4.211L2.49098 7.76C2.16598 8.58 1.88298 9.546 2.42898 10.239C2.6863 10.5656 3.03904 10.8039 3.4381 10.9207C3.83717 11.0375 4.26272 11.0271 4.65556 10.8908C5.0484 10.7545 5.38899 10.4991 5.62994 10.1602C5.8709 9.82137 6.00024 9.41581 5.99998 9C5.99998 9.53043 6.21069 10.0391 6.58576 10.4142C6.96083 10.7893 7.46954 11 7.99998 11C8.53041 11 9.03912 10.7893 9.41419 10.4142C9.78926 10.0391 9.99998 9.53043 9.99998 9C9.99998 9.53043 10.2107 10.0391 10.5858 10.4142C10.9608 10.7893 11.4695 11 12 11C12.5304 11 13.0391 10.7893 13.4142 10.4142C13.7893 10.0391 14 9.53043 14 9C14 9.53043 14.2107 10.0391 14.5858 10.4142C14.9608 10.7893 15.4695 11 16 11C16.5304 11 17.0391 10.7893 17.4142 10.4142C17.7893 10.0391 18 9.53043 18 9C17.9999 9.41573 18.1294 9.82114 18.3704 10.1599C18.6115 10.4986 18.9521 10.7538 19.3449 10.8899C19.7377 11.0261 20.1631 11.0365 20.5621 10.9197C20.9611 10.8028 21.3137 10.5646 21.571 10.238C22.117 9.545 21.833 8.579 21.509 7.759L20.105 4.211C19.567 3.135 19.299 2.597 18.815 2.299C18.332 2 17.73 2 16.528 2Z" fill="white" fill-opacity="0.75"/>  <path fill-rule="evenodd" clip-rule="evenodd" d="M20 21.25H22C22.1989 21.25 22.3897 21.3291 22.5303 21.4697C22.671 21.6104 22.75 21.8011 22.75 22C22.75 22.199 22.671 22.3897 22.5303 22.5304C22.3897 22.671 22.1989 22.75 22 22.75H2C1.80109 22.75 1.61032 22.671 1.46967 22.5304C1.32902 22.3897 1.25 22.199 1.25 22C1.25 21.8011 1.32902 21.6104 1.46967 21.4697C1.61032 21.3291 1.80109 21.25 2 21.25H4V12.5C4.744 12.5 5.433 12.268 6 11.873C6.58696 12.2814 7.28494 12.5003 8 12.5C8.744 12.5 9.433 12.268 10 11.873C10.587 12.2814 11.2849 12.5003 12 12.5C12.744 12.5 13.433 12.268 14 11.873C14.587 12.2814 15.2849 12.5003 16 12.5C16.744 12.5 17.433 12.268 18 11.873C18.587 12.2814 19.2849 12.5003 20 12.5V21.25ZM9.5 21.25H14.5V18.5C14.5 17.565 14.5 17.098 14.299 16.75C14.1675 16.5217 13.9781 16.332 13.75 16.2C13.402 16 12.935 16 12 16C11.065 16 10.598 16 10.25 16.2C10.0219 16.332 9.83251 16.5217 9.701 16.75C9.5 17.098 9.5 17.565 9.5 18.5V21.25Z" fill="white" fill-opacity="0.75"/></svg>');
+}
+
+.marker:hover {
+    scale: 1.5;
+    translate: 0 -25%;
+}
+
+.clients-map__search-suggest:empty {
+    display: none;
+}
+
+.clients-map__search-suggest {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: calc(100%);
+    background: #fff9;
+    backdrop-filter: blur(var(--__search-elements-blur));
+    /* border-radius: var(--bd-radius-S); */
+    position: relative;
+    box-shadow: var(--shadow);
+}
+
+.clients-map__finded-company {
+    display: flex;
+    gap: .75rem;
+    /* border-radius: var(--bd-radius-S); */
+    padding: 0.5rem;
+    line-height: 1.3rem;
+    cursor: pointer;
+    background: var(--__search-elements-bg);
+}
+
+.clients-map__finded-company-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.clients-map__finded-company-logo {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+    background-color: #99a;
+    background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">  <path d="M16.528 2H7.47198C6.26898 2 5.66798 2 5.18398 2.299C4.70098 2.597 4.43198 3.135 3.89398 4.211L2.49098 7.76C2.16598 8.58 1.88298 9.546 2.42898 10.239C2.6863 10.5656 3.03904 10.8039 3.4381 10.9207C3.83717 11.0375 4.26272 11.0271 4.65556 10.8908C5.0484 10.7545 5.38899 10.4991 5.62994 10.1602C5.8709 9.82137 6.00024 9.41581 5.99998 9C5.99998 9.53043 6.21069 10.0391 6.58576 10.4142C6.96083 10.7893 7.46954 11 7.99998 11C8.53041 11 9.03912 10.7893 9.41419 10.4142C9.78926 10.0391 9.99998 9.53043 9.99998 9C9.99998 9.53043 10.2107 10.0391 10.5858 10.4142C10.9608 10.7893 11.4695 11 12 11C12.5304 11 13.0391 10.7893 13.4142 10.4142C13.7893 10.0391 14 9.53043 14 9C14 9.53043 14.2107 10.0391 14.5858 10.4142C14.9608 10.7893 15.4695 11 16 11C16.5304 11 17.0391 10.7893 17.4142 10.4142C17.7893 10.0391 18 9.53043 18 9C17.9999 9.41573 18.1294 9.82114 18.3704 10.1599C18.6115 10.4986 18.9521 10.7538 19.3449 10.8899C19.7377 11.0261 20.1631 11.0365 20.5621 10.9197C20.9611 10.8028 21.3137 10.5646 21.571 10.238C22.117 9.545 21.833 8.579 21.509 7.759L20.105 4.211C19.567 3.135 19.299 2.597 18.815 2.299C18.332 2 17.73 2 16.528 2Z" fill="white" fill-opacity="0.75"/>  <path fill-rule="evenodd" clip-rule="evenodd" d="M20 21.25H22C22.1989 21.25 22.3897 21.3291 22.5303 21.4697C22.671 21.6104 22.75 21.8011 22.75 22C22.75 22.199 22.671 22.3897 22.5303 22.5304C22.3897 22.671 22.1989 22.75 22 22.75H2C1.80109 22.75 1.61032 22.671 1.46967 22.5304C1.32902 22.3897 1.25 22.199 1.25 22C1.25 21.8011 1.32902 21.6104 1.46967 21.4697C1.61032 21.3291 1.80109 21.25 2 21.25H4V12.5C4.744 12.5 5.433 12.268 6 11.873C6.58696 12.2814 7.28494 12.5003 8 12.5C8.744 12.5 9.433 12.268 10 11.873C10.587 12.2814 11.2849 12.5003 12 12.5C12.744 12.5 13.433 12.268 14 11.873C14.587 12.2814 15.2849 12.5003 16 12.5C16.744 12.5 17.433 12.268 18 11.873C18.587 12.2814 19.2849 12.5003 20 12.5V21.25ZM9.5 21.25H14.5V18.5C14.5 17.565 14.5 17.098 14.299 16.75C14.1675 16.5217 13.9781 16.332 13.75 16.2C13.402 16 12.935 16 12 16C11.065 16 10.598 16 10.25 16.2C10.0219 16.332 9.83251 16.5217 9.701 16.75C9.5 17.098 9.5 17.565 9.5 18.5V21.25Z" fill="white" fill-opacity="0.75"/></svg>');
+
+}
+
+.clients-map__finded-company-address {
+    font-size: 0.85rem;
+}
+
+.clients-map__search:not(:focus-within) .clients-map__search-suggest {
+    display: none;
+}

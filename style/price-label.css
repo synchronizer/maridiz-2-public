@@ -1,0 +1,13 @@
+
+
+.price-label {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--price-label-color);
+    font-size: var(--typo-text-s-font-size);
+    padding-inline: .75em;
+    height: var(--control-height-s);
+    background-color: 
+ color-mix(in hsl, transparent 88%, currentColor);
+}

@@ -1,0 +1,44 @@
+
+.input {
+  position: relative;
+}
+
+.input__input {
+  height: var(--control-input-size-m-height);
+  padding-inline: calc(var(--control-input-size-m-height) * .2);
+  border: none;
+  width: 100%;
+  background-color: var(--input-background-color);
+  color: var(--text-bright-color);
+  font-size: var(--typo-text-s-font-size);
+}
+
+.input__label + .input__input,
+.input:has(.input__label) .input__input {
+  height: var(--control-input-size-m-height);
+  padding: 1em calc(var(--control-input-size-m-height) * .2) 0;
+}
+
+.input__label {
+  position: absolute;
+  left: calc(var(--control-input-size-m-height) * .2);
+  top: .1em;
+  font-size: var(--typo-text-ui-font-size);
+  color: var(--text-light-color);
+  /* opacity: 0.5; */
+}
+
+.input__clear {
+  position: absolute;
+  right: .25em;
+  top: .25em;
+}
+
+.input__input:placeholder-shown~.input__clear,
+.input:has(.input__input[disabled]) .input__clear {
+  display: none;
+}
+
+.input:has(.input__input[disabled]) {
+  opacity: .5;
+}

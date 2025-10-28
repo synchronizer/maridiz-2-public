@@ -1,0 +1,62 @@
+.timeline {
+  --__timeline-color: var(--page-illustration-color-grey);
+  --__timeline-items-gap: var(--gap-m);
+  --__circle-size: 1.25rem;
+  --__circle-top: 0.125rem;
+  --__line-width: 2px;
+  --__circle-line-gap: .25rem;
+  counter-reset: timeline;
+}
+
+
+.timeline__item {
+  position: relative;
+  padding-left: calc(var(--__circle-size) + var(--gap-s));
+  margin-block: var(--__timeline-items-gap);
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: var(--gap-xs); */
+}
+
+.timeline__item::before {
+  /* color: var(--page-background-color-light); */
+  counter-increment: timeline;
+  content: '';
+  /* content: counter(timeline); */
+  font-weight: var(--font-weight-title);
+  text-align: center;
+  line-height: var(--__circle-size);
+  position: absolute;
+  top: var(--__circle-top);
+  left: 0;
+  display: block;
+  width: var(--__circle-size);
+  height: var(--__circle-size);
+  border-radius: 100%;
+  background-color: var(--__timeline-color);
+  opacity: 0.5;
+}
+
+.timeline__item:not(:last-child):after {
+  content: '';
+  position: absolute;
+  background-color: var(--__timeline-color);
+  opacity: 0.5;
+  width: var(--__line-width);
+  top: calc(
+    var(--__circle-size) + 
+    var(--__circle-top) + 
+    var(--__circle-line-gap)
+  );
+  bottom: calc(
+    0px - 
+    var(--__timeline-items-gap) - 
+    var(--__circle-top) + 
+    var(--__circle-line-gap)
+  );
+  left: calc(
+    (var(--__circle-size) - 
+    var(--__line-width))
+  / 2);
+}
+

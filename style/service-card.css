@@ -1,0 +1,23 @@
+
+.service-card {
+    background-color: var(--page-background-color-light);
+    padding: calc(var(--gap-m) * .75);
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--gap-s);
+}
+
+
+.service-card__details {
+    margin-top: auto;
+}
+
+.service-card__time {
+    font-size: var(--typo-text-s-font-size);
+    line-height: var(--typo-text-s-line-height);
+}

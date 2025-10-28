@@ -1,0 +1,12 @@
+.title-xl,
+.title-l,
+.title-m,
+.title-s {
+    text-wrap: balance;
+}
+
+.text-l,
+.text-m,
+.text-s {
+    text-wrap: pretty;
+}

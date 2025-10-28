@@ -1,0 +1,18 @@
+
+.main {
+  padding-inline: max((100vw - var(--page-content-max-width-m)) / 2, var(--_padding-inline));
+  /* overflow-x: hidden; */
+  display: flex;
+  flex-direction: column;
+  --_main-section-gap: var(--page-section-gap);
+  gap: var(--_main-section-gap);
+  padding-bottom: var(--_main-section-gap);
+  flex-grow: 1;
+}
+
+@media (max-width: 30rem) {
+  .main {
+    --_padding-inline: var(--page-padding-inline);
+    --_main-section-gap: calc(var(--page-section-gap) / 2);
+  }
+}

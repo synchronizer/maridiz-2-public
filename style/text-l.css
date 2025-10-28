@@ -1,0 +1,31 @@
+.text-l {
+    text-wrap: pretty;
+    font-size: var(--typo-text-l-font-size);
+    line-height: var(--typo-text-l-line-height);
+    font-weight: var(--font-weight-text);
+    margin-block: calc(var(--typo-text-l-line-height) * 1);
+    max-width: calc(var(--typo-text-block-l-max-width));
+    /* margin-inline: var(--margin-inline-text); */
+    /* color: var(--text-middle-color); */
+}
+
+.title-m + .text-l {
+    margin-top: calc(var(--line-height-text) * .5);
+}
+
+.text-l_narrow {
+  line-height: var(--typo-text-l-line-height-narrow);
+}
+
+.text-l:first-child {
+    margin-top: 0;
+}
+
+.text-l:last-child {
+    margin-bottom: 0;
+}
+
+.text-l_center {
+  text-align: center;
+}
+

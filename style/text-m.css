@@ -1,0 +1,27 @@
+.text-m {
+    text-wrap: pretty;
+    font-size: var(--typo-text-m-font-size);
+    line-height: var(--typo-text-m-line-height);
+    font-weight: var(--font-weight-text);
+    margin-block: calc(var(--typo-text-m-line-height) * 1);
+    max-width: var(--typo-text-block-max-width);
+    /* margin-inline: var(--margin-inline-text); */
+    /* color: var(--text-middle-color); */
+}
+
+
+.text-m_narrow {
+    line-height: var(--typo-text-m-line-height-narrow);
+}
+
+.text-m:first-child {
+    margin-top: 0;
+}
+
+.text-m:last-child {
+    margin-bottom: 0;
+}
+
+.text-m_center {
+  text-align: center;
+}

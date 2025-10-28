@@ -1,0 +1,106 @@
+.notifications {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: var(--padding-s);
+    z-index: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: var(--gap-xs);
+    max-height: 100vh;
+    align-items: center;
+}
+
+.notifications:empty {
+    display: none;
+}
+
+.notifications__item {
+    --__background-color: var(--page-background-color-light);
+    --__line-height: 1.35rem;
+    --__width: 20rem;
+    background: var(--__background-color);
+    padding: var(--padding-s);
+    color: #fff;
+    font-size: var(--typo-text-ui-font-size);
+    width: min(var(--__width), 100vw - 1.5rem);
+    line-height: var(--__line-height);
+    font-weight: 300;
+    position: relative;
+    display: flex;
+    gap: 0.75rem;
+    animation: notifications__item .5s;
+}
+
+.notifications__item_hide {
+    animation-name: notifications__item_hide;
+    animation-fill-mode: both;
+}
+
+@keyframes notifications__item {
+    0% {
+        translate: 0 var(--gap-s);
+        display: flex;
+        opacity: 0;
+    }
+
+    99% {
+        translate: 0;
+        display: flex;
+        opacity: 1;
+    }
+
+    100% {
+        display: none;
+    }
+}
+
+@keyframes notifications__item_hide {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+
+.notifications__item-close {
+    opacity: 0.5;
+    margin-left: auto;
+}
+
+
+.notifications__item_success .notifications__item-icon {
+    background-image: url(/_resources/icons/notify-success.svg);
+}
+
+.notifications__item_attention .notifications__item-icon {
+    background-image: url(/_resources/icons/notify-attention.svg);
+}
+
+.notifications__item_error .notifications__item-icon {
+    background-image: url(/_resources/icons/notify-error.svg);
+}
+
+.notifications__item-icon {
+    height: var(--control-height-s);
+    aspect-ratio: 1;
+    border-radius: var(--bd-radius-S);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/_resources/icons/notify-message.svg);
+}
+
+.notifications__item-text {
+    min-height: var(--control-height-s);
+    display: flex;
+    align-items: center;
+}
+
+
+.notifications__prototype {
+    display: none;
+}

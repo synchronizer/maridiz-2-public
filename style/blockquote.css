@@ -1,0 +1,42 @@
+.blockquote {
+    text-wrap: balance;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    margin-block: 4.6rem;
+    max-width: var(--typo-text-block-l-max-width);
+    color: var(--text-bright-color);
+    font-family: serif;
+    font-style: italic;
+}
+
+
+
+.blockquote:first-child {
+    margin-top: 0;
+}
+
+.blockquote:last-child {
+    margin-bottom: 0;
+}
+
+.blockquote_center {
+  text-align: center;
+}
+
+.blockquote::before {
+    content: '«';
+    /* margin-left: -1.5rem; */
+}
+
+.blockquote::after {
+    content: '»';
+}
+
+.blockquote::after,
+.blockquote::before {
+    /* display: inline-block;
+    font-size: 3rem;
+    line-height: 0;
+    width: 1.5rem;
+    text-align: center; */
+}

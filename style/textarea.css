@@ -1,0 +1,43 @@
+.textarea {
+  position: relative;
+}
+
+.textarea__textarea {
+  min-height: var(--control-input-size-m-height);
+  border: 1px solid var(--grey-border);
+  box-sizing: border-box;
+  padding: 1.5em calc(var(--control-input-size-m-height) * .2) 0;
+  width: 100%;
+  resize: vertical;
+  background-color: var(--input-background-color);
+  color: var(--text-bright-color);
+}
+
+
+
+.textarea__label {
+  position: absolute;
+  left: calc(var(--control-input-size-m-height) * .2);
+  top: .1em;
+  font-size: var(--typo-text-ui-font-size);
+  color: var(--text-light-color);
+}
+
+.textarea__label_hidden {
+  opacity: 0;
+}
+
+.textarea__clear {
+  position: absolute;
+  right: .25em;
+  top: .25em;
+}
+
+.textarea__textarea:placeholder-shown~.textarea__clear,
+.textarea:has(.textarea__textarea[disabled]) .textarea__clear {
+  display: none;
+}
+
+.textarea:has(.textarea__textarea[disabled]) {
+  opacity: .5;
+}

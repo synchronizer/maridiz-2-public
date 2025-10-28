@@ -1,0 +1,14 @@
+.page-header {
+    background-color: var(--page-background-color);
+    margin-inline: calc((100% - 100vw) / 2);
+    padding-inline: calc((100vw - 100%) / 2);
+    padding-block: var(--gap-m) var(--gap-xs);
+}
+
+.page-header__title {
+    color: var(--text-bright-color);
+    margin-bottom: var(--gap-xs);
+    font-size: var(--typo-title-s-font-size);
+    line-height: var(--typo-title-s-line-height);
+    font-weight: var(--font-weight-title);
+}

@@ -1,0 +1,41 @@
+
+.company-card {
+    background-color: var(--page-background-color-light);
+    padding: calc(var(--gap-m) * .75);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.company-card__header {
+    display: grid;
+    row-gap: var(--gap-xxs);
+    grid-template-columns: 1fr min-content;
+    grid-template-areas: 
+    "company-card__name company-card__img"
+    "company-card__category company-card__img"
+    ;
+    margin-bottom: var(--gap-s);
+}
+
+.company-card__name {
+    grid-area: company-card__name;
+}
+.company-card__img {
+    grid-area: company-card__img;
+    width: 3.5rem;
+}
+.company-card__category {
+    grid-area: company-card__category;
+    color: var(--text-light-color);
+}
+
+.company-card__details {
+    margin-top: auto;
+}
+
+.company-card__banner {
+    padding: calc(var(--gap-m) * .75);
+    background-color: var(--button-grey-background-color);
+    margin: calc(var(--gap-m) * -.75) calc(var(--gap-m) * -.75) var(--gap-s);
+}

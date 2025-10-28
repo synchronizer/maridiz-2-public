@@ -1,0 +1,62 @@
+a[href] {
+  cursor: pointer;
+}
+
+.link {
+  color: var(--link-color);
+  cursor: pointer;
+}
+
+.link:visited {
+  color: var(--link-visited-color);
+}
+
+.link:not(:hover) {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  text-underline-offset: .4em;
+  text-decoration-thickness: 1px;
+}
+
+.link_outer::after,
+.link[target="_blank"]::after,
+.link[download]::after,
+.link_overlay::after {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: var(--link-color);
+  margin-bottom: -.12em;
+  margin-left: .16em;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+}
+
+.link_outer:visited::after,
+.link[target="_blank"]:visited::after,
+.link[download]:visited::after,
+.link_overlay:visited::after {
+  background-color: var(--link-visited-color);
+}
+
+.link_outer::after,
+.link[target="_blank"]::after {
+  -webkit-mask-image: url('https://evev.tupo.best/wp-content/uploads/2023/09/tabler_external-link.svg');
+}
+
+.link_overlay::after {
+  -webkit-mask-image: url('https://evev.tupo.best/wp-content/uploads/2023/09/mingcute_document-line.svg');
+}
+
+.link[download]::after {
+  -webkit-mask-image: url('https://evev.tupo.best/wp-content/uploads/2023/09/ic_round-download.svg');
+}
+
+.link[href^="#"] {
+  text-decoration-style: dashed;
+}

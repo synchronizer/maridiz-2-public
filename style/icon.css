@@ -1,0 +1,35 @@
+.icon {
+    display: inline-block;
+    vertical-align: bottom;
+    aspect-ratio: 1;
+}
+
+.icon:not(.icon_custom-colors) {
+    background-color: currentColor;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-image: var(--icon-url);
+}
+
+.icon_custom-colors {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: var(--icon-url);
+}
+
+.icon_size_s {
+    width: 1.5rem;
+}
+.icon_size_text-s {
+    width: var(--typo-text-s-line-height);
+}
+
+.icon_size_m {
+    width: 3rem;
+}
+
+.icon_size_l {
+    width: 6rem;
+}

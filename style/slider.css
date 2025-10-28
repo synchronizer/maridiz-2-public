@@ -1,0 +1,77 @@
+.slider {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.slider__content>*:not(.slider__item_active) {
+  display: none;
+  top: 0;
+}
+
+.slider__teaser-list {
+  position: absolute;
+  bottom: var(--gap-s);
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.slider__teaser-list-button {
+  display: inline-flex;
+  justify-content: center;
+  gap: var(--gap-xs);
+  height: var(--control-height-m);
+  background-color: var(--button-grey-background-color);
+  border-radius: var(--control-height-m);
+  padding-inline: var(--gap-xs);
+  align-items: center;
+
+}
+
+.slider__teaser {
+  --_width: .75rem;
+  width: var(--_width);
+  height: var(--_width);
+  border-radius: var(--control-height-s);
+  background-color: var(--text-light-color);
+  transition: width .25s;
+  cursor: pointer;
+
+
+}
+
+.slider__teaser:hover {
+  background-color: var(--text-middle-color);
+}
+
+.slider__teaser_active {
+  width: calc(var(--_width) * 3);
+  position: relative;
+  overflow: hidden;
+}
+
+.slider__teaser_active::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--text-bright-color);
+  animation: teaser_active var(--_animation-duration) linear both;
+  transform-origin: left;
+}
+
+.slider_pause .slider__teaser_active::before {
+  animation: none;
+  display: none;
+}
+
+@keyframes teaser_active {
+  from {
+    transform: scaleX(0);
+  }
+}

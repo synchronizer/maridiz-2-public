@@ -1,0 +1,19 @@
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(99, auto) 1fr;
+}
+
+.tabs__label{
+  grid-row-start: 1;
+  margin-right: var(--gap-xxs);
+  margin-bottom: var(--gap-s);
+}
+
+
+.tabs__item {
+  grid-column: 1/-1;
+  grid-row-start: 2;
+}
+.tabs__item:not(.tabs__label:has(:checked) + .tabs__item):not(:checked + .tabs__item) {
+  visibility: hidden;
+}

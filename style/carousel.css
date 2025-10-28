@@ -1,0 +1,121 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  position: relative;
+  margin-inline: calc((100% - 100vw) / 2);
+  padding-inline: calc((100vw - 100%) / 2);
+  gap: var(--gap-s);
+}
+
+
+.carousel__content {
+  margin-inline: calc((100% - 100vw) / 2);
+  padding-inline: calc((100vw - 100%) / 2);
+  display: flex;
+  overflow-x: scroll;
+  
+  /* For focus-outline */
+  margin-block: -3rem;
+  padding-block: 3rem;
+}
+
+.carousel__controls {
+  display: flex;
+  gap: var(--gap-xxs);
+}
+
+.carousel_gap_xs .carousel__content{
+  gap: var(--gap-xs);
+}
+.carousel_gap_s .carousel__content{
+  gap: var(--gap-s);
+}
+.carousel_gap_m .carousel__content{
+  gap: var(--gap-m);
+}
+.carousel_gap_l .carousel__content{
+  gap: var(--gap-l);
+}
+.carousel_gap_xl .carousel__content{
+  gap: var(--gap-xl);
+}
+
+.carousel__content>*{
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.carousel_size_s .carousel__content > *{
+  width: min(var(--card-size-s-width), 95%);
+}
+.carousel_size_m .carousel__content > *{
+  width: min(var(--card-size-m-width), 95%);
+}
+.carousel_size_l .carousel__content > *{
+  width: min(var(--card-size-l-width), 95%);
+}
+
+
+.carousel__content::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome browsers */
+}
+
+.carousel__content {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* mozilla */
+}
+
+/* .carousel__left,
+.carousel__right {
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+} */
+
+.carousel__left {
+  left: 1.5rem;
+}
+
+.carousel__right {
+  right: 1.5rem;
+}
+
+.carousel__left_hide,
+.carousel__right_hide {
+  opacity: var(--button-disabled-opacity);
+  pointer-events: none;
+}
+
+.carousel__controls:has(.carousel__left_hide):has(.carousel__right_hide) {
+  display: none;
+}
+
+@media not (hover: hover) {
+
+  .carousel__controls {
+    display: none;
+  }
+}
+
+
+
+
+.carousel__item {
+  transition: opacity 1s, translate 1s;
+}
+.carousel__item_hide {
+  opacity: 0;
+  translate: 4rem;
+}
+
+.carousel_scroll-snap .carousel__content {
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: max(var(--_padding-inline), 50vw - var(--page-content-max-width-m) / 2);
+}
+.carousel_scroll-snap .carousel__content > * {
+  scroll-snap-align: start;
+}

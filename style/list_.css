@@ -1,0 +1,50 @@
+.list {
+  text-wrap: pretty;
+  font-weight: var(--font-weight-text);
+  color: var(--text-middle-color);
+  padding-left: 1ch;
+}
+
+.list_size_m {
+  font-size: var(--typo-text-m-font-size);
+  line-height: var(--typo-text-m-line-height);
+  margin-block: var(--typo-text-m-line-height);
+  max-width: var(--typo-text-block-max-width);
+}
+.list_size_l {
+  font-size: var(--typo-text-l-font-size);
+  line-height: var(--typo-text-l-line-height);
+  margin-block: var(--typo-text-l-line-height);
+  max-width: var(--typo-text-block-l-max-width);
+}
+
+ul.list {
+  list-style-type: var(--typo-list-bullet);
+}
+
+ul.list_no-marker,
+ol.list_no-marker {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list_no-marker .list__item {
+  padding-left: 0;
+}
+
+.list__item {
+  margin-top: 0.8em;
+  padding-left: .5em;
+}
+
+.list__item::marker {
+  /* font-weight: 600; */
+}
+
+/* .list:first-child {
+  margin-top: 0;
+}
+
+.list:last-child {
+  margin-bottom: 0;
+} */

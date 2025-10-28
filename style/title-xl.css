@@ -1,0 +1,28 @@
+.title-xl {
+    margin-top: calc(var(--typo-title-xl-line-height) * 2);
+    margin-bottom: var(--typo-text-m-line-height);
+    font-size: var(--typo-title-xl-font-size);
+    line-height: var(--typo-title-xl-line-height);
+    letter-spacing: var(--typo-title-xl-letter-spacing);
+    font-weight: var(--font-weight-title);
+    text-wrap: balance;
+    max-width: var(--typo-text-block-max-width);
+    /* display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1.5rem; */
+    /* margin-inline: var(--margin-inline-text); */
+    color: var(--text-bright-color);
+}
+
+.title-xl:first-child {
+    margin-top: 0;
+}
+
+.title-xl:last-child {
+    margin-bottom: 0;
+} 
+
+.title-xl_center {
+    text-align: center;
+}
+

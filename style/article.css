@@ -1,0 +1,25 @@
+.article__header {
+    margin-bottom: var(--gap-m);
+}
+
+
+.article__title {
+    font-size: var(--typo-title-l-font-size);
+    line-height: var(--typo-title-l-line-height);
+    letter-spacing: var(--typo-title-l-letter-spacing);
+    font-weight: var(--font-weight-title);
+    color: var(--text-bright-color);
+    max-width: 50rem;
+}
+.article__meta {
+    margin-top: var(--gap-s);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-s);
+    font-size: var(--typo-text-m-font-size);
+    line-height: var(--typo-text-m-line-height);
+}
+.article__meta-item {
+    display: flex;
+    gap: var(--gap-xxs);
+}

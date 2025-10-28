@@ -1,0 +1,26 @@
+.text-s {
+  text-wrap: pretty;
+  font-size: var(--typo-text-s-font-size);
+  line-height: var(--typo-text-s-line-height);
+  font-weight: var(--font-weight-text);
+  margin-block: var(--typo-text-s-line-height);
+  max-width: var(--typo-text-block-max-width);
+  /* margin-inline: var(--margin-inline-text); */
+  /* color: var(--text-middle-color); */
+}
+
+.text-s_narrow {
+  line-height: var(--typo-text-s-line-height-narrow);
+}
+
+.text-s:first-child {
+  margin-top: 0;
+}
+
+.text-s:last-child {
+  margin-bottom: 0;
+}
+
+.text-s_center {
+  text-align: center;
+}
