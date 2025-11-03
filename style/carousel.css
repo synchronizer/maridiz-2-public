@@ -16,8 +16,8 @@
   overflow-x: scroll;
   
   /* For focus-outline */
-  margin-block: -3rem;
-  padding-block: 3rem;
+  /* margin-block: -3rem;
+  padding-block: 3rem; */
 }
 
 .carousel__controls {

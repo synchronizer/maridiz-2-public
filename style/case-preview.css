@@ -30,6 +30,12 @@
     max-width: 25%;
 }
 
+.case-preview__labels {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: var(--gap-xs);
+}
+
 .case-preview__info {
     padding-inline: var(--gap-xxs);
     display: flex;
