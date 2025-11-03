@@ -2,7 +2,7 @@
   display: block;
   object-fit: cover;
   background-color: var(--page-background-color-dark);
-  background-image: url('/_resources/img/image-placeholder.svg');
+  /* background-image: url("/_resources/img/image-placeholder.svg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: min(30%, 6rem);
