@@ -2,6 +2,7 @@
 :root,
 [data-color-scheme="light"] {
     --page-background-color: hsl(240 10% 96%);
+    --page-background-color-dark: hsl(240 10% 90%);
     --page-background-color-light: hsl(0 0% 100%);
     --page-illustration-color-orange: hsl(20 100% 55%);
     --page-illustration-color-grey: #888B91;

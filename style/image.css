@@ -1,11 +1,17 @@
-
 .image {
   display: block;
   object-fit: cover;
+  background-color: var(--page-background-color-dark);
+  /* background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='128' height='72' viewBox='0 0 128 72' fill='none'><path d='M94.5975 1.39525C89.2745 -1.17274 56.5351 43.1266 50.2657 41.0939C44.4545 39.2115 60.1761 0.174407 60.2364 0C60.2364 0 -0.41382 34.3401 0.00212975 51.8109C0.375881 67.4053 29.9686 72 29.9686 72C8.57431 51.1433 34.6766 38.2312 44.2796 30.9302C44.5493 30.7252 45.365 30.6706 45.1477 30.9302C44.6091 31.5737 28.8111 60.002 41.5247 65.0177C51.5799 68.987 76.7418 39.9873 82.0587 31.5316C82.2351 31.251 83.056 31.2348 82.9087 31.5316C75.0237 47.4206 68.9051 59.6532 71.7383 66.0401C73.0404 68.981 76.0907 69.4801 80.6601 69.011C95.8935 67.4354 123.057 48.5693 128 43.3973C128 43.3973 93.7173 59.7193 86.0012 53.3084C81.0339 49.1888 98.7148 3.3859 94.5975 1.39525Z' fill='#808080' fill-opacity='0.2'/></svg>"); */
+  background-image: url(/_resources/img/image-placeholder.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: min(30%, 6rem);
+
 }
 
 
-.image:not([width]):not(.image_autowidth){
+.image:not([width]):not(.image_autowidth) {
   max-width: 100%;
 }
 

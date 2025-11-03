@@ -18,8 +18,6 @@
 
 .article-preview__image {
     position: relative;
-    background-image: url(/_resources/articles-img/article-placeholder.svg);
-    background-size: 100%;
 }
 
 .article-preview__category {
