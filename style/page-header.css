@@ -1,8 +1,11 @@
 .page-header {
-    background-color: var(--page-background-color);
+    --_background-color: var(--page-background-color);
+    background-color: var(--_background-color);
     margin-inline: calc((100% - 100vw) / 2);
     padding-inline: calc((100vw - 100%) / 2);
     padding-block: var(--gap-m) var(--gap-xs);
+    margin-top: calc(var(--header-height) * -1);
+    border-top: var(--header-height) solid var(--_background-color);
 }
 
 .page-header__title {
