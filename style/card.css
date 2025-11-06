@@ -1,6 +1,9 @@
 .card {
   background-color: var(--page-background-color-light);
   padding: var(--gap-s);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 
