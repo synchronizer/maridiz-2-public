@@ -1,16 +1,12 @@
 .title-l {
-    margin-top: calc(var(--typo-title-l-line-height) * 2);
     margin-bottom: var(--typo-text-m-line-height);
-    font-size: var(--typo-title-l-font-size);
-    line-height: var(--typo-title-l-line-height);
-    letter-spacing: var(--typo-title-l-letter-spacing);
+    margin-top: 2.3em;
+    font-size: clamp(1.9rem, 9vw, 2.7rem);
+    line-height: 1;
+    letter-spacing: -0.02em;
     font-weight: var(--font-weight-title);
     max-width: var(--typo-text-block-l-max-width);
     text-wrap: balance;
-    /* display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 1.5rem; */
-    /* margin-inline: var(--margin-inline-text); */
     color: var(--text-bright-color);
 }
 

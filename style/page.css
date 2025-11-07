@@ -6,7 +6,8 @@
 html {
   scroll-behavior: smooth;
   font-family: var(--page-font-face), system-ui, sans-serif;
-  font-size: clamp(1rem, 1.04vw, 1.25rem);
+  font-size: clamp(1rem, 4.5vw, 1.15rem);
+  line-height: 1.5;
 }
 
 

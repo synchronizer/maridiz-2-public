@@ -1,7 +1,7 @@
 .text-m {
     text-wrap: pretty;
-    font-size: var(--typo-text-m-font-size);
-    line-height: var(--typo-text-m-line-height);
+    font-size: .875rem;
+    line-height: 1.55;
     font-weight: var(--font-weight-text);
     margin-block: calc(var(--typo-text-m-line-height) * 1);
     max-width: var(--typo-text-block-max-width);
@@ -11,7 +11,7 @@
 
 
 .text-m_narrow {
-    line-height: var(--typo-text-m-line-height-narrow);
+    line-height: 1.5;
 }
 
 .text-m:first-child {

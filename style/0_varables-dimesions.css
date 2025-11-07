@@ -35,8 +35,8 @@
       --border-radius-m: 1rem;
       --border-radius-l: 2rem;
       --page-section-gap: 10rem;
-      --typo-text-block-max-width: 40rem;
-      --typo-text-block-l-max-width: 50rem;
+      --typo-text-block-max-width: 35rem;
+      --typo-text-block-l-max-width: 45rem;
       --typo-narrw-text-block-max-width-2: 17.5rem;
       --control-button-border-radius: var(--border-radius-s);
       --control-button-size-m-height: var(--control-height-m);
