@@ -1,7 +1,9 @@
 .text-l {
     text-wrap: pretty;
+    font-size: var(--typo-text-l-font-size);
+    line-height: var(--typo-text-l-line-height);
     font-weight: var(--font-weight-text);
-    margin-block: calc(var(--typo-text-l-line-height) * 1);
+    margin-block: 1.5rem;
     max-width: calc(var(--typo-text-block-l-max-width));
     /* margin-inline: var(--margin-inline-text); */
     /* color: var(--text-middle-color); */
@@ -12,7 +14,7 @@
 }
 
 .text-l_narrow {
-  line-height: 1.45;
+  line-height: var(--typo-text-l-line-height-narrow);
 }
 
 .text-l:first-child {

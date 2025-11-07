@@ -1,9 +1,9 @@
 .title-s {
-    font-size: clamp(1.2rem, 5.5vw, 1.3rem);
-    letter-spacing: -0.005em;
-    margin-top: 2.4em;
-    line-height: 1.2;
-    margin-bottom: calc(var(--typo-text-m-line-height));
+    margin-top: calc(var(--typo-title-s-line-height) * 2);
+    margin-bottom: 1.5rem;
+    font-size: var(--typo-title-s-font-size);
+    line-height: var(--typo-title-s-line-height);
+    letter-spacing: var(--typo-title-s-letter-spacing);
     font-weight: var(--font-weight-title);
     max-width: var(--typo-text-block-max-width);
     text-wrap: balance;

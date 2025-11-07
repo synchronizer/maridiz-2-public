@@ -2,26 +2,34 @@
       --typo-title-xl-font-size: 4.5rem;
       --typo-title-xl-line-height: 4.2rem;
       --typo-title-xl-letter-spacing: -0.18rem;
-      --typo-title-l-font-size: 3rem;
-      --typo-title-l-line-height: 3rem;
+
+      --typo-title-l-font-size: clamp(1.9rem, 9vw, 2.7rem);
+      --typo-title-l-line-height: 1em;
       --typo-title-l-letter-spacing: -0.02em;
-      --typo-title-m-font-size: 2rem;
-      --typo-title-m-line-height: 2.2rem;
+
+      --typo-title-m-font-size: clamp(1.5rem, 7vw, 1.9rem);
+      --typo-title-m-line-height: 1.1em;
       --typo-title-m-letter-spacing: -0.01em;
-      --typo-title-s-font-size: 1.3rem;
-      --typo-title-s-line-height: 1.5rem;
-      --typo-title-s-letter-spacing: -0.000rem;
+
+      --typo-title-s-font-size: clamp(1.2rem, 5.5vw, 1.3rem);
+      --typo-title-s-line-height: 1.2em;
+      --typo-title-s-letter-spacing: -0.005rem;
+
       --typo-title-xs-font-size: 1rem;
       --typo-title-xs-line-height: 1.25rem;
       --typo-title-xs-letter-spacing: -0.005rem;
-      --typo-text-l-font-size: 1.15rem;
-      --typo-text-l-line-height: 1.725rem;
-      --typo-text-m-font-size: 1rem;
-      --typo-text-m-line-height: 1.5rem;
-      --typo-text-m-line-height-narrow: 1.375rem;
+
+      --typo-text-l-font-size: 1rem;
+      --typo-text-l-line-height: 1.5em;
+
+      --typo-text-m-font-size: 0.875rem;
+      --typo-text-m-line-height: 1.55em;
+      --typo-text-m-line-height-narrow: 1.5;
+
       --typo-text-s-font-size: 0.8125rem;
       --typo-text-s-line-height: 1.3125rem;
       --typo-text-s-line-height-narrow: 1.25rem;
+
       --typo-text-ui-font-size: max(0.75rem, 13px);
       --typo-list-item-margim: 0.75rem;
       --typo-list-font-size: var(--typo-text-m-font-size);
