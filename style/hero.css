@@ -3,12 +3,15 @@
   padding-inline: calc((100vw - 100%) / 2);
   --_background-color: var(--page-background-color);
   background-color: var(--_background-color);
-  box-shadow: 0 calc(-1 * var(--header-height)) 0 var(--_background-color);
   height: clamp(32rem, 95vh - var(--header-height), 100rem);
   height: clamp(32rem, 95svh - var(--header-height), 100rem);
   position: relative;
     overflow-x: hidden;
 
+}
+
+.hero:first-child {
+  box-shadow: 0 calc(-1 * var(--header-height)) 0 var(--_background-color);
 }
 
 .hero__price,
