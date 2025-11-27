@@ -38,6 +38,9 @@ Array.from(document.querySelectorAll('.carousel')).forEach(carousel => {
         });
     })
 
+    if (carousel.classList.contains('carousel_scroll-snap')) {
+        return
+    }
 
 
 

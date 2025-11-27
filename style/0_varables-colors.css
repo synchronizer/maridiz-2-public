@@ -46,6 +46,11 @@
     --price-label-color-lightness: 35;
     --price-label-color: lch(var(--price-label-color-lightness) var(--price-label-color-chroma) var(--price-label-color-hue));
 
+    --time-label-color-hue: 50;
+    --time-label-color-chroma: 0;
+    --time-label-color-lightness: 0;
+    --time-label-color: lch(var(--time-label-color-lightness) var(--time-label-color-chroma) var(--time-label-color-hue));
+
 
 
 
@@ -97,6 +102,9 @@
 
     --price-label-color-lightness: 85;
     --price-label-color: lch(var(--price-label-color-lightness) var(--price-label-color-chroma) var(--price-label-color-hue));
+
+    --time-label-color-lightness: 100;
+    --time-label-color: lch(var(--time-label-color-lightness) var(--time-label-color-chroma) var(--time-label-color-hue));
 
     --logo-color-1: var(--button-accent-background-color);
     --logo-color-2: var(--text-bright-color);
