@@ -52,7 +52,7 @@
 .pack-of-services__controls {
     display: flex;
     margin-top: var(--gap-xs);
-    justify-content: center;
+    /* justify-content: center; */
     gap: var(--gap-xs);
 }
 
