@@ -72,5 +72,7 @@
     position: absolute;
     left: var(--gap-xs);
     bottom:  var(--gap-xs);
+    display: flex;
+    gap: var(--gap-xs);
 }
 
