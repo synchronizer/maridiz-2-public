@@ -10,6 +10,7 @@
     gap: var(--gap-xs);
     max-height: 100vh;
     align-items: center;
+    pointer-events: none;
 }
 
 .notifications:empty {
@@ -31,6 +32,7 @@
     display: flex;
     gap: 0.75rem;
     animation: notifications__item .5s;
+    pointer-events: all;
 }
 
 .notifications__item_hide {

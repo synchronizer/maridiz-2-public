@@ -58,3 +58,19 @@
     font-size: var(--typo-text-s-font-size);
     line-height: var(--typo-text-s-line-height-narrow);
 }
+
+.case-preview_simple {
+    position: relative;
+}
+.case-preview_simple .case-preview__badge {
+    background-color: var(--page-background-color-light);
+    padding: var(--gap-xxs) var(--gap-xs);
+    font-size: var(--typo-text-s-font-size);
+    line-height: var(--typo-text-s-line-height-narrow);
+    color: var(--text-bright-color);
+    width: max-content;
+    position: absolute;
+    left: var(--gap-xs);
+    bottom:  var(--gap-xs);
+}
+
