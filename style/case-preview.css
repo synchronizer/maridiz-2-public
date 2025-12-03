@@ -74,5 +74,6 @@
     bottom:  var(--gap-xs);
     display: flex;
     gap: var(--gap-xs);
+    max-width: calc(100% - var(--gap-xs) * 2);
 }
 

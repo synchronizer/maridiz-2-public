@@ -51,6 +51,7 @@
     --time-label-color-lightness: 0;
     --time-label-color: lch(var(--time-label-color-lightness) var(--time-label-color-chroma) var(--time-label-color-hue));
 
+    --card-icon-color: #0073E5;
 
 
 
@@ -106,8 +107,11 @@
     --time-label-color-lightness: 100;
     --time-label-color: lch(var(--time-label-color-lightness) var(--time-label-color-chroma) var(--time-label-color-hue));
 
+
     --logo-color-1: var(--button-accent-background-color);
     --logo-color-2: var(--text-bright-color);
+
+    --card-icon-color: #39f;
 }
 
 
