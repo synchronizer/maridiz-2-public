@@ -80,6 +80,7 @@
 }
 
 .case-preview_simple .case-preview__image {
+    width: 100%;
     aspect-ratio: 2;
 }
 

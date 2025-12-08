@@ -25,7 +25,7 @@
 }
 
 .hero__title {
-  --_font-size: min(var(--typo-title-xl-font-size), 12vw, 7vh);
+  --_font-size: min(var(--typo-title-xl-font-size), 11vw, 6.5vh);
   font-size: var(--_font-size);
   line-height: 1;
   letter-spacing: -.02em;
