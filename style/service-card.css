@@ -17,6 +17,8 @@
     margin-top: auto;
 }
 
+
+
 .service-card__time {
     font-size: var(--typo-text-s-font-size);
     line-height: var(--typo-text-s-line-height);

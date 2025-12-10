@@ -30,13 +30,10 @@
   line-height: var(--typo-text-m-line-height-narrow);
   border-collapse: collapse;
 }
-.table__head .table__th,
-.table__head .table__td {
-  color: var(--text-light-color);
-}
+
 .table__th {
-  font-weight: var(--font-weight-text);
-  /* color: var(--text-bright-color); */
+  color: var(--text-bright-color);
+  font-weight: var(--font-weight-strong);
 }
 
 
