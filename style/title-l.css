@@ -29,5 +29,6 @@
 
 .title-l_center {
     text-align: center;
+    margin-inline: auto;
 }
 

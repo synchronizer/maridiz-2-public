@@ -38,4 +38,5 @@
 
 .title-s_center {
     text-align: center;
+    margin-inline: auto;
 }

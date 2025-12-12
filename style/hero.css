@@ -54,6 +54,7 @@
   max-width: 30rem;
   padding-bottom: 7.5%;
   position: relative;
+  container-type: inline-size;
 }
 
 .hero__controls {
@@ -96,5 +97,20 @@
   .hero__img {
     display: none;
   }
+}
+
+.hero_preview {
+  margin-inline: 0;
+  padding-inline: var(--gap-m);
+  height: unset;
+  aspect-ratio: 16/9;
+}
+
+.hero_preview:first-child {
+  box-shadow: none;
+}
+
+.hero_preview .hero__title {
+  font-size: calc((var(--typo-title-m-font-size) + var(--typo-title-l-font-size)) / 2);
 }
 

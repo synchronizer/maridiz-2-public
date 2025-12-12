@@ -1,0 +1,71 @@
+.services-grid {
+  container-name: services-grid-container;
+  container-type: inline-size;
+  margin-inline: calc((100% - 100vw) / 2);
+}
+
+.services-grid__content {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.services-grid__content > * {
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+@container services-grid-container (width > 60rem) {
+
+  /* two items in a row */
+  .services-grid__content > * {
+    flex-basis: 50%;
+  }
+
+  /* for an odd number of items, there are 3 items in the last row. */
+  .services-grid__content:has(> :nth-child(odd):last-child) {
+
+    >*:nth-last-child(1),
+    >*:nth-last-child(2),
+    >*:nth-last-child(3) {
+      grid-column: span var(--_grid-column, 4);
+      flex-basis: 33%;
+    }
+  }
+
+}
+
+
+@container services-grid-container (width > 120rem) {
+
+  /* three items in a row */
+  .services-grid__content > *{ 
+      flex-basis: 33%;
+  }
+
+  /* For the number of items that are not a multiple of three with a remainder of 1, there are 4 items in the last row. */
+  .services-grid__content:has(> :nth-child(3n + 1):last-child) {
+
+    >*:nth-last-child(1),
+    >*:nth-last-child(2),
+    >*:nth-last-child(3),
+    >*:nth-last-child(4) {
+      flex-basis: 25%;
+    }
+  }
+
+  /* For the number of items that is not a multiple of three with a remainder of 1, there are 4 items in the last two rows. */
+  .services-grid__content:has(> :nth-child(3n + 2):last-child) {
+
+    >*:nth-last-child(1),
+    >*:nth-last-child(2),
+    >*:nth-last-child(3),
+    >*:nth-last-child(4),
+    >*:nth-last-child(5),
+    >*:nth-last-child(6),
+    >*:nth-last-child(7),
+    >*:nth-last-child(8) {
+      flex-basis: 25%;
+    }
+  }
+}

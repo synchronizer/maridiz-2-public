@@ -1,0 +1,41 @@
+.service-banner {
+    aspect-ratio: 3/2;
+    background-image: linear-gradient(to right bottom, var(--page-background-color), var(--page-background-color-light));
+    container-type: inline-size;
+    container-name: service-banner;
+    display: grid;
+}
+
+.service-banner__content {
+    padding: var(--padding-m);
+    padding-top: var(--padding-s);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-s);
+}
+
+.service-banner__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-xs);
+}
+
+.service-banner__meta {
+    display: flex;
+    gap: var(--gap-xs);
+}
+
+.service-banner__title {
+    font-size: clamp(var(--typo-title-s-font-size), 4cqw, var(--typo-title-m-font-size));
+    color: var(--text-bright-color);
+    text-align: center;
+    line-height: 1.15;
+}
+
+.service-banner__img {
+    display: block;
+    flex-grow: 1;
+    height: 10px;
+}
