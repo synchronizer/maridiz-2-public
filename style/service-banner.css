@@ -1,5 +1,4 @@
 .service-banner {
-    aspect-ratio: 3/2;
     background-image: linear-gradient(to right bottom, var(--page-background-color), var(--page-background-color-light));
     container-type: inline-size;
     container-name: service-banner;
@@ -7,8 +6,8 @@
 }
 
 .service-banner__content {
-    padding: var(--padding-m);
-    padding-top: var(--padding-s);
+    aspect-ratio: 3/2;
+    padding: var(--padding-s) var(--padding-s) 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,3 +38,13 @@
     flex-grow: 1;
     height: 10px;
 }
+
+@container service-banner (width < 40rem) {
+    .service-banner__content {
+        aspect-ratio: 3.5/3;
+    }
+}
+
+
+
+
