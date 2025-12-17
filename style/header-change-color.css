@@ -1,0 +1,12 @@
+[data-trigger-header-color-scheme] {
+  border-top: calc(var(--header-height)  - 1px) solid transparent;
+  margin-top: calc(var(--header-height) * -1 - 1px);
+}
+
+.header, .header  * {
+    --_change-colors-duration: .25s;
+  transition:
+    background-color var(--_change-colors-duration),
+    fill var(--_change-colors-duration),
+    color var(--_change-colors-duration);
+}
