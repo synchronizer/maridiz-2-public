@@ -6,7 +6,12 @@
 .header, .header  * {
     --_change-colors-duration: .25s;
   transition:
-    background-color var(--_change-colors-duration),
-    fill var(--_change-colors-duration),
-    color var(--_change-colors-duration);
+    background-color,
+    fill,
+    color;
+    transition-duration: var(--_change-colors-duration);
+}
+
+.header_initial, .header_initial * {
+  transition-duration: unset;
 }

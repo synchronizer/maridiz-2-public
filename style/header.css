@@ -72,5 +72,5 @@
 .header__logo {
   display: block;
   height: calc(var(--header-height) / 2);
-  aspect-ratio: 4.39;
+  aspect-ratio: 3;
 }

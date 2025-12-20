@@ -1,12 +1,19 @@
 
 Array.from(document.querySelectorAll('.header')).forEach(header => {
+    const setChangeDuration = () => {
+        header.classList.remove('header_initial')
+    }
+    document.addEventListener('DOMContentLoaded', setChangeDuration)
+
     const triggerObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
 
             const colorScheme = entry.target.getAttribute('data-trigger-header-color-scheme').split('/');
 
             if (entry.boundingClientRect.top <= header.offsetHeight) {
-                    header.setAttribute('data-color-scheme', colorScheme[1])
+                setTimeout(() => {
+                    header.setAttribute('data-color-scheme', colorScheme[1]);
+                }, 1);
             } else {
                 header.setAttribute('data-color-scheme', colorScheme[0]);
             }
