@@ -1,26 +1,26 @@
 .header {
-  --_background-color: var(--page-background-color);
+  --_background-color: var(--page-background-color-light);
   --_background-opacity: 75%;
   padding-inline: max((100vw - var(--page-content-max-width-m)) / 2, var(--_padding-inline));
   height: var(--header-height);
   top: 0;
   z-index: 1;
-  margin-bottom: -2px;
+  /* margin-bottom: -2px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: var(--_background-color);
-  background-color: color-mix(in lab, var(--_background-color) var(--_background-opacity), transparent );
-  backdrop-filter: blur(24px);
+  /* background-color: color-mix(in lab, var(--_background-color) var(--_background-opacity), transparent ); */
+  /* backdrop-filter: blur(24px); */
 
   animation: 1ms shadow-toggle linear both;
   animation-timeline: scroll();
   animation-range: 1px 50px;
-  --_border-bottom-color: rgba(0, 0, 0, .2);
+  --_border-bottom-color: rgba(0, 0, 0, .1);
 }
 
 .header_background-color_default {
-  --_background-color: var(--page-background-color);
+  --_background-color: var(--page-background-color-light);
 }
 
 .header_background-color_light {

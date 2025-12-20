@@ -6,6 +6,7 @@
 }
 
 .qa__question {
+    color: var(--text-bright-color);
   list-style: none;    
   cursor: pointer;   
   margin: calc(var(--_padding) * -1);  

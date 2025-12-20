@@ -24,6 +24,8 @@
   gap: var(--gap-xxs);
 }
 
+
+
 .carousel_gap_xs .carousel__content{
   gap: var(--gap-xs);
 }
@@ -60,13 +62,13 @@
 
 @keyframes fadeAnimation {
   from {
-    opacity: 0.25;
+    opacity: 0.2;
   }
   50% {
     opacity: 1;
   }
   to {
-    opacity: 0.25;
+    opacity: 0.2;
   }
 }
 

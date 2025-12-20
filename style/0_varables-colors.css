@@ -4,6 +4,7 @@
     --page-background-color: hsl(240 10% 96%);
     --page-background-color-dark: hsl(240 10% 90%);
     --page-background-color-light: hsl(0 0% 100%);
+    --page-background-color-light-2: hsl(0 0% 100%);
     --page-illustration-color-orange: hsl(20 100% 55%);
     --page-illustration-color-grey: #888B91;
     --footer-background-color: var(--page-background-color-light);
@@ -62,8 +63,9 @@
 
 
 [data-color-scheme="dark"] {
-    --page-background-color: hsl(0 0% 5%);
-    --page-background-color-light: hsl(0 0% 9%);
+    --page-background-color: hsl(0 0% 4%);
+    --page-background-color-light: hsl(0 0% 8%);
+    --page-background-color-light-2: hsl(0 0% 13%);
     --page-illustration-color-orange: hsl(20 100% 80%);
     --page-illustration-color-grey: #646568;
     --footer-background-color: var(--page-background-color-light);

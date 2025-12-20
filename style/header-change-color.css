@@ -1,6 +1,6 @@
 [data-trigger-header-color-scheme] {
-  border-top: calc(var(--header-height)  - 1px) solid transparent;
-  margin-top: calc(var(--header-height) * -1 - 1px);
+  /* border-top: calc(var(--header-height)) solid transparent; */
+  /* margin-top: calc(var(--header-height) * -1); */
 }
 
 .header, .header  * {

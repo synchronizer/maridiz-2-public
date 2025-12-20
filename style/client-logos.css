@@ -1,0 +1,32 @@
+.client-logos {
+    container-type: inline-size;
+    container-name: client-logos;
+}
+.client-logos__content {
+    --_columns: 4;
+    --_gap: var(--gap-l);
+    display: grid;
+    grid-template-columns: repeat(var(--_columns), 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: var(--_gap);
+    padding-block-start: var(--_gap);
+}
+
+.client-logos__item {
+    width: min(100%);
+    mix-blend-mode: multiply;
+}
+
+@container client-logos (width < 45rem) {
+    .client-logos__content {
+        --_columns: 3;
+    }
+}
+@container client-logos (width < 28rem) {
+    .client-logos__content {
+        --_columns: 2;
+        --_gap: var(--gap-m)
+    }
+}
+
