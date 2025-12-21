@@ -76,15 +76,15 @@
 
 
 .notifications__item_success .notifications__item-icon {
-    background-image: url(/_resources/icons/notify-success.svg);
+    background-image: url(https://synchronizer.github.io/maridiz-2-public/icons/notify-success.svg);
 }
 
 .notifications__item_attention .notifications__item-icon {
-    background-image: url(/_resources/icons/notify-attention.svg);
+    background-image: url(https://synchronizer.github.io/maridiz-2-public/icons/notify-attention.svg);
 }
 
 .notifications__item_error .notifications__item-icon {
-    background-image: url(/_resources/icons/notify-error.svg);
+    background-image: url(https://synchronizer.github.io/maridiz-2-public/icons/notify-error.svg);
 }
 
 .notifications__item-icon {
@@ -93,7 +93,7 @@
     border-radius: var(--bd-radius-S);
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(/_resources/icons/notify-message.svg);
+    background-image: url(https://synchronizer.github.io/maridiz-2-public/icons/notify-message.svg);
 }
 
 .notifications__item-text {
