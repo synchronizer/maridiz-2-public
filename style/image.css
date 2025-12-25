@@ -1,7 +1,7 @@
 .image {
   display: block;
   object-fit: cover;
-  background-color: var(--page-background-color-dark);
+  background-color: var(--_placeholder-color, var(--page-background-color-dark));
   background-image: url(https://synchronizer.github.io/maridiz-2-public//img/image-placeholder.svg);
   background-position: center;
   background-repeat: no-repeat;

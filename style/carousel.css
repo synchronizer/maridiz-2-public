@@ -57,7 +57,8 @@
 .carousel_fade .carousel__content > * {
   animation-name: fadeAnimation;
   animation-duration: 1ms; /* Firefox requires this to apply the animation */
-  animation-timeline: view(x 0%);
+  animation-timeline: view(x 33vw 50vw);
+  animation-fill-mode: both;
 }
 
 @keyframes fadeAnimation {

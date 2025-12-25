@@ -18,7 +18,7 @@
 }
 
 .notifications__item {
-    --__background-color: var(--page-background-color-light);
+    --__background-color: var(--page-background-color-light-2);
     --__line-height: 1.35rem;
     --__width: 20rem;
     background: var(--__background-color);
