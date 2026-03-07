@@ -4,6 +4,7 @@
   --_background-color: var(--page-background-color-light);
   background-color: var(--_background-color);
   height: clamp(32rem, 100vh - var(--header-height), 105rem);
+  height: clamp(32rem, 100svh - var(--header-height), 105rem);
   /* height: clamp(32rem, 100svh - var(--header-height), 100rem); */
   position: relative;
     overflow-x: hidden;
