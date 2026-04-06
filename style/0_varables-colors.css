@@ -47,10 +47,27 @@
     --price-label-color-lightness: 35;
     --price-label-color: lch(var(--price-label-color-lightness) var(--price-label-color-chroma) var(--price-label-color-hue));
 
+    --green-label-color-hue: 140;
+    --green-label-color-chroma: 100;
+    --green-label-color-lightness: 35;
+    --green-label-color: lch(var(--green-label-color-lightness) var(--green-label-color-chroma) var(--green-label-color-hue));
+
+    --orange-label-color-hue: 65;
+    --orange-label-color-chroma: 100;
+    --orange-label-color-lightness: 35;
+    --orange-label-color: lch(var(--orange-label-color-lightness) var(--orange-label-color-chroma) var(--orange-label-color-hue));
+
+    --grey-label-color-hue: 140;
+    --grey-label-color-chroma: 0;
+    --grey-label-color-lightness: 35;
+    --grey-label-color: lch(var(--grey-label-color-lightness) var(--grey-label-color-chroma) var(--grey-label-color-hue));
+
     --time-label-color-hue: 50;
     --time-label-color-chroma: 0;
     --time-label-color-lightness: 0;
     --time-label-color: lch(var(--time-label-color-lightness) var(--time-label-color-chroma) var(--time-label-color-hue));
+
+    --label-background-color: color-mix(in hsl, transparent 88%, currentColor);
 
     --card-icon-color: #0073E5;
 
@@ -105,6 +122,15 @@
 
     --price-label-color-lightness: 85;
     --price-label-color: lch(var(--price-label-color-lightness) var(--price-label-color-chroma) var(--price-label-color-hue));
+
+    --green-label-color-lightness: 85;
+    --green-label-color: lch(var(--green-label-color-lightness) var(--green-label-color-chroma) var(--green-label-color-hue));
+
+    --orange-label-color-lightness: 85;
+    --orange-label-color: lch(var(--orange-label-color-lightness) var(--orange-label-color-chroma) var(--orange-label-color-hue));
+
+    --grey-label-color-lightness: 85;
+    --grey-label-color: lch(var(--grey-label-color-lightness) var(--grey-label-color-chroma) var(--grey-label-color-hue));
 
     --time-label-color-lightness: 100;
     --time-label-color: lch(var(--time-label-color-lightness) var(--time-label-color-chroma) var(--time-label-color-hue));

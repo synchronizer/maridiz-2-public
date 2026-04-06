@@ -1,4 +1,4 @@
-.range {
+.slider {
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
@@ -19,7 +19,7 @@
 }
 
 /* трек Chrome/Safari */
-.range::-webkit-slider-runnable-track {
+.slider::-webkit-slider-runnable-track {
   height: var(--_track-height);
   border-radius: var(--_track-border-radius);
   background: linear-gradient(
@@ -32,7 +32,7 @@
 }
 
 /* thumb Chrome/Safari */
-.range::-webkit-slider-thumb {
+.slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: var(--_thumb-size);
   height: var(--_thumb-size);
@@ -46,21 +46,21 @@
 }
 
 /* Firefox трек */
-.range::-moz-range-track {
+.slider::-moz-range-track {
   height: var(--_track-height);
   background: var(--_track-background-color);
   border-radius: var(--_track-border-radius);
 }
 
 /* Firefox прогресс */
-.range::-moz-range-progress {
+.slider::-moz-range-progress {
   background: var(--button-contrast-background-color);
   height: var(--_track-height);
   border-radius: var(--_track-border-radius);
 }
 
 /* Firefox thumb */
-.range::-moz-range-thumb {
+.slider::-moz-range-thumb {
   width: var(--_thumb-size);
   height: var(--_thumb-size);
   background: var(--_thumb-background-color);

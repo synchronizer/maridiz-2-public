@@ -1,0 +1,43 @@
+.checkbox {
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: var(--button-grey-background-color);
+    appearance: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox:hover {
+    background-color: var(--button-grey-background-color-hover);
+}
+
+.checkbox:active {
+    background-color: var(--button-grey-background-color-active);
+}
+
+.checkbox:checked {
+    background-color: var(--button-contrast-background-color);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.checkbox:checked:hover {
+    background-color: var(--button-contrast-background-color-hover);
+}   
+
+.checkbox:checked:active {
+    background-color: var(--button-contrast-background-color-active);
+}
+
+.checkbox:checked::after {
+    content: "";
+    position: absolute;
+    top: 0.15rem;
+    left: 0.4rem;
+    width: 0.3rem;
+    height: 0.6rem;
+    border-right: .15rem solid var(--button-contrast-label-color);
+    border-bottom: .15rem solid var(--button-contrast-label-color);
+    transform: rotate(45deg);
+}
