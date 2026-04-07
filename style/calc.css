@@ -209,7 +209,7 @@
     .calc__total-container {
         height: 100vh;
         bottom: calc(var(--padding-m) + var(--typo-title-l-font-size) + var(--padding-s) - 100vh);
-        margin-bottom: -30rem;
+        margin-bottom: -12rem;
     }
 
     .calc__total {
