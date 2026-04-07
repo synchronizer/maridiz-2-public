@@ -76,6 +76,10 @@
     --rating-stars: hsl(38, 100%, 50%);
     --logo-color-1: var(--button-accent-background-color);
     --logo-color-2: var(--text-bright-color);
+
+
+    
+    --shadow-m: 0 .5rem 2rem hsl(240 100% 10% / 0.25);
 }
 
 

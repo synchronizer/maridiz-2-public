@@ -207,7 +207,7 @@
         @container my-container scroll-state(stuck: bottom) {
             .calc__total {
                 max-height: 24rem;
-                box-shadow: 0 0 2rem #0003;
+                box-shadow: var(--shadow-m)
             }
         }
     }
@@ -261,7 +261,7 @@
         }
 
         .calc__total {
-            box-shadow: 0 0 2rem #0003;
+            box-shadow: var(--shadow-m)
         }
     }
 
