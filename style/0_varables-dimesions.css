@@ -39,6 +39,7 @@
       --page-content-max-width-m: 64.5rem;
       --page-text-max-width: var(--typo-text-block-max-width);
       --page-font-face: "Onest";
+      --border-radius-xs: 0.187rem;
       --border-radius-s: 0.375rem;
       --border-radius-m: 1rem;
       --border-radius-l: 2rem;
@@ -66,6 +67,7 @@
       --hero-title-font-size: 4rem;
       --hero-title-line-height: 4rem;
       --hero-title-letter-spacing: -0.12rem;
+      --padding-xxs: var(--gap-xxs);
       --padding-xs: var(--gap-xs);
       --padding-s: var(--gap-s);
       --padding-m: var(--gap-m);
@@ -97,6 +99,7 @@
       } */
 
       :root {
+            --border-radius-xs: 0.375rem;
             --border-radius-s: 0.75rem;
             --border-radius-m: 2rem;
             --border-radius-l: 4rem;

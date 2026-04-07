@@ -1,3 +1,8 @@
+.calc__container {
+    container-name: calc-container;
+    container-type: inline-size;
+}
+
 .calc {
     grid-template-columns: 3fr 2fr;
     grid-template-areas: "options total";
@@ -192,7 +197,7 @@
 /* ===== scroll-state поддерживается ===== */
 @supports (container-type: scroll-state) {
 
-    @media (max-width: 64rem) {
+    @container calc-container (max-width: 52rem) {
         .calc {
             grid-template-columns: 1fr;
             grid-template-areas:
@@ -212,7 +217,7 @@
         }
     }
 
-    @media (max-width: 42rem) {
+    @container calc-container (max-width: 28rem) {
         .calc__options-item {
             grid-template-columns: 1fr auto;
             grid-template-areas:
@@ -226,7 +231,7 @@
         }
     }
 
-    @media (max-width: 36rem) {
+    @container calc-container (max-width: 22rem) {
         .calc__total,
         .calc__options-group {
             padding: var(--padding-s);
@@ -248,7 +253,7 @@
 /* ===== fallback (нет scroll-state) ===== */
 @supports not (container-type: scroll-state) {
 
-    @media (max-width: 64rem) {
+    @container calc-container (max-width: 52rem) {
         .calc {
             grid-template-columns: 1fr;
             grid-template-areas:
@@ -265,7 +270,7 @@
         }
     }
 
-    @media (max-width: 42rem) {
+    @container calc-container (max-width: 28rem) {
         .calc__options-item {
             grid-template-columns: 1fr auto;
             grid-template-areas:
@@ -279,7 +284,7 @@
         }
     }
 
-    @media (max-width: 36rem) {
+    @container calc-container (max-width: 22rem) {
         .calc__total,
         .calc__options-group {
             padding: var(--padding-s);
