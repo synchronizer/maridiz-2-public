@@ -1,70 +1,77 @@
-.range {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 100%;
-  background: transparent;
-  cursor: pointer;
-
-  --_track-height: 0.5rem;
-  --_track-background-color: var(--button-grey-background-color);
-  --_track-border-radius: var(--border-radius-s);
-
-  --_thumb-size: 1.25rem;
-  --_thumb-background-color: var(--page-background-color-light);
-  --_thumb-border-color: var(--button-grey-background-color);
-  --_thumb-border-radius: 50%;
-
-  /* прогресс через CSS-переменную */
-  --progress: 30%;
-}
-
-/* трек Chrome/Safari */
-.range::-webkit-slider-runnable-track {
-  height: var(--_track-height);
-  border-radius: var(--_track-border-radius);
-  background: linear-gradient(
-    to right,
-    var(--button-contrast-background-color) 0%,
-    var(--button-contrast-background-color) var(--progress),
-    var(--_track-background-color) var(--progress),
-    var(--_track-background-color) 100%
-  );
-}
-
-/* thumb Chrome/Safari */
-.range::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: var(--_thumb-size);
-  height: var(--_thumb-size);
-  background: var(--_thumb-background-color);
-  border-radius: var(--_thumb-border-radius);
-  border: 2px solid var(--_thumb-border-color);
-  margin-top: calc((var(--_track-height) - var(--_thumb-size)) / 2);
-  cursor: pointer;
+.slider {
   position: relative;
-  z-index: 2;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-/* Firefox трек */
-.range::-moz-range-track {
-  height: var(--_track-height);
-  background: var(--_track-background-color);
-  border-radius: var(--_track-border-radius);
+
+.slider__content>*:not(.slider__item_active) {
+  display: none;
+  top: 0;
 }
 
-/* Firefox прогресс */
-.range::-moz-range-progress {
-  background: var(--button-contrast-background-color);
-  height: var(--_track-height);
-  border-radius: var(--_track-border-radius);
+.slider__teaser-list {
+  position: absolute;
+  bottom: var(--gap-s);
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
-/* Firefox thumb */
-.range::-moz-range-thumb {
-  width: var(--_thumb-size);
-  height: var(--_thumb-size);
-  background: var(--_thumb-background-color);
-  border-radius: var(--_thumb-border-radius);
-  border: 2px solid var(--_thumb-border-color);
+.slider__teaser-list-button {
+  display: inline-flex;
+  justify-content: center;
+  gap: var(--gap-xs);
+  height: var(--control-height-m);
+  background-color: var(--button-grey-background-color);
+  border-radius: var(--control-height-m);
+  padding-inline: var(--gap-xs);
+  align-items: center;
+
+}
+
+.slider__teaser {
+  --_width: .75rem;
+  width: var(--_width);
+  height: var(--_width);
+  border-radius: var(--control-height-s);
+  background-color: var(--text-light-color);
+  transition: width .25s;
   cursor: pointer;
+
+
+}
+
+.slider__teaser:hover {
+  background-color: var(--text-middle-color);
+}
+
+.slider__teaser_active {
+  width: calc(var(--_width) * 3);
+  position: relative;
+  overflow: hidden;
+}
+
+.slider__teaser_active::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--text-bright-color);
+  animation: teaser_active var(--_animation-duration) linear both;
+  transform-origin: left;
+}
+
+.slider_pause .slider__teaser_active::before {
+  animation: none;
+  display: none;
+}
+
+@keyframes teaser_active {
+  from {
+    transform: scaleX(0);
+  }
 }

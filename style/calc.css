@@ -7,8 +7,14 @@
     grid-area: options;
 }
 
-.calc__total {
+.calc__total-container {
     grid-area: total;
+    position: sticky;
+    top: calc(var(--header-height) + var(--gap-xs));
+    align-self: start;
+
+    container-type: scroll-state;
+    container-name: my-container;
 }
 
 .calc,
@@ -89,9 +95,6 @@
 }
 
 .calc__total {
-    position: sticky;
-    top: calc(var(--header-height) + var(--gap-xs));
-    align-self: start;
     display: flex;
     flex-direction: column;
     gap: var(--gap-s);
@@ -190,8 +193,21 @@
         grid-template-columns: 1fr;
         grid-template-areas:
             "options"
-            "total";
+            "total"
+        ;
     }
+
+    .calc__total-container {
+        bottom: -16.5rem;
+    }
+
+    @container my-container scroll-state(stuck: bottom) {
+        .calc__total {
+            max-height: 24rem;
+            box-shadow: 0 0 2rem #0003;
+        }
+    }
+
 
 }
 
@@ -199,9 +215,10 @@
     .calc__options-item {
         grid-template-columns: 1fr auto;
         grid-template-areas:
-            "price control"
             "title control"
-            "description control";
+            "description control"
+            "price control"
+        ;
     }
 
     .calc__options-item-description {
@@ -215,5 +232,15 @@
     .calc__options-group {
         padding: var(--padding-s);
 
+    }
+
+    .calc__total-container {
+        bottom: -20rem;
+    }
+
+     @container my-container scroll-state(stuck: bottom) {
+        .calc__total {
+            max-height: 25rem;
+        }
     }
 }
