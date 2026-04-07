@@ -12,15 +12,7 @@
     grid-area: options;
 }
 
-.calc__total-container {
-    grid-area: total;
-    position: sticky;
-    top: calc(var(--header-height) + var(--gap-xs));
-    align-self: start;
 
-    container-type: scroll-state;
-    container-name: my-container;
-}
 
 .calc,
 .calc__options {
@@ -121,7 +113,6 @@
     color: var(--text-bright-color);
 
     transform: scale(1);
-    /* важно */
     transition: transform 1s ease;
 }
 
@@ -194,104 +185,67 @@
 }
 
 
-/* ===== scroll-state поддерживается ===== */
-@supports (container-type: scroll-state) {
+.calc__total-container {
+    grid-area: total;
+    position: sticky;
+    top: calc(var(--header-height) + var(--gap-xs));
+    align-self: start;
+    container-type: block-size;
+    container-name: total-container;
+}
 
-    @container calc-container (max-width: 52rem) {
-        .calc {
-            grid-template-columns: 1fr;
-            grid-template-areas:
-                "options"
-                "total";
-        }
 
-        .calc__total-container {
-            bottom: -16.5rem;
-        }
 
-        @container my-container scroll-state(stuck: bottom) {
-            .calc__total {
-                max-height: 24rem;
-                box-shadow: var(--shadow-m)
-            }
-        }
+
+
+@container calc-container (max-width: 52rem) {
+    .calc {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "options"
+            "total";
     }
 
-    @container calc-container (max-width: 28rem) {
-        .calc__options-item {
-            grid-template-columns: 1fr auto;
-            grid-template-areas:
-                "title control"
-                "description control"
-                "price control";
-        }
-
-        .calc__options-item-description {
-            line-height: var(--typo-text-s-line-height-narrow);
-        }
+    .calc__total-container {
+        height: 100vh;
+        bottom: calc(var(--padding-m) + var(--typo-title-l-font-size) + var(--padding-s) - 100vh);
+        margin-bottom: -30rem;
     }
 
-    @container calc-container (max-width: 22rem) {
-        .calc__total,
-        .calc__options-group {
-            padding: var(--padding-s);
-        }
+    .calc__total {
+        box-shadow: var(--shadow-m)
+    }
 
-        .calc__total-container {
-            bottom: -20rem;
-        }
-
-        @container my-container scroll-state(stuck: bottom) {
-            .calc__total {
-                max-height: 25rem;
-            }
+    @container total-container scroll-state(scrollable: bottom) {
+        .calc__total {
+            box-shadow: none;
         }
     }
 }
 
-
-/* ===== fallback (нет scroll-state) ===== */
-@supports not (container-type: scroll-state) {
-
-    @container calc-container (max-width: 52rem) {
-        .calc {
-            grid-template-columns: 1fr;
-            grid-template-areas:
-                "options"
-                "total";
-        }
-
-        .calc__total-container {
-            bottom: -16.5rem;
-        }
-
-        .calc__total {
-            box-shadow: var(--shadow-m)
-        }
+@container calc-container (max-width: 28rem) {
+    .calc__options-item {
+        grid-template-columns: 1fr auto;
+        grid-template-areas:
+            "title control"
+            "description control"
+            "price control";
     }
 
-    @container calc-container (max-width: 28rem) {
-        .calc__options-item {
-            grid-template-columns: 1fr auto;
-            grid-template-areas:
-                "title control"
-                "description control"
-                "price control";
-        }
+    .calc__options-item-description {
+        line-height: var(--typo-text-s-line-height-narrow);
+    }
+}
 
-        .calc__options-item-description {
-            line-height: var(--typo-text-s-line-height-narrow);
-        }
+@container calc-container (max-width: 22rem) {
+
+    .calc__total,
+    .calc__options-group {
+        padding: var(--padding-s);
     }
 
-    @container calc-container (max-width: 22rem) {
-        .calc__total,
-        .calc__options-group {
-            padding: var(--padding-s);
-        }
-
-        .calc__total-container {
-            bottom: -20rem;
-        }
+    .calc__total-container {
+        bottom: calc(var(--padding-s) + var(--typo-title-l-font-size) + var(--padding-s) - 100vh);
     }
+
 }
