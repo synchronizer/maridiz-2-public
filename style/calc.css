@@ -91,6 +91,7 @@
 
 .calc__options-item-price {
     font-weight: var(--font-weight-title);
+    color: var(--text-bright-color);
     grid-area: price;
 }
 
