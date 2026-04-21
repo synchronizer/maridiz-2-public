@@ -6,6 +6,7 @@
 .calc {
     grid-template-columns: 3fr 2fr;
     grid-template-areas: "options total";
+    --_padding: var(--padding-m);
 }
 
 .calc__options {
@@ -23,7 +24,7 @@
 .calc__total,
 .calc__options-group {
     background-color: var(--page-background-color-light);
-    padding: var(--padding-m);
+    padding: var(--_padding);
 
 }
 
@@ -31,6 +32,7 @@
     display: flex;
     flex-direction: column;
     gap: var(--gap-s);
+    
 }
 
 .calc__options-group-title {
@@ -132,20 +134,27 @@
 .calc__total-detail-item {
     display: flex;
     justify-content: space-between;
+    color: var(--text-bright-color);
 }
 
 .calc__total-detail-item-name {
     font-weight: var(--font-weight-text);
-    color: var(--text-bright-color);
 }
 
 .calc__total-detail-item-value {
     font-weight: var(--font-weight-title);
-    color: var(--text-bright-color);
 }
 
 .calc__total-detail-item-value_green {
     color: var(--green-label-color);
+}
+
+.calc__total-detail-item_zero {
+    color: var(--text-light-color);
+}
+
+.calc__total-detail-item_zero .calc__total-detail-item-value {
+    font-weight: var(--font-weight-text);
 }
 
 .calc__total-badge {
@@ -190,8 +199,6 @@
     position: sticky;
     top: calc(var(--header-height) + var(--gap-xs));
     align-self: start;
-    container-type: block-size;
-    container-name: total-container;
 }
 
 
@@ -207,21 +214,22 @@
     }
 
     .calc__total-container {
-        height: 100vh;
+        /* height: 100vh;
         bottom: calc(var(--padding-m) + var(--typo-title-l-font-size) + var(--padding-s) - 100vh);
-        margin-bottom: -12rem;
+        margin-bottom: -12rem; */
+        /* bottom: 0;
+        transform: translateY(calc(100% - var(--_padding) - var(--typo-title-l-line-height) - var(--_padding))); */
+
+        bottom: calc(var(--_padding) + var(--typo-title-l-font-size) + var(--gap-s)  - var(--_height));
     }
 
     .calc__total {
         box-shadow: var(--shadow-m)
     }
-
-    @container total-container scroll-state(scrollable: bottom) {
-        .calc__total {
-            box-shadow: none;
-        }
-    }
+ 
 }
+
+
 
 @container calc-container (max-width: 28rem) {
     .calc__options-item {
@@ -239,13 +247,17 @@
 
 @container calc-container (max-width: 22rem) {
 
-    .calc__total,
-    .calc__options-group {
-        padding: var(--padding-s);
+    .calc {
+        --_padding: var(--padding-s);
     }
 
     .calc__total-container {
-        bottom: calc(var(--padding-s) + var(--typo-title-l-font-size) + var(--padding-s) - 100vh);
+        /* bottom: -22rem; */
     }
 
+
 }
+
+
+
+

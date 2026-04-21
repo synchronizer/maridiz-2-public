@@ -16,6 +16,7 @@
     --button-grey-background-color-hover: hsl(240 15% 58% / 28%);
     --button-grey-background-color-active: hsl(240 15% 52% / 28%);
     --button-grey-label-color: hsl(0 0% 0%);
+    
     --button-accent-background-color-hue: 135;
     --button-accent-background-color-chroma: 100;
     --button-accent-background-color-lightness: 48;
@@ -23,6 +24,21 @@
     --button-accent-background-color-hover: lch(calc(var(--button-accent-background-color-lightness) + 5) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
     --button-accent-background-color-active: lch(calc(var(--button-accent-background-color-lightness) - 5) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
     --button-accent-label-color: hsl(0, 0%, 100%);
+    
+    
+    --button-telegram-background-color-hue: 244.3822;
+    --button-telegram-background-color-chroma: 46.7052;
+    --button-telegram-background-color-lightness: 63.72;
+    --button-telegram-background-color: lch(var(--button-telegram-background-color-lightness) var(--button-telegram-background-color-chroma) var(--button-telegram-background-color-hue));
+    --button-telegram-background-color-hover: lch(calc(var(--button-telegram-background-color-lightness) + 5) var(--button-telegram-background-color-chroma) var(--button-telegram-background-color-hue));
+    --button-telegram-background-color-active: lch(calc(var(--button-telegram-background-color-lightness) - 5) var(--button-telegram-background-color-chroma) var(--button-telegram-background-color-hue));
+    --button-telegram-label-color: hsl(0, 0%, 100%);
+
+
+    --button-map-background-image: url(https://synchronizer.github.io/maridiz-2-public/button/button-map-bg-light.png);
+    
+    
+    
     --input-background-color: hsl(240 15% 65% / 28%);
     --input-value-color: hsl(0 0% 0%);
     --input-placeholder-color: hsl(0 0% 0% / 55%);
@@ -57,6 +73,16 @@
     --orange-label-color-lightness: 35;
     --orange-label-color: lch(var(--orange-label-color-lightness) var(--orange-label-color-chroma) var(--orange-label-color-hue));
 
+    --red-label-color-hue: 40;
+    --red-label-color-chroma: 100;
+    --red-label-color-lightness: 35;
+    --red-label-color: lch(var(--red-label-color-lightness) var(--red-label-color-chroma) var(--red-label-color-hue));
+
+    --blue-label-color-hue: 265;
+    --blue-label-color-chroma: 100;
+    --blue-label-color-lightness: 35;
+    --blue-label-color: lch(var(--blue-label-color-lightness) var(--blue-label-color-chroma) var(--blue-label-color-hue));
+
     --grey-label-color-hue: 140;
     --grey-label-color-chroma: 0;
     --grey-label-color-lightness: 35;
@@ -78,7 +104,7 @@
     --logo-color-2: var(--text-bright-color);
 
 
-    
+
     --shadow-m: 0 .5rem 2rem hsl(240 100% 10% / 0.25);
 }
 
@@ -98,6 +124,9 @@
     --button-grey-background-color-hover: hsl(240 15% 70% / 28%);
     --button-grey-background-color-active: hsl(240 15% 75% / 28%);
     --button-grey-label-color: hsl(0 0% 100%);
+
+--button-map-background-image: url(https://synchronizer.github.io/maridiz-2-public/button/button-map-bg-dark.png);
+
     --button-accent-background-color-lightness: 80;
     --button-accent-background-color: lch(var(--button-accent-background-color-lightness) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
     --button-accent-background-color-hover: lch(calc(var(--button-accent-background-color-lightness) + 5) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
@@ -132,6 +161,12 @@
 
     --orange-label-color-lightness: 85;
     --orange-label-color: lch(var(--orange-label-color-lightness) var(--orange-label-color-chroma) var(--orange-label-color-hue));
+
+    --red-label-color-lightness: 85;
+    --red-label-color: lch(var(--red-label-color-lightness) var(--red-label-color-chroma) var(--red-label-color-hue));
+
+    --blue-label-color-lightness: 85;
+    --blue-label-color: lch(var(--blue-label-color-lightness) var(--blue-label-color-chroma) var(--blue-label-color-hue));
 
     --grey-label-color-lightness: 85;
     --grey-label-color: lch(var(--grey-label-color-lightness) var(--grey-label-color-chroma) var(--grey-label-color-hue));

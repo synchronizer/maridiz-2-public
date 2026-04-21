@@ -52,6 +52,7 @@
       --control-button-size-s-height: var(--control-height-s);
       --control-input-border-radius: var(--border-radius-s);
       --control-input-size-m-height: 3rem;
+      --control-input-size-s-height: 2.25rem;
       --control-input-size-m-padding-inline: 0.5rem;
       --control-height-m: 2.25rem;
       --control-height-s: 1.5rem;
@@ -89,7 +90,10 @@
 }
 
 @supports (corner-shape: squircle) {
-      [class*="rounded-"] {
+      .rounded-xs,
+      .rounded-s,
+      .rounded-m,
+      .rounded-l {
             corner-shape: squircle;
 
       }

@@ -8,9 +8,15 @@
   padding-inline: calc(var(--control-input-size-m-height) * .2);
   border: none;
   width: 100%;
+  min-width: max-content;
   background-color: var(--input-background-color);
   color: var(--text-bright-color);
   font-size: var(--typo-text-s-font-size);
+}
+
+.input_size_s .input__input {
+  height: var(--control-input-size-s-height);
+  padding-inline: calc(var(--control-input-size-s-height) * .2);
 }
 
 .input__label + .input__input,

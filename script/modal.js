@@ -3,8 +3,17 @@ const showModal = modalId => {
     modal.showModal();
 }
 
+const closeModal = modalId => {
+    const modal = document.querySelector(`#${modalId}`);
+    modal.closeModal();
+}
+
 Array.from(document.querySelectorAll('[data-modal]')).forEach(modalTrigger => {
     modalTrigger.addEventListener('click', () => { showModal(modalTrigger.getAttribute('data-modal')) })
+})
+
+Array.from(document.querySelectorAll('[data-modal-close]')).forEach(modalTriggerClose => {
+    modalTriggerClose.addEventListener('click', () => { closeModal(modalTriggerClose.getAttribute('data-modal-close')) })
 })
 
 Array.from(document.querySelectorAll('.modal')).forEach(modal => {

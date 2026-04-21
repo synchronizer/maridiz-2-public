@@ -53,6 +53,21 @@ a.button {
   --_background-color: var(--button-grey-background-color-active);
 }
 
+.button_style_map {
+  --_background-color: var(--button-grey-background-color);
+  background-image: var(--button-map-background-image);
+  background-size: cover;
+  background-position: center;
+  color: var(--text-bright-color);
+}
+
+.button_style_map:hover {
+  --_background-color: var(--button-grey-background-color-hover);
+}
+.button_style_map:active {
+  --_background-color: var(--button-grey-background-color-active);
+}
+
 .button_style_accent {
   --_background-color: var(--button-accent-background-color);
   color: var(--button-accent-label-color);
@@ -62,6 +77,17 @@ a.button {
 }
 .button_style_accent:active {
   --_background-color: var(--button-accent-background-color-active);
+}
+
+.button_style_telegram {
+  --_background-color: var(--button-telegram-background-color);
+  color: var(--button-telegram-label-color);
+}
+.button_style_telegram:hover {
+  --_background-color: var(--button-telegram-background-color-hover);
+}
+.button_style_telegram:active {
+  --_background-color: var(--button-telegram-background-color-active);
 }
 
 .button_style_contrast {
