@@ -254,11 +254,6 @@ async function initMap() {
 
         });
 
-        regionsMap.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                resetSelection();
-            }
-        });
 
 
 
@@ -323,7 +318,7 @@ async function initMap() {
 
         if (legendSelectButton) {
             legendSelectButton.addEventListener('click', () => {
-                // if (!regionsMap.hasAttribute('data-fullscreen-only')) return;
+                if (!regionsMap.hasAttribute('data-fullscreen-only')) return;
                 regionsMap.close();
             })
         }
