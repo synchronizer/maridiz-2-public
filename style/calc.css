@@ -35,22 +35,19 @@
     
 }
 
-.calc__options-group-title {
-    font-size: var(--typo-title-s-font-size);
-    font-weight: var(--font-weight-title);
-    line-height: var(--typo-title-s-line-height);
-    color: var(--text-bright-color);
+.calc__options-group-header {
     display: flex;
     justify-content: space-between;
     gap: var(--gap-s);
 }
 
-.calc__options-area-value {
-    font-size: var(--typo-text-m-font-size);
-    /* font-weight: var(--font-weight-title); */
-    line-height: var(--typo-text-m-line-height);
-    /* color: var(--text-bright-color); */
+.calc__options-group-title {
+    font-size: var(--typo-title-s-font-size);
+    font-weight: var(--font-weight-title);
+    line-height: var(--typo-title-s-line-height);
+    color: var(--text-bright-color);
 }
+
 
 
 .calc__options-item {
@@ -73,6 +70,9 @@
 
 .calc__options-item-description {
     grid-area: description;
+}
+.calc__options-group-description {
+    margin-top: var(--gap-xxxs);
 }
 
 .calc__options-item-control {

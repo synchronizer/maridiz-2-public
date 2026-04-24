@@ -1,0 +1,43 @@
+.radio {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    background-color: var(--button-grey-background-color);
+    appearance: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.radio:hover {
+    background-color: var(--button-grey-background-color-hover);
+}
+
+.radio:active {
+    background-color: var(--button-grey-background-color-active);
+}
+
+.radio:checked {
+    background-color: var(--button-contrast-background-color);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.radio:checked:hover {
+    background-color: var(--button-contrast-background-color-hover);
+}   
+
+.radio:checked:active {
+    background-color: var(--button-contrast-background-color-active);
+}
+
+.radio:checked::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 30%;
+    background-color: var(--button-contrast-label-color);
+    border-radius: 50%;
+}

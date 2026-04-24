@@ -2,11 +2,11 @@
     background-color: var(--page-background-color-light);
     isolation: isolate;
     border: none;
-    padding: 0;
-    font-size: var(--typo-text-m-font-size);
-    line-height: var(--typo-text-m-line-height);
-    font-weight: var(--font-weight-text);
+    padding: var(--padding-xs);
+    scroll-margin: var(--padding-s);
 }
+
+
 
 
 .regions-map:not(:modal) {
@@ -26,6 +26,14 @@
     max-height: unset;
 }
 
+.regions-map[open] {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+
+
 
 .regions-map:modal .regions-map__maximize,
 .regions-map:not(:modal) .regions-map__close {
@@ -43,7 +51,6 @@
 
 .regions-map__map,
 .regions-map__controls,
-.regions-map__legend,
 .regions-map__fullscreen-buttons {
     position: absolute;
 }
@@ -71,27 +78,61 @@
     transform: translateY(-50%);
 }
 
+/* .regions-map__legend-wrapper {
+    max-width: max-content;
+    margin: auto;
+    padding-inline: var(--padding-xs);
+} */
+
 .regions-map__legend {
     padding: var(--padding-s);
     background-color: var(--page-background-color-light);
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: var(--gap-xs);
     box-shadow: var(--shadow-m);
+    max-width: fit-content;
+    position: relative;
+}
+
+.regions-map__legend-text {
+    display: flex;
+    flex-direction: column;
+    gap: .125rem;
+    text-wrap: balance;
+}
+
+.regions-map__legend-title {
+    font-size: var(--typo-title-xs-font-size);
+    line-height: var(--typo-title-xs-line-height);
+    font-weight: var(--font-weight-title);
     color: var(--text-bright-color);
-    left: 50%;
-    transform: translate(-50%);
-    bottom: var(--padding-xs);
-    font-weight: var(--font-weight-strong);
+}
+
+.regions-map__legend-desc {
+    font-size: var(--typo-text-s-font-size);
+    line-height: var(--typo-text-s-line-height);
+    font-weight: var(--font-weight-text);
+    color: var(--text-bright-color);
 }
 
 .regions-map:not([data-region-selected]) .regions-map__legend {
     display: none;
 }
 
-.regions-map:not(.regions-map_legend-button) .regions-map__legend-button {
+.regions-map__legend-buttons {
+    display: flex;
+    gap: var(--gap-xs);
+    
+}
+.regions-map__legend-buttons > * {
+    flex-grow: 1;
+}
+
+.regions-map:not(.regions-map_legend-button) .regions-map__legend-select-button {
     display: none;
 }
+
 
 
 

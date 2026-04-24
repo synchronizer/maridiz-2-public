@@ -16,21 +16,21 @@ document.addEventListener('click', (e) => {
     if (targets.length) {
       targets.forEach(el => {
         el.click()
-        el.focus()
+        el.focus({ focusVisible: true })
       });
     }
-
+    
   }
-
+  
   const clickTarget = e.target.closest('[data-click-target]');
   if (clickTarget) {
     const value = clickTarget.dataset.clickTarget;
     const froms = document.querySelectorAll(`[data-click-from="${value}"]`);
-
+    
     if (froms.length) {
       froms.forEach(el => {
         el.click()
-        el.focus()
+        el.focus({ focusVisible: true, preventScroll: false })
       });
     }
 
