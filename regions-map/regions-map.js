@@ -297,33 +297,34 @@ async function initMap() {
 
 
 
-
-        const close = () => {
-            if (regionsMap.hasAttribute('data-fullscreen-only')) {
-                regionsMap.close();
-            } else {
-                regionsMap.close();
+        regionsMap.addEventListener('close', () => {
+            if (regionsMap.hasAttribute('data-opening')) {
+                regionsMap.showModal();
+            } else if (!regionsMap.hasAttribute('data-fullscreen-only')) {
                 regionsMap.show();
             }
-        }
+
+            regionsMap.removeAttribute('data-opening');
+        });
+
 
         if (maximizeButton) {
             maximizeButton.addEventListener('click', () => {
+                regionsMap.setAttribute('data-opening', '');
                 regionsMap.close();
-                regionsMap.showModal();
             })
         }
 
         if (closeButton) {
             closeButton.addEventListener('click', () => {
-                close();
+                regionsMap.close();
             })
         }
 
         if (legendSelectButton) {
             legendSelectButton.addEventListener('click', () => {
-                if (!regionsMap.hasAttribute('data-fullscreen-only')) return;
-                close();
+                // if (!regionsMap.hasAttribute('data-fullscreen-only')) return;
+                regionsMap.close();
             })
         }
 
