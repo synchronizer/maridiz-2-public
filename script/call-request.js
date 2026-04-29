@@ -5,7 +5,8 @@ Array.from(document.querySelectorAll('.call-request')).forEach(item => {
         phone = item.querySelector('[name="phone"]'),
         send = item.querySelector('[name="send"]'),
         email = item.querySelector('[name="email"]'),
-        comment = item.querySelector('[name="comment"]');
+        comment = item.querySelector('[name="comment"]'),
+        personal_data_consent = item.querySelector('[name="personal_data_consent"]');
     // utm_source = item.getAttribute('utm_source'),
     // utm_medium = item.getAttribute('utm_medium'),
     // utm_campaign = item.getAttribute('utm_campaign'),
@@ -16,6 +17,7 @@ Array.from(document.querySelectorAll('.call-request')).forEach(item => {
         if (
             (name && !name.value)
             || (phone && phone.value.length) < 3
+            || (personal_data_consent && !personal_data_consent.checked)
             // || (email && !email.b.valid)
         ) { send.setAttribute('disabled', '') } else { send.removeAttribute('disabled') }
     };
@@ -23,6 +25,7 @@ Array.from(document.querySelectorAll('.call-request')).forEach(item => {
     if (name) name.addEventListener('input', checkFields);
     if (phone) phone.addEventListener('input', checkFields);
     if (email) email.addEventListener('input', checkFields);
+    if (personal_data_consent) personal_data_consent.addEventListener('change', checkFields);
 
     send.onclick = () => {
         const form = new FormData();

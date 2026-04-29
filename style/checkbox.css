@@ -41,3 +41,11 @@
     border-bottom: .15rem solid var(--button-contrast-label-color);
     transform: rotate(45deg);
 }
+
+.checkbox__label {
+    display: flex;
+    gap: var(--gap-xxs);
+    cursor: pointer;
+    font-size: var(--typo-text-ui-font-size);
+    color: var(--text-light-color);
+}

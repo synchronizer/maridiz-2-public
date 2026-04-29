@@ -1,11 +1,14 @@
 const showModal = modalId => {
     const modal = document.querySelector(`#${modalId}`);
+    if (!modal) return; 
+    modal.close();
     modal.showModal();
 }
 
 const closeModal = modalId => {
     const modal = document.querySelector(`#${modalId}`);
-    modal.closeModal();
+    if (!modal) return;
+    modal.close();
 }
 
 Array.from(document.querySelectorAll('[data-modal]')).forEach(modalTrigger => {

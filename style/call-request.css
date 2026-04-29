@@ -23,5 +23,6 @@
 }
 
 .call-request__send {
+    margin-top: var(--gap-xs);
     align-self: start;
 }
