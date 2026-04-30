@@ -25,7 +25,8 @@
     padding: var(--padding-s);
     color: #fff;
     font-size: var(--typo-text-ui-font-size);
-    width: min(var(--__width), 100vw - 1.5rem);
+    width: max-content;
+    max-width: calc(100vw - 1.5rem);
     line-height: var(--__line-height);
     font-weight: 300;
     position: relative;
@@ -85,6 +86,10 @@
 
 .notifications__item_error .notifications__item-icon {
     background-image: url(https://synchronizer.github.io/maridiz-2-public/icons/notify-error.svg);
+}
+
+.notifications__item_no-icon .notifications__item-icon {
+    display: none;
 }
 
 .notifications__item-icon {

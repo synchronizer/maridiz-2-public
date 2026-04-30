@@ -31,7 +31,7 @@ a[href] {
   height: 1em;
   background-color: var(--link-color);
   margin-bottom: -.12em;
-  margin-left: .16em;
+  margin-left: .25em;
   -webkit-mask-position: center;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: contain;
@@ -46,7 +46,7 @@ a[href] {
 
 .link_outer::after,
 .link[target="_blank"]::after {
-  -webkit-mask-image: url('https://evev.tupo.best/wp-content/uploads/2023/09/tabler_external-link.svg');
+  -webkit-mask-image: url(https://synchronizer.github.io/maridiz-2-public/icons/solar_square-top-down-outline.svg);
 }
 
 .link_overlay::after {

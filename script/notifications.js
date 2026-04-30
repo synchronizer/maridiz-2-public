@@ -4,7 +4,7 @@ Array.from(document.querySelectorAll('.notifications')).forEach(notifications =>
         const { text, type, autoclose, closeAction} = options;
         const notifications__item = notifications.querySelector('.notifications__prototype > .notifications__item').cloneNode(true);
         if (type) { notifications__item.classList.add(`notifications__item_${type}`) }
-        notifications__item.querySelector('.notifications__item-text').innerText = text;
+        notifications__item.querySelector('.notifications__item-text').innerHTML = text;
         notifications.appendChild(notifications__item);
 
         const notifications__itemClose = notifications__item.querySelector('.notifications__item-close');
