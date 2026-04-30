@@ -1,7 +1,39 @@
 
 window.startCookies = () => {
-     alert('startCookies')
-}
+
+    // =============== МОЙ КОД МЕТРИКИ ==================
+    if (window.__ymLoaded) return;
+    window.__ymLoaded = true;
+
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+        m[i].l = 1 * new Date();
+
+        // твоя проверка на повторное подключение
+        for (var j = 0; j < document.scripts.length; j++) {
+            if (document.scripts[j].src === r) return;
+        }
+
+        k = e.createElement(t);
+        a = e.getElementsByTagName(t)[0];
+        k.async = 1;
+        k.src = r;
+        a.parentNode.insertBefore(k, a);
+
+    })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym');
+
+    ym(87322816, 'init', {
+        webvisor: true,
+        clickmap: true,
+        referrer: document.referrer,
+        url: location.href,
+        accurateTrackBounce: true,
+        trackLinks: true
+    });
+
+    // =============== ТВОЙ КОД МЕТРИКИ ==================
+    // (function (m, e, t, r, i, k, a) { m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) }; m[i].l = 1 * new Date(); for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } } k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a) })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym'); ym(87322816, 'init', { webvisor: true, clickmap: true, referrer: document.referrer, url: location.href, accurateTrackBounce: true, trackLinks: true });
+};
 
 
 if (!window.localStorage.getItem('acceptCookies')) {
@@ -19,7 +51,7 @@ if (!window.localStorage.getItem('acceptCookies')) {
         </div>
         `,
         closeAction: () => {
-            
+
         },
     })
 } else if (window.localStorage.getItem('acceptCookies') === 'y') {
