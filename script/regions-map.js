@@ -72,7 +72,7 @@ async function initMap() {
         const map = new YMap(mapElement, {
             location: initialLocation,
             zoomRange: {
-                min: 7,
+                min: 8,
                 max: 20
             },
             // restrictMapArea: initialBounds,
