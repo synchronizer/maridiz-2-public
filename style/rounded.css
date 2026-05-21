@@ -1,0 +1,128 @@
+
+
+.rounded-xs,
+.rounded-top-left-xs,
+.rounded-top-right-xs,
+.rounded-bottom-right-xs,
+.rounded-bottom-left-xs {
+  --_border-radius: var(--border-radius-xs);
+}
+
+.rounded-s,
+.rounded-top-left-s,
+.rounded-top-right-s,
+.rounded-bottom-right-s,
+.rounded-bottom-left-s {
+  --_border-radius: var(--border-radius-s);
+}
+
+.rounded-m,
+.rounded-top-left-m,
+.rounded-top-right-m,
+.rounded-bottom-right-m,
+.rounded-bottom-left-m {
+  --_border-radius: var(--border-radius-m);
+}
+
+.rounded-l,
+.rounded-top-left-l,
+.rounded-top-right-l,
+.rounded-bottom-right-l,
+.rounded-bottom-left-l {
+  --_border-radius: var(--border-radius-l);
+}
+
+.rounded-xs,
+.rounded-s,
+.rounded-m,
+.rounded-l {
+  border-radius: var(--_border-radius);
+}
+
+.rounded-top-left-xs,
+.rounded-top-left-s,
+.rounded-top-left-m,
+.rounded-top-left-l {
+  border-top-left-radius: var(--_border-radius);
+}
+
+.rounded-top-right-xs,
+.rounded-top-right-s,
+.rounded-top-right-m,
+.rounded-top-right-l {
+  border-top-right-radius: var(--_border-radius);
+}
+
+.rounded-bottom-right-xs,
+.rounded-bottom-right-s,
+.rounded-bottom-right-m,
+.rounded-bottom-right-l {
+  border-bottom-right-radius: var(--_border-radius);
+}
+
+.rounded-bottom-left-xs,
+.rounded-bottom-left-s,
+.rounded-bottom-left-m,
+.rounded-bottom-left-l {
+  border-bottom-left-radius: var(--_border-radius);
+}
+
+@supports (corner-shape: squircle) {
+
+  .rounded-xs,
+  .rounded-top-left-xs,
+  .rounded-top-right-xs,
+  .rounded-bottom-right-xs,
+  .rounded-bottom-left-xs,
+  .rounded-s,
+  .rounded-top-left-s,
+  .rounded-top-right-s,
+  .rounded-bottom-right-s,
+  .rounded-bottom-left-s,
+  .rounded-m,
+  .rounded-top-left-m,
+  .rounded-top-right-m,
+  .rounded-bottom-right-m,
+  .rounded-bottom-left-m,
+  .rounded-l,
+  .rounded-top-left-l,
+  .rounded-top-right-l,
+  .rounded-bottom-right-l,
+  .rounded-bottom-left-l {
+    corner-shape: squircle;
+    --_squircle-factor: 2;
+
+  }
+
+  .rounded-xs,
+  .rounded-top-left-xs,
+  .rounded-top-right-xs,
+  .rounded-bottom-right-xs,
+  .rounded-bottom-left-xs {
+    --_border-radius: calc(var(--border-radius-xs) * var(--_squircle-factor));
+  }
+
+  .rounded-s,
+  .rounded-top-left-s,
+  .rounded-top-right-s,
+  .rounded-bottom-right-s,
+  .rounded-bottom-left-s {
+    --_border-radius: calc(var(--border-radius-s) * var(--_squircle-factor));
+  }
+
+  .rounded-m,
+  .rounded-top-left-m,
+  .rounded-top-right-m,
+  .rounded-bottom-right-m,
+  .rounded-bottom-left-m {
+    --_border-radius: calc(var(--border-radius-m) * var(--_squircle-factor));
+  }
+
+  .rounded-l,
+  .rounded-top-left-l,
+  .rounded-top-right-l,
+  .rounded-bottom-right-l,
+  .rounded-bottom-left-l {
+    --_border-radius: calc(var(--border-radius-l) * var(--_squircle-factor));
+  }
+}

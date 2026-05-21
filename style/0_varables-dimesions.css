@@ -4,27 +4,27 @@
       --typo-title-xl-letter-spacing: -0.18rem;
 
       --typo-title-l-font-size: clamp(1.9rem, 9vw, 2.7rem);
-      --typo-title-l-line-height: 1em;
-      --typo-title-l-letter-spacing: -0.02em;
+      --typo-title-l-line-height: clamp(1.9rem, 9vw, 2.7rem);
+      --typo-title-l-letter-spacing: clamp(-0.038rem, -0.18vw, -0.054rem);
 
       --typo-title-m-font-size: clamp(1.5rem, 7vw, 1.9rem);
-      --typo-title-m-line-height: 1.1em;
-      --typo-title-m-letter-spacing: -0.01em;
+      --typo-title-m-line-height: clamp(1.65rem, 7.7vw, 2.09rem);
+      --typo-title-m-letter-spacing: clamp(-0.015rem, -0.07vw, -0.019rem);
 
       --typo-title-s-font-size: clamp(1.2rem, 5.5vw, 1.3rem);
-      --typo-title-s-line-height: 1.2em;
-      --typo-title-s-letter-spacing: -0.005rem;
+      --typo-title-s-line-height: clamp(1.55rem, 6.6vw, 1.56rem);
+      --typo-title-s-letter-spacing: clamp(-0.006rem, -0.0275vw, -0.0065rem)-0.005rem;
 
       --typo-title-xs-font-size: 1rem;
       --typo-title-xs-line-height: 1.25rem;
       --typo-title-xs-letter-spacing: -0.005rem;
 
       --typo-text-l-font-size: 1rem;
-      --typo-text-l-line-height: 1.5em;
+      --typo-text-l-line-height: 1.5rem;
 
       --typo-text-m-font-size: 0.875rem;
-      --typo-text-m-line-height: 1.55em;
-      --typo-text-m-line-height-narrow: 1.5;
+      --typo-text-m-line-height: 1.35625rem;
+      --typo-text-m-line-height-narrow: 1.35625rem;
 
       --typo-text-s-font-size: 0.8125rem;
       --typo-text-s-line-height: 1.3125rem;
@@ -88,25 +88,4 @@
       --typo-text-l: var(--typo-text-l-font-size) var(--font-weight-title) var(var(--typo-text-l-line-height));
       --typo-text-m: var(--typo-text-m-font-size) var(--font-weight-title) var(var(--typo-text-m-line-height));
       --typo-text-s: var(--typo-text-s-font-size) var(--font-weight-title) var(var(--typo-text-s-line-height));
-}
-
-@supports (corner-shape: squircle) {
-      .rounded-xs,
-      .rounded-s,
-      .rounded-m,
-      .rounded-l {
-            corner-shape: squircle;
-
-      }
-/* 
-      [class*="rounded-"]:focus-visible {
-            outline: 2px solid SelectedItem;
-      } */
-
-      :root {
-            --border-radius-xs: 0.375rem;
-            --border-radius-s: 0.75rem;
-            --border-radius-m: 2rem;
-            --border-radius-l: 4rem;
-      }
 }

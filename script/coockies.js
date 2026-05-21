@@ -46,7 +46,7 @@ if (!window.localStorage.getItem('acceptCookies')) {
             </div>
             <div style="display: flex; gap: var(--gap-xxs); flex-wrap: wrap;">
                 <button class="button button_style_grey button_size_s rounded-s button_shape_default" onclick="window.localStorage.setItem('acceptCookies', 'y'); this.closest('.notifications__item').remove(); window.startCookies();">Принять</button>
-                <button class="button button_style_grey button_size_s rounded-s button_shape_default" onclick="window.localStorage.setItem('acceptCookies', 'n'); this.closest('.notifications__item').remove();">Отклонить</button>
+                <button class="button button_style_grey button_size_s rounded-s button_shape_default button_ghost" onclick="window.localStorage.setItem('acceptCookies', 'n'); this.closest('.notifications__item').remove();">Отклонить</button>
             </div>
         </div>
         `,
