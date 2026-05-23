@@ -61,3 +61,25 @@
     ;
   }
 }
+
+.footer__contacts {
+  position: relative;
+  display: flex;
+  gap: var(--gap-xs); 
+  align-items: center;
+  padding-right: var(--gap-m);
+}
+
+.footer__contacts-widget {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  left: calc(100% - var(--gap-m) + var(--gap-s));
+}
+
+.footer__contacts:hover .footer__contacts-widget,
+.footer__contacts:focus-within .footer__contacts-widget,
+.footer__contacts-widget:hover,
+.footer__contacts-widget:focus-within {
+  display: block;
+}

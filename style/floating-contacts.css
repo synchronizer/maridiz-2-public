@@ -1,0 +1,18 @@
+.floating-contacts {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xs);
+    bottom: var(--padding-xs);
+    right: var(--padding-xs);
+    align-items: end;
+    z-index: 1;
+}
+
+.floating-contacts__content {
+    display: none;
+}
+
+.floating-contacts_is-open .floating-contacts__content {
+    display: block;
+}

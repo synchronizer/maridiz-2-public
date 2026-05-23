@@ -1,0 +1,30 @@
+.button__checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  position: absolute;
+  top: .25rem;
+  left: .25rem;
+  width: calc(100% - .5rem);
+  height: calc(100% - .5rem);
+  border: none;
+  cursor: pointer;
+  outline-offset: .25rem;
+}
+
+.button__checkbox:checked {
+  background-color: var(--page-background-color-light);
+}
+
+
+.button_style_contrast .button__checkbox:checked {
+  background-color: var(--button-contrast-label-color);
+}
+.button_style_contrast:has(.button__checkbox:checked) {
+  color: var(--button-contrast-background-color);
+}
+.button_style_accent .button__checkbox:checked {
+  background-color: var(--button-accent-label-color);
+}
+.button_style_accent:has(.button__checkbox:checked) {
+  color: var(--button-accent-background-color);
+}

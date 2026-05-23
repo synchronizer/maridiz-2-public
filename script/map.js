@@ -54,8 +54,8 @@ async function initMap() {
         YMapDefaultFeaturesLayer,
         YMapFeature } = ymaps3;
 
-    Array.from(document.querySelectorAll('.regions-map')).forEach(regionsMap => {
-        const mapElement = regionsMap.querySelector('.regions-map__map');
+    Array.from(document.querySelectorAll('.map')).forEach(regionsMap => {
+        const mapElement = regionsMap.querySelector('.map__map');
         if (!mapElement) return;
 
 

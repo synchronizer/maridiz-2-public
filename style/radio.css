@@ -1,35 +1,31 @@
 .radio {
+    --_background-color: var(--button-grey-background-color);
+    --_label-color: var(--button-grey-label-color);
+    background-color: var(--_background-color);
     width: 1.25rem;
     height: 1.25rem;
     border-radius: 50%;
-    background-color: var(--button-grey-background-color);
     appearance: none;
     cursor: pointer;
     position: relative;
 }
 
 .radio:hover {
-    background-color: var(--button-grey-background-color-hover);
+    background-color: color-mix(in lch, var(--_background-color) var(--control_hover-mix), var(--_label-color));
 }
 
 .radio:active {
-    background-color: var(--button-grey-background-color-active);
+    background-color: color-mix(in lch, var(--_background-color) var(--control_active-mix), var(--_label-color));
 }
 
 .radio:checked {
-    background-color: var(--button-contrast-background-color);
+    --_background-color: var(--button-contrast-background-color);
+    --_label-color: var(--button-contrast-label-color);
 
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.radio:checked:hover {
-    background-color: var(--button-contrast-background-color-hover);
-}   
-
-.radio:checked:active {
-    background-color: var(--button-contrast-background-color-active);
-}
 
 .radio:checked::after {
     content: "";

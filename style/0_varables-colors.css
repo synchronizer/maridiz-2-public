@@ -12,28 +12,24 @@
     --text-bright-color: hsl(0 0% 0%);
     --text-middle-color: hsl(0 0% 0% / 75%);
     --button-disabled-opacity: 35%;
+
+    --control_hover-mix: 92%;
+    --control_active-mix: 96%;
+
     --button-grey-background-color: hsl(240 15% 65% / 28%);
-    --button-grey-background-color-hover: hsl(240 15% 58% / 28%);
-    --button-grey-background-color-active: hsl(240 15% 52% / 28%);
     --button-grey-label-color: hsl(0 0% 0%);
     
-    --button-accent-background-color-hue: 135;
-    --button-accent-background-color-chroma: 100;
-    --button-accent-background-color-lightness: 48;
-    --button-accent-background-color: lch(var(--button-accent-background-color-lightness) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
-    --button-accent-background-color-hover: lch(calc(var(--button-accent-background-color-lightness) + 5) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
-    --button-accent-background-color-active: lch(calc(var(--button-accent-background-color-lightness) - 5) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
+    --button-accent-background-color: lch(48 100 135);
     --button-accent-label-color: hsl(0, 0%, 100%);
+
+    --button-contrast-label-color: hsl(0 0% 100%);
+    --button-contrast-background-color: hsl(0 0% 0%);
     
-    
-    --button-telegram-background-color-hue: 244.3822;
-    --button-telegram-background-color-chroma: 46.7052;
-    --button-telegram-background-color-lightness: 63.72;
-    --button-telegram-background-color: lch(var(--button-telegram-background-color-lightness) var(--button-telegram-background-color-chroma) var(--button-telegram-background-color-hue));
-    --button-telegram-background-color-hover: lch(calc(var(--button-telegram-background-color-lightness) + 5) var(--button-telegram-background-color-chroma) var(--button-telegram-background-color-hue));
-    --button-telegram-background-color-active: lch(calc(var(--button-telegram-background-color-lightness) - 5) var(--button-telegram-background-color-chroma) var(--button-telegram-background-color-hue));
+    --button-telegram-background-color: #24A1DE;
     --button-telegram-label-color: hsl(0, 0%, 100%);
 
+    --button-vk-background-color: #0077FF;
+    --button-vk-label-color: hsl(0, 0%, 100%);  
 
     --button-map-background-image: url(https://synchronizer.github.io/maridiz-2-public/button/button-map-bg-light.png);
     
@@ -44,10 +40,7 @@
     --input-placeholder-color: hsl(0 0% 0% / 55%);
     --link-color: hsl(240 100% 55%);
     --link-visited-color: hsl(260 100% 55%);
-    --button-contrast-label-color: hsl(0 0% 100%);
-    --button-contrast-background-color: hsl(0 0% 0%);
-    --button-contrast-background-color-hover: hsl(0 0% 10%);
-    --button-contrast-background-color-active: hsl(0 0% 12%);
+    
     --modal-background-color: var(--page-background-color-light);
     --modal-backdrop-color: hsl(0 0% 0% / 80%);
     --hero-title-color: hsl(0 0% 100%);
@@ -120,27 +113,23 @@
     --text-bright-color: hsl(0 0% 100%);
     --text-middle-color: hsl(0 0% 100% / 60%);
     --button-disabled-opacity: 50%;
+
+    
+    --button-map-background-image: url(https://synchronizer.github.io/maridiz-2-public/button/button-map-bg-dark.png);
+    
     --button-grey-background-color: hsl(240 15% 65% / 28%);
-    --button-grey-background-color-hover: hsl(240 15% 70% / 28%);
-    --button-grey-background-color-active: hsl(240 15% 75% / 28%);
     --button-grey-label-color: hsl(0 0% 100%);
-
---button-map-background-image: url(https://synchronizer.github.io/maridiz-2-public/button/button-map-bg-dark.png);
-
-    --button-accent-background-color-lightness: 80;
-    --button-accent-background-color: lch(var(--button-accent-background-color-lightness) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
-    --button-accent-background-color-hover: lch(calc(var(--button-accent-background-color-lightness) + 5) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
-    --button-accent-background-color-active: lch(calc(var(--button-accent-background-color-lightness) - 5) var(--button-accent-background-color-chroma) var(--button-accent-background-color-hue));
+    --button-accent-background-color: lch(80 100 135);
     --button-accent-label-color: hsl(0, 0%, 0%);
+    --button-contrast-label-color: hsl(0 0% 0%);
+    --button-contrast-background-color: hsl(0 0% 100%);
+
+
     --input-background-color: hsl(240 15% 65% / 28%);
     --input-value-color: hsl(0 0% 100%);
     --input-placeholder-color: hsla(0, 12%, 49%, 0.3);
     --link-color: hsl(220 100% 70%);
     --link-visited-color: hsl(240 100% 80%);
-    --button-contrast-label-color: hsl(0 0% 0%);
-    --button-contrast-background-color: hsl(0 0% 100%);
-    --button-contrast-background-color-hover: hsl(0 0% 90%);
-    --button-contrast-background-color-active: hsl(0 0% 80%);
     --modal-background-color: var(--page-background-color-light);
     --modal-backdrop-color: hsl(0 0% 0% / 90%);
     --hero-title-color: hsl(0 0% 100%);
@@ -179,6 +168,8 @@
     --logo-color-2: var(--text-bright-color);
 
     --card-icon-color: #39f;
+
+    --shadow-m: 0 .5rem 2rem hsl(240 100% 0% / 0.65);
 }
 
 

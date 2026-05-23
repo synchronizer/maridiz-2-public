@@ -1,0 +1,8 @@
+.contacts-widget {
+    display: flex;
+    padding: var(--padding-s);
+    box-shadow: var(--shadow-m);
+    background-color: var(--page-background-color-light-2);
+    flex-direction: column;
+    gap: var(--gap-xs);
+}

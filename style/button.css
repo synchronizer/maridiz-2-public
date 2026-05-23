@@ -1,20 +1,20 @@
+/* ACTUAL CODE */
+
 .button,
 .button:any-link,
 a.button {
   text-decoration: none;
   appearance: none;
   border: none;
-  color: var(--text-bright-color);
-}
-
-.button_whitelabel {
-  color: #fff;
+  color: var(--_label-color);
 }
 
 .button {
   --_button-size: var(--control-button-size-m-height);
   --_icon-size: 1.5rem;
   --_padding-inline: .75rem;
+  --_background-color: var(--button-grey-background-color);
+  --_label-color: var(--button-grey-label-color);
   height: var(--_button-size);
   min-width: var(--_button-size);
   padding-inline: var(--_padding-inline);
@@ -26,16 +26,22 @@ a.button {
   white-space: nowrap;
   cursor: pointer;
   vertical-align: middle;
-  -webkit-touch-callout: none;
+  user-select: none;
   -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   isolation: isolate;
   font-family: inherit;
   position: relative;
   background-color: var(--_background-color);
+  color: var(--_label-color);
+}
+
+.button:hover {
+  background-color: color-mix(in lch, var(--_background-color) var(--control_hover-mix), var(--_label-color));
+}
+
+.button:active {
+  background-color: color-mix(in lch, var(--_background-color) var(--control_active-mix), var(--_label-color));
 }
 
 .button_shape_round {
@@ -44,62 +50,42 @@ a.button {
 
 .button_style_grey {
   --_background-color: var(--button-grey-background-color);
-  color: var(--text-bright-color);
+  --_label-color: var(--text-bright-color);
 }
-.button_style_grey:hover {
-  --_background-color: var(--button-grey-background-color-hover);
-}
-.button_style_grey:active {
-  --_background-color: var(--button-grey-background-color-active);
-}
+
 
 .button_style_map {
   --_background-color: var(--button-grey-background-color);
+  --_label-color: var(--text-bright-color);
   background-image: var(--button-map-background-image);
   background-size: cover;
   background-position: center;
-  color: var(--text-bright-color);
-}
-
-.button_style_map:hover {
-  --_background-color: var(--button-grey-background-color-hover);
-}
-.button_style_map:active {
-  --_background-color: var(--button-grey-background-color-active);
 }
 
 .button_style_accent {
   --_background-color: var(--button-accent-background-color);
-  color: var(--button-accent-label-color);
+  --_label-color: var(--button-accent-label-color);
 }
-.button_style_accent:hover {
-  --_background-color: var(--button-accent-background-color-hover);
-}
-.button_style_accent:active {
-  --_background-color: var(--button-accent-background-color-active);
-}
+
 
 .button_style_telegram {
   --_background-color: var(--button-telegram-background-color);
-  color: var(--button-telegram-label-color);
+  --_label-color: var(--button-telegram-label-color);
 }
-.button_style_telegram:hover {
-  --_background-color: var(--button-telegram-background-color-hover);
+
+
+.button_style_vk {
+  --_background-color: var(--button-vk-background-color);
+  --_label-color: var(--button-vk-label-color);
 }
-.button_style_telegram:active {
-  --_background-color: var(--button-telegram-background-color-active);
-}
+
+
 
 .button_style_contrast {
   --_background-color: var(--button-contrast-background-color);
-  color: var(--button-contrast-label-color);
+  --_label-color: var(--button-contrast-label-color);
 }
-.button_style_contrast:hover {
-  --_background-color: var(--button-contrast-background-color-hover);
-}
-.button_style_contrast:active {
-  --_background-color: var(--button-contrast-background-color-active);
-}
+
 
 
 
@@ -120,7 +106,7 @@ a.button {
   --_button-size: var(--control-button-size-s-height);
   --_icon-size: 1.15rem;
   --_padding-inline: .5rem;
-  
+
 }
 
 
@@ -139,8 +125,8 @@ a.button {
   box-shadow: none;
 }
 
-*:has([data-button_ghost-trigger]:hover) > .button_ghost,
-[data-button_ghost-trigger]:hover > .button_ghost {
+*:has([data-button_ghost-trigger]:hover)>.button_ghost,
+[data-button_ghost-trigger]:hover>.button_ghost {
   background-color: var(--_background-color);
 }
 
@@ -176,8 +162,7 @@ a.button {
   display: inline-flex;
 }
 
-.button_link
-{
+.button_link {
   padding: 0;
   border-radius: 0;
   background-color: transparent;
@@ -194,46 +179,12 @@ a.button {
   from {
     background-position: 0 0;
   }
-  
+
   to {
     background-position: 1rem 0;
   }
 }
 
-
-
-/* ———————————————————————— */
-
-.button__checkbox {
-  appearance: none;
-  -webkit-appearance: none;
-  position: absolute;
-  top: .25rem;
-  left: .25rem;
-  width: calc(100% - .5rem);
-  height: calc(100% - .5rem);
-  border: none;
-  cursor: pointer;
-  outline-offset: .25rem;
-}
-
-.button__checkbox:checked {
-  background-color: var(--page-background-color-light);
-}
-
-
-.button_style_contrast .button__checkbox:checked {
-  background-color: var(--button-contrast-label-color);
-}
-.button_style_contrast:has(.button__checkbox:checked) {
-  color: var(--button-contrast-background-color);
-}
-.button_style_accent .button__checkbox:checked {
-  background-color: var(--button-accent-label-color);
-}
-.button_style_accent:has(.button__checkbox:checked) {
-  color: var(--button-accent-background-color);
-}
 
 .button__content {
   z-index: 1;
@@ -241,10 +192,18 @@ a.button {
   display: flex;
   align-items: center;
 }
+
 .button__content:empty {
   display: none;
 }
 
-.button_shape_round .button__checkbox{
+.button_shape_round .button__checkbox {
   border-radius: 100vmax;
+}
+
+
+/* LEGACY CODE */
+
+.button_whitelabel {
+  color: #fff;
 }

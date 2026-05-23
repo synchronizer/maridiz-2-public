@@ -1,34 +1,30 @@
 .checkbox {
+    --_background-color: var(--button-grey-background-color);
+    --_label-color: var(--button-grey-label-color);
+    background-color: var(--_background-color);
     width: 1.25rem;
     height: 1.25rem;
-    background-color: var(--button-grey-background-color);
     appearance: none;
     cursor: pointer;
     position: relative;
 }
 
 .checkbox:hover {
-    background-color: var(--button-grey-background-color-hover);
+    background-color: color-mix(in lch, var(--_background-color) var(--control_hover-mix), var(--_label-color));
 }
 
 .checkbox:active {
-    background-color: var(--button-grey-background-color-active);
+    background-color: color-mix(in lch, var(--_background-color) var(--control_active-mix), var(--_label-color));
 }
 
 .checkbox:checked {
-    background-color: var(--button-contrast-background-color);
-
+    --_background-color: var(--button-contrast-background-color);
+    --_label-color: var(--button-contrast-label-color);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.checkbox:checked:hover {
-    background-color: var(--button-contrast-background-color-hover);
-}   
 
-.checkbox:checked:active {
-    background-color: var(--button-contrast-background-color-active);
-}
 
 .checkbox:checked::after {
     content: "";
