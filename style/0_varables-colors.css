@@ -98,7 +98,7 @@
 
 
 
-    --shadow-m: 0 .5rem 2rem hsl(240 100% 10% / 0.25);
+    --shadow-m: 0 .5rem 2rem hsl(240 50% 10% / 0.25);
 }
 
 
@@ -169,7 +169,7 @@
 
     --card-icon-color: #39f;
 
-    --shadow-m: 0 .5rem 2rem hsl(240 100% 0% / 0.65);
+    --shadow-m: 0 0 0 1px#fff3, 0 .5rem 2rem hsl(240 100% 0% / 0.65);
 }
 
 

@@ -1,0 +1,12 @@
+.tooltip {
+    border: unset;
+    margin: unset;
+    inset: unset;
+    position: fixed;
+    padding: var(--padding-s);
+    box-shadow: var(--shadow-m);
+    background-color: var(--page-background-color-light-2);
+    margin: var(--gap-xs);
+}
+
+

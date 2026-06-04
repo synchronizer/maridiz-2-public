@@ -1,18 +1,18 @@
 Array.from(document.querySelectorAll('.floating-contacts')).forEach(widget => {
-    const openButton = widget.querySelector('.floating-contacts__open');
-    const content = widget.querySelector('.floating-contacts__content');
+    // const openButton = widget.querySelector('.floating-contacts__open');
+    // const content = widget.querySelector('.floating-contacts__content');
 
-    if (!openButton || !content) return
+    // if (!openButton || !content) return
 
-    openButton.addEventListener('click', () => {
-        widget.classList.toggle('floating-contacts_is-open');
-    });
+    // openButton.addEventListener('click', () => {
+    //     widget.classList.toggle('floating-contacts_is-open');
+    // });
 
-    document.addEventListener('click', (event) => {
-        if (!widget.contains(event.target)) {
-            widget.classList.remove('floating-contacts_is-open');
-        }
-    });
+    // document.addEventListener('click', (event) => {
+    //     if (!widget.contains(event.target)) {
+    //         widget.classList.remove('floating-contacts_is-open');
+    //     }
+    // });
 
 
 

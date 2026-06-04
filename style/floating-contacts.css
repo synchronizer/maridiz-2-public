@@ -10,9 +10,14 @@
 }
 
 .floating-contacts__content {
-    display: none;
+    /* padding: var(--padding-s); */
+    /* box-shadow: var(--shadow-m); */
+    /* background-color: var(--page-background-color-light); */
+    /* display: none;
+    flex-direction: column;
+    gap: var(--gap-xs); */
 }
 
 .floating-contacts_is-open .floating-contacts__content {
-    display: block;
+    /* display: flex; */
 }

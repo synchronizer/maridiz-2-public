@@ -13,10 +13,6 @@
   top: calc(100% + var(--gap-xs));
 }
 
-
-
-
-
 .header__nav-desktop .header__nav-sub .header__nav-item {
   padding-inline: var(--gap-s);
 }
@@ -53,11 +49,6 @@
 .header__nav-desktop .header__nav-item:focus-within>.header__nav-sub:not(:empty),
 .header__nav-desktop .header__nav-sub:not(:empty):focus-within {
   display: flex;
-}
-
-.header__nav-desktop .header__nav-item_contacts .header__nav-sub{
-  padding: 0;
-  background-color: transparent;
 }
 
 
