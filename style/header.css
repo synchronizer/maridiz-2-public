@@ -16,7 +16,7 @@
   animation: 1ms shadow-toggle linear both;
   animation-timeline: scroll();
   animation-range: 1px 50px;
-  --_border-bottom-color: var(--page-background-color);
+  --_border-bottom-color: rgba(0, 0, 0, .1);
 }
 
 .header_background-color_default {
@@ -29,7 +29,7 @@
 
 [data-color-scheme="dark"] .header,
 .header[data-color-scheme="dark"] {
-  /* --_border-bottom-color: rgba(255, 255, 255, .1); */
+  --_border-bottom-color: rgba(255, 255, 255, .1);
   --_background-opacity: 90%;
 }
 
